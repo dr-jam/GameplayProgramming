@@ -18,14 +18,16 @@ https://www.twitch.tv/deftjamz
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016
-Lab Meeting Time: Thursdays at 4:10-5:00 PM
+Lab Meeting Time: Thursdays at 4:10-5:00 PM  
 Final Examination Period: Friday, June 7th at 1:00-3:00 PM
 
 ## Course Description
 
+This course is about the design and development of nuanced and highly-contextual gameplay systems built on the foundation of traditional game engines. Technical game development has many facets including graphics engines, sound engines, networking, and animation system. Many of these facets are now well-established and are provided for in modern game engines. The focus of this course is on the remaining areas that are difficult to abstract and engineer into game engines as they are depend on the genre or details of a specific game design.
+
 ## Materials
 
-
+Unity version 2018.3.11f1.
 
 ## Grading and Assessment
 
@@ -49,25 +51,26 @@ F  | 0
 
 ### Exercises
 
-### project
+
+
+### Project
 
 ### Participation and Portfolio
 
 ## Schedule
 
-Week |	Meeting 1	| Meeting 2
------ | ------ | ------
-1	| Introduction to Video Game Environments <br>Introduction to Platform Studies <br>Introduction to Pico-8<br> Game Designer Card Excercise | Basics of Lua Programming in Pico-8 <br>Overview of Pico-8 Tools and Structure<br>First Game
-2 | Game Design Workshop: Battle Battle <br>Physics Systems | Assign Platform Studies Groups<br>Game Design Workshop: Battle Battle<br> One Page Design Documents
-3 | 16 Color Pixel Art <br>  Game 1 Ideation and Team Formation <br> One Page Design Documents Due |Game 1 Check-in<br> Pico-9 Sound Tutorial
-4 | Game 1 Play and Report<br> Game Pitches<br> | Game 2 Pitches <br> Game Design Documents
-5 | Game 2 Teams Due <br> Debugging<br>Collision Detection | Game 2 Design Document<br>Economy of Tokens<br>Game Design Workshop: MDA
-6 | Platform Studies 1<br>Games and Rhetoric | Game 2 Prototype<br>Version Control
-7 | Platform Studies 2<br>Level Design | Development Team Methodologies
-8 | Platform Studies 3<br>Graphics Systems | Game 2 Playtesting
-9 | Platform Studies 4<br>Audio Systems | Game 2 Workshop
-10 | Platform Studies 5<br>Artificial Intelligence for Games<br>Game 2 Workshop | Game 2 Critique<br>Discussion About the Course<br>Evaluations
-
+Week | Topic
+----- | -----
+1 | Overview of the course, Game Engines, Game Systems
+2 |
+3 |
+4 |
+5 |
+6 |
+7 |
+8 |
+9 |
+10 |
 
 ## Development and Design Resources
 
