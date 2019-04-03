@@ -15,6 +15,11 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 https://www.twitter.com/deftjams  
 https://www.twitch.tv/deftjamz  
 
+### TA
+Arunpreet Sandhu
+Email: asisandhu at ucdavis dot edu
+Office: TBD
+Office hours: TBD
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016  
