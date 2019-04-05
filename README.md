@@ -5,15 +5,15 @@ Game Programming
 ## Basic Information
 
 ### Instructor
-Dr. Joshua A. McCoy, Assistant Professor  
-Computer Science and Cinema and Digital Media Departments  
-Email: jamccoy at ucdavis dot edu  
-Office: 3033 Kemper Hall  
-Office Hours: TBD  
-http://joshmccoy.com  
-https://faculty.engineering.ucdavis.edu/mccoy/  
-https://www.twitter.com/deftjams  
-https://www.twitch.tv/deftjamz  
+Dr. Joshua A. McCoy, Assistant Professor
+Computer Science and Cinema and Digital Media Departments
+Email: jamccoy at ucdavis dot edu
+Office: 3033 Kemper Hall
+Office Hours: TBD
+http://joshmccoy.com
+https://faculty.engineering.ucdavis.edu/mccoy/
+https://www.twitter.com/deftjams
+https://www.twitch.tv/deftjamz
 
 ### TA
 Arunpreet Sandhu
@@ -22,9 +22,9 @@ Office: TBD
 Office hours: TBD
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016  
-Lab Meeting Time: Thursdays at 4:10-5:00 PM  
-Final Examination Period: Friday, June 7th at 1:00-3:00 PM  
+Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016
+Lab Meeting Time: Thursdays at 4:10-5:00 PM in Art Building 204.
+Final Examination Period: Friday, June 7th at 1:00-3:00 PM
 
 ## Course Description
 
@@ -96,8 +96,6 @@ Week | Topic
 
 [Unity User Manual (2018.3)](https://docs.unity3d.com/Manual/index.html)
 [Unity Tutorials](https://unity3d.com/learn/get-started)
-
-
 
 ### C#
 
