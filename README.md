@@ -22,8 +22,8 @@ Office: TBD
 Office hours: TBD  
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016
-Lab Meeting Time: Thursdays at 4:10-5:00 PM in Art Building 204.
+Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016  
+Lab Meeting Time: Thursdays at 4:10-5:00 PM in Art Building 204.  
 Final Examination Period: Friday, June 7th at 1:00-3:00 PM  
 
 ## Course Description
