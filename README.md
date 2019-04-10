@@ -92,6 +92,21 @@ Week | Topic
 
 ## Development and Design Resources
 
+
+### Are you prepared?
+
+*You are not prepared!*  
+-- [Illidan Stormrage](https://youtu.be/IBHL_-biMrQ?t=142)
+
+Illidan's words may resonate with you as computer science and game development are both difficult disciplines whose surrounding communities are lace with high expectations and elitism. Below are resources that can cut through assumptions and feeling though self-examination.
+
+Introductory practice exercises for C# and game systems (you can run these in Unity, .Net, or MonoDevelop):
+1. [Final Fantasy VI Combat System](https://docs.google.com/document/d/144-2AXOJX79Sw03EwPXGYxdZJOk0zqVZRnSgKHiStA0/edit?usp=sharing)
+2. [Crystal Warriors](https://docs.google.com/document/d/1lvsscM-no1C31GW-NSpH_a2u4a2PGHmWhGRHpY7cxyk/edit?usp=sharing)
+3. [Fantasy Fight](https://docs.google.com/document/d/1DX_LwKX4Yg7oCnHDdarZkJdcausVmn9BE9hKh_D-Fac/edit?usp=sharing)
+
+[Unity and C# Practice Exam for New Programmers](https://docs.google.com/document/d/1_GUQKvwa-ZqboAhgp63pToQQvR6WdVvVJ3kcRDQ1qR0/edit?usp=sharing)
+
 ### Unity
 
 [Unity User Manual (2018.3)](https://docs.unity3d.com/Manual/index.html)  
@@ -119,10 +134,7 @@ Week | Topic
 * [Illustrated C# 7 : the C# language presented clearly, concisely, and visually](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51326862240003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Solis, Daniel M., and Schrotenboer, Cal.
 * [Design patterns in C# : a hands-on guide with real-world examples](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51326874630003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Sarcar, Vaskaran.
 
-#### Introductory practice exercises for C# and game systems (you can run these in Unity, .Net, or MonoDevelop):
-1. [Final Fantasy VI Combat System](https://docs.google.com/document/d/144-2AXOJX79Sw03EwPXGYxdZJOk0zqVZRnSgKHiStA0/edit?usp=sharing)
-2. [Crystal Warriors](https://docs.google.com/document/d/1lvsscM-no1C31GW-NSpH_a2u4a2PGHmWhGRHpY7cxyk/edit?usp=sharing)
-3. [Fantasy Fight](https://docs.google.com/document/d/1DX_LwKX4Yg7oCnHDdarZkJdcausVmn9BE9hKh_D-Fac/edit?usp=sharing)
+
 
 ### Game Design
 
