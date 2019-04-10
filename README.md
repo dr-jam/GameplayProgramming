@@ -99,7 +99,17 @@ Week | Topic
 
 #### Learning the Basics
 
-* [Unity C# class relationship diagram]() (originally from this [Reddit post](https://www.reddit.com/r/Unity3D/comments/70ra7b/after_surprising_response_from_the_first_thread_i/)
+* [Editor Basics](https://unity3d.com/learn/tutorials/topics/interface-essentials/editor-basics) - A video introduction to the basics of working with the Unity editor.
+* [Learning the interface](https://docs.unity3d.com/Manual/LearningtheInterface.html) - An introductory web page to the basic components of the Unity editor.
+* [An Introduction to Editor Scripting](https://unity3d.com/learn/tutorials/topics/scripting/introduction-editor-scripting) - An example-driven lesson about the basics of creating Unity scripts in C#.
+* [Important Classes](https://docs.unity3d.com/Manual/ScriptingImportantClasses.html) - Basic descriptions and links to MonoBehavior, Transform, and RigidBody(2D).
+* [Unity C# class relationship diagram](resources/UnityClassHierarchy.png) (originally from this [Reddit post](https://www.reddit.com/r/Unity3D/comments/70ra7b/after_surprising_response_from_the_first_thread_i/))
+* [Vector Cookbook](https://docs.unity3d.com/Manual/VectorCookbook.html) - A basic introduction into vector operations in Unity.
+* [2D or 3D projects](https://docs.unity3d.com/Manual/2Dor3D.html) - A guide to the differences between 2D and 3D projects in Unity.
+* [Graphics](https://docs.unity3d.com/Manual/Graphics.html) - The entrypoint to the graphics capabilities of Unity.
+* [Physics](https://docs.unity3d.com/Manual/PhysicsSection.html) - The entrypoint to Unity's physics system.
+* [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html) - The entrypoint into scripting in Unity.
+* [Scripting Tutorials](https://unity3d.com/learn/tutorials/s/scripting) - An index of beginner, intermediate, and topical scripting tutorials and lessons.
 
 ### C#
 
