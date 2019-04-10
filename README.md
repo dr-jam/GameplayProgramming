@@ -94,8 +94,12 @@ Week | Topic
 
 ### Unity
 
-[Unity User Manual (2018.3)](https://docs.unity3d.com/Manual/index.html)
+[Unity User Manual (2018.3)](https://docs.unity3d.com/Manual/index.html)  
 [Unity Tutorials](https://unity3d.com/learn/get-started)
+
+#### Learning the Basics
+
+* [Unity C# class relationship diagram]() (originally from this [Reddit post](https://www.reddit.com/r/Unity3D/comments/70ra7b/after_surprising_response_from_the_first_thread_i/)
 
 ### C#
 
