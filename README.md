@@ -95,6 +95,8 @@ Week | Topic
 
 ### Are you prepared?
 
+
+[![World of Warcraft: The Burning Crusade Cinematic Trailer](https://img.youtube.com/vi/IBHL_-biMrQ/0.jpg)](https://youtu.be/IBHL_-biMrQ?t=142)  
 *You are not prepared!*  
 -- [Illidan Stormrage](https://youtu.be/IBHL_-biMrQ?t=142)
 
