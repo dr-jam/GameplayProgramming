@@ -18,8 +18,8 @@ https://www.twitch.tv/deftjamz
 ### TA
 Arunpreet Sandhu  
 Email: asisandhu at ucdavis dot edu  
-Office: TBD  
-Office hours: TBD  
+Office: 55 Kemper Hall 
+Office hours: Thursday from 1-2 PM  
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016  
