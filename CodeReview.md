@@ -1,7 +1,7 @@
 # Code Review #
 ## Description ##
 
-For this assignment, you will be giving feedback on the completeness of assignment one. In order to to do so, we will be giving you a rubric to give feedback on.
+For this assignment, you will be giving feedback on the completeness of assignment one. In order to to do so, we will be giving you a rubric to give feedback on. For the feedback, please give positive criticism and suggestions on how to fix segments of code.
 
 If there are any questions at any point, please email the TA.   
 
@@ -82,11 +82,15 @@ If there are sections that don't adhere to the style guide, please peramlink the
 
 It should look something like this:
 
-* [description of infraction] (permalink) - this is the justification.
+* [description of infraction]() - this is the justification.
 
 Here is an example of the permalink drop down on Github.
 
 ![Permalink option](./images/permalink_example.png)
+
+Here is another example as well.
+
+* [I go to Github and look at the ICommand script in the ECS189L repo!](https://github.com/dr-jam/ECS189L/blob/1618376092e85ffd63d3af9d9dcc1f2078df2170/Projects/CommandPatternExample/Assets/Scripts/ICommand.cs#L5)
 
 ### Code Style Infractures ###
 
@@ -100,15 +104,11 @@ If the student has followed best practices (Unity coding conventions from the St
 
 If the student has breached the best practices and has done something that should be noted, please add the infracture.
 
+
 This should be similar to the Code Style justification.
 
-* [description of infraction] (permalink) - this is the justification.
+* [description of infraction]() - this is the justification.
 
-### Best Practice Usage ###
+### Best Practice observations ###
 
-#### Put best practice usage here ####
-
-### Best Practice Infractures ###
-
-#### Put best practice infractures here ####
-
+#### Put best practice observations here ####
