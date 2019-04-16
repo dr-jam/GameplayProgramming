@@ -3,7 +3,7 @@
 
 For this assignment, you will be giving feedback on the completeness of assignment one. In order to to do so, we will be giving you a rubric to give feedback on.
 
-If there are any questions at any point, please email the TA.
+If there are any questions at any point, please email the TA.   
 
 ## Solution Assessment ##
 
