@@ -13,7 +13,7 @@ To see a mastful use of the jump system that explores all of its affordances, wa
 
 
 ## Examples of Systemms
-* [Layers of Computer Architecture as they Pertain to Video Game](https://www.giantbomb.com/profile/michaelenger/blog/game-engines-how-do-they-work/101529/) diagram by [Michael Enger](https://www.giantbomb.com/profile/michaelenger/blog/game-engines-how-do-they-work/101529/).
+* [Layers of Computer Architecture as they Pertain to Video Game](https://static.giantbomb.com/uploads/original/0/9456/2500834-layers_of_computer_architecture.png) diagram by [Michael Enger](https://www.giantbomb.com/profile/michaelenger/blog/game-engines-how-do-they-work/101529/).
 * [Dragon Quest VIII Vocational Chart](https://i.redd.it/3x9e6g067pnx.png)
 * [Ogre Battle: The March of the Black Queen – Unit Upgrade Chart](https://gamefaqs.gamespot.com/snes/588541-ogre-battle-the-march-of-the-black-queen/faqs/74349?print=1)
 * Final Fantasy XI Renkei Charts
