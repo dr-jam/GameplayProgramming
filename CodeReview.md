@@ -82,7 +82,7 @@ If there are sections that don't adhere to the style guide, please peramlink the
 
 It should look something like this:
 
-* [description of infraction]() - this is the justification.
+* [description of infraction](https://github.com/dr-jam/ECS189L) - this is the justification.
 
 Here is an example of the permalink drop down on Github.
 
@@ -107,7 +107,7 @@ If the student has breached the best practices and has done something that shoul
 
 This should be similar to the Code Style justification.
 
-* [description of infraction]() - this is the justification.
+* [description of infraction](https://github.com/dr-jam/ECS189L) - this is the justification.
 
 ### Best Practice observations ###
 
