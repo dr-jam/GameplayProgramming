@@ -13,3 +13,11 @@ To see a mastful use of the jump system that explores all of its affordances, wa
 
 
 ## 
+
+* 
+* [Ogre Battle: The March of the Black Queen – Unit Upgrade Chart](https://gamefaqs.gamespot.com/snes/588541-ogre-battle-the-march-of-the-black-queen/faqs/74349?print=1)
+* Final Fantasy XI Renkei Charts
+  * [Aden's Renkei Chart](http://images.somepage.com/ffxi/renkei.jpg)
+  * [Spira's Skillchain Chart](http://1.bp.blogspot.com/_vWihfifjeyg/S9blgOPUgHI/AAAAAAAADBA/q5IqwLv_Ulw/s1600/spirascv25lite.jpg)
+  * [Sira's New Skillchain Chart](http://www.wilddragonchase.com/ffxi/NewSkillchain1.png)
+* The [Main Storyling section](https://www.wowhead.com/comprehensive-suramar-guide#main-storyline) of the Comprehensive Suramar Guide from (wowhead.com).
