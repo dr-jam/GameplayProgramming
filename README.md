@@ -79,12 +79,12 @@ Students are required to attend and participate in class, labs, and their team m
 
 Week | Topic
 ----- | -----
-1 | Overview of the course, Game Engines, Game Systems, Command Pattern
-2 | Technical Game Primitives, Game Combat Algorithms
-3 | Game Events and the Observer Pattern.
-4 | Development teams, standards and style guides.
-5 | Data-driven game systems.
-6 | Multiplayer and server-based systems.
+1 | Overview of the course, Game Engines, Game Systems, Command Pattern.
+2 | Unity structures. Code standards, best practices, and style guides.
+3 | Gameplay systems. Camera systems. Technical Game Primitive.
+4 | Game Events and the Observer Pattern.Data-driven game systems.
+5 | Game Combat Algorithms.
+6 | Development teams and development methodologies.
 7 | Game balance and testing.
 8 | Game AI: character behavior, agents, and real-time performance.
 9 | Game AI: analytics and applications of data science and machine learning.
