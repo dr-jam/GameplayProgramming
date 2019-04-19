@@ -24,5 +24,5 @@ To see a mastful use of the jump system that explores all of its affordances, wa
 
 ## Case Study: Inventory Systems
 
-![Choosing an inventory system](https://cdn.tutsplus.com/gamedev/uploads/2014/02/RPG-Inventory-Systems.jpg)  
+![Choosing an inventory system](https://cdn.tutsplus.com/gamedev/uploads/2014/02/RPG-Inventory-Systems.jpg) by [@dimensive](https://twitter.com/dimensive)  
 
