@@ -9,7 +9,7 @@ Dr. Joshua A. McCoy, Assistant Professor
 Computer Science and Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: TBD  
+Office Hours: Mondays at 4:15 to 5:15 PM  
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 https://www.twitter.com/deftjams  
