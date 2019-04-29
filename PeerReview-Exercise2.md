@@ -25,7 +25,7 @@ ___
 ## Peer-reviewer Information
 
 * *name:* [your name here] 
-* *email:* [you @ucdavis.edu email address here]
+* *email:* [your @ucdavis.edu email address here]
 
 ### Description ###
 
