@@ -12,7 +12,7 @@ Email: asisandhu at ucdavis dot edu
 This code review is due on:  
 *Friday, May 3rd at 11:59 PM*
 
-A successful submission should consist of a copy of this markdown document template that is modified with your peer-review. The file name should be the same as it is in the template: `CodeReview-Exercise2.md`. You also need to include your name and email address in the `Peer-reviewer Information` section below. This review document should be placed into the the base folder of the repo you are review in a branch called `review`. This branch should be on the origin of the repository you are revviewing.
+A successful submission should consist of a copy of this markdown document template that is modified with your peer-review. The file name should be the same as it is in the template: `CodeReview-Exercise2.md`. You also need to include your name and email address in the `Peer-reviewer Information` section below. This review document should be placed into the base folder of the repo you are reviewing in a branch called `review`. This branch should be on the origin of the repository you are reviewing.
 
 If you are in the rare situation where there are two peer-reviewers on a single repository, append your UC Davis user name before the extension of your review file. An example: `CodeReview-Exercise2-username.md`. Both reviewers should submit their reviews in the `review` branch.
 ___
