@@ -1,8 +1,12 @@
-# Code Review for Programming Exercise 2 #
+# Peer-Review for Programming Exercise 2 #
 
 ## Description ##
 
 For this assignment, you will be giving feedback on the completeness of assignment two: Obscura. In order to to do so, we will be giving you a rubric to give feedback on. For the feedback, please give positive criticism and suggestions on how to fix segments of code.
+
+You only need to review code modified or created by the student you are reviewing. You do not have to review the code and project files that were given out by the instructor.
+
+Abusive or hateful language or comments will not be tolerated and will result in a grade penalty or be considered a breach of the UC Davis Code of Academic Conduct.
 
 If there are any questions at any point, please email the TA.   
 
