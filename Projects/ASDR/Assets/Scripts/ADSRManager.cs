@@ -19,20 +19,17 @@ public class ADSRManager : MonoBehaviour
     [SerializeField] private AnimationCurve Release;
 
 
-
     private float AttackTimer;
     private float DecayTimer;
     private float SustainTimer;
     private float ReleaseTimer;
 
-    private float Velocity = 0.0f;
     private float InputDirection = 0.0f;
 
     private enum Phase { Attack, Decay, Sustain, Release, None};
 
     private Phase CurrentPhase;
 
-    // Start is called before the first frame update
     void Start()
     {
         this.CurrentPhase = Phase.None;
@@ -53,7 +50,6 @@ public class ADSRManager : MonoBehaviour
         {
             this.InputDirection = 1.0f;
         }
-
 
         if (Input.GetButtonUp("Fire1"))
         {
@@ -81,14 +77,12 @@ public class ADSRManager : MonoBehaviour
 
         if (this.CurrentPhase != Phase.None)
         {
-            //this.Velocity += 
             var position = this.gameObject.transform.position;
             position.x += this.InputDirection * this.Speed * this.ADSREnvelope() * Time.deltaTime;
             this.gameObject.transform.position = position;
-            //this.gameObject.transform.position += movement;
         }
-        this.SetColorByPhase();
 
+        this.SetColorByPhase();
     }
 
     float ADSREnvelope()
@@ -131,7 +125,6 @@ public class ADSRManager : MonoBehaviour
                 this.CurrentPhase = Phase.None;
             }
         }
-        Debug.Log(velocity);
         return velocity;
     }
 
