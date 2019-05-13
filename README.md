@@ -1,7 +1,7 @@
 # ECS189L
 Game Programming
 
-#CRN for FALL 2019
+# CRN for FALL 2019
 62871
 
 # Syllabus
