@@ -62,7 +62,7 @@ F  | 0
 
 ### Programming Exercises
 
-The programming exercises consist of projects in Unity in which you will have to implement significant game systems or capabilities. These exercises are to be completed individuallyl and will be worth 10 points each. Each will have two components which are described below with the amount of grade points they are worth:
+The programming exercises consist of projects in Unity in which you will have to implement significant game systems or capabilities. These exercises are to be completed individually and will be worth 10 points each. Each will have two components which are described below with the amount of grade points they are worth:
 1. [7] The individual programming assignment.
 2. [3] Peer-reviewing the work of another pseudo-randomly assigned student.
 
@@ -103,7 +103,7 @@ Week | Topic
 *You are not prepared!*  
 -- [Illidan Stormrage](https://youtu.be/IBHL_-biMrQ?t=142)
 
-Illidan's words may resonate with you as computer science and game development are both difficult disciplines whose surrounding communities are lace with high expectations and elitism. Below are resources that can cut through assumptions and feeling though self-examination.
+Illidan's words may resonate with you as computer science and game development are both difficult disciplines whose surrounding communities are laced with high expectations and elitism. Below are resources that can cut through assumptions and feeling though self-examination.
 
 Introductory practice exercises for C# and game systems (you can run these in Unity, .Net, or MonoDevelop):
 1. [Final Fantasy VI Combat System](https://docs.google.com/document/d/144-2AXOJX79Sw03EwPXGYxdZJOk0zqVZRnSgKHiStA0/edit?usp=sharing)
