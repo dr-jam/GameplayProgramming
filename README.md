@@ -146,7 +146,7 @@ Introductory practice exercises for C# and game systems (you can run these in Un
 ##### How Games are Made
 * [Fallout: A Postmortem](https://www.gdcvault.com/play/1015843/Classic-Game-Postmortem) by Timothy Cain
 * [Postmortem: Ion Storm's Deus Ex](http://www.gamasutra.com/view/feature/131523/postmortem_ion_storms_deus_ex.php) by Warren Spector
-*[How Long Does It Take to Make an Indie Game?]( http://www.gamasutra.com/blogs/JosephMirabello/20140407/214931/How_Long_Does_It_Take_to_Make_an_Indie_Game.php) by Joseph Mirabello
+* [How Long Does It Take to Make an Indie Game?]( http://www.gamasutra.com/blogs/JosephMirabello/20140407/214931/How_Long_Does_It_Take_to_Make_an_Indie_Game.php) by Joseph Mirabello
 
 #### Design Documents
 * [The "Core" of a Game](https://bbrathwaite.wordpress.com/2008/10/15/the-core-of-a-game/) by Brenda Romero
