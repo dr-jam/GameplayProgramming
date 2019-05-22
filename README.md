@@ -156,6 +156,10 @@ Introductory practice exercises for C# and game systems (you can run these in Un
 * [A GDD Template for the Indie Developer](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Jason Bakker
 * [Effectively Organize Your Game's Development With a Game Design Document](http://code.tutsplus.com/articles/effectively-organize-your-games-development-with-a-game-design-document--active-10140) by Gamux
 
+#### Game Feel
+ * [Jan Willem Nijman - Vlambeer - "The art of screenshake"](https://www.youtube.com/watch?v=AJdEqssNZ-U) by Jan Wellem Jijman (Valmbeer)
+ * [Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg) by Martin Jonasson and Petri Purho
+
 #### Production Cycles
 * [The four phases of game development](http://www.gamasutra.com/blogs/PascalBestebroer/20151020/256765/The_four_phases_of_game_development.php) by Pascal Bestebroer
 
