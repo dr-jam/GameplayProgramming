@@ -1,4 +1,4 @@
-# Descript of Game Project
+# Description of Game Project
 
 In this project, you will be designing and creating a game in Unity in teams of 5. While you will be responsible for designing the overall direction of your game, you will be given the following constraints:
 * Each team member will have a role and a sub-role.
