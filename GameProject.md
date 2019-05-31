@@ -20,7 +20,7 @@ The projectr will be graded on a 100 point scale with the follow weights:
 
 # Submission Information
 
-All of your project materials are due by ~~Friday, June 7th at 1:00 PM~~ Monday, June 10th at 8:00 AM.
+All of your project materials are due by ~~Friday, June 7th at 1:00 PM~~ Monday, June 10th at 8:00 AM. A portion of your team score points will assessed during the final meeting period on Friday, June 7th at 1:00 PM.
 
 Submissions will be taken from the [team registration spreadsheet](https://docs.google.com/spreadsheets/d/1XJzAVba3Xv8tIHESsGGHAMc50W8S9ytrXSrFoPadhlU/edit?usp=sharing) via your teams GitHub repository link. Your project code
 
