@@ -18,6 +18,19 @@ The projectr will be graded on a 100 point scale with the follow weights:
   * 10 Documentation
 * 30 Team score of completed game.
 
+# Submission Information
+
+All of your project materials are due by ~~Friday, June 7th at 1:00 PM~~ Monday, June 10th at 8:00 AM.
+
+Submissions will be taken from the [team registration spreadsheet](https://docs.google.com/spreadsheets/d/1XJzAVba3Xv8tIHESsGGHAMc50W8S9ytrXSrFoPadhlU/edit?usp=sharing) via your teams GitHub repository link. Your project code
+
+Your repository should include the following .gitignore file in the rood directory of the project: https://gitignore.io/api/osx,unity,linux,windows
+
+Your game must be made for one of the following versions of Unity:
+* 2018.3.11f1
+* 2019.1.3f1
+* 2019.1.4f1
+
 # Team Member Roles
 
 Each team member must take on one main role and one sub-role. You will create the gameplay systems or complete the design tasks for your roles as well as provide the requested per-role documentation. Each team member must document the gameplay systems and software design patterns they used for their portion of the project.
