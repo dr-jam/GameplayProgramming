@@ -67,7 +67,7 @@ You are responsible for defining the game's sound style, procuring audio assets,
 
 ### Gameplay Testing
 
-As the gameplay tester, you are responsible for having 10 non-team members playtest your game. You fill out the Observation and Playtester Comments form for each of your play testers and describe the results in the design document (after you share the results with your tea, of course!). 
+As the gameplay tester, you are responsible for having 10 non-team members playtest your game. You fill out the Observation and Playtester Comments form for each of your play testers and describe the results in the design document (after you share the results with your tea, of course!). For each playtester, fill out an [Observations and Playetesters Comment form](https://docs.google.com/document/d/1oW7AulzjpEocDmMikRL0S0PKxlRrOxsEEP7KB-nGg-A/edit?usp=sharing).
 
 ### Narrative Design
 
