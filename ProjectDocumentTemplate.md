@@ -34,7 +34,7 @@ You should replay any **bold text** with your own relevant information. Liberall
 
 ## Animation and Visuals
 
-**List your assets, their sources, and licenses.**
+**List your assets including their sources, and licenses.**
 
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 
@@ -46,40 +46,35 @@ You should replay any **bold text** with your own relevant information. Liberall
 
 ## Game Logic
 
----
-ADD TEXT HERE
-
----
+**Document what game states and game data you managed and what design patterns you used to complete your task.**
 
 # Sub-Roles
 
 ## Audio
 
----
-ADD TEXT HERE
+**List your assets including their sources, and licenses.**
 
----
+**Describe the implementation of your audio system.**
+
+**Document the sound style.** 
 
 ## Gameplay Testing
 
----
-ADD TEXT HERE
+**Add a link to the full results of your gameplay tests.**
 
----
+**Summarize the key findings from your gameplay tests.**
 
 ## Narrative Design
 
----
-ADD TEXT HERE
-
----
+**oDocument how the narrative is present in the game via assets, gameplay systems, and gameplay.** 
 
 ## Press Kit and Trailer
 
----
-ADD TEXT HERE
+**Include links to your presskit materials and trailer.**
 
----
+**Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
+
+
 
 ## Game Feel
 
