@@ -78,7 +78,4 @@ You should replay any **bold text** with your own relevant information. Liberall
 
 ## Game Feel
 
----
-ADD TEXT HERE
-
----
+**Document what you added to and how you tweaked your game to improve its game feel.**
