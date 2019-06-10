@@ -2,11 +2,11 @@
 
 ## Summary ##
 
-[A paragraph-length pitch for your game.]
+**A paragraph-length pitch for your game.**
 
 ## Gameplay explanation ##
 
-[In this section, explain how the game should be played. Treat this like a manual within a game. It is encouraged to explain the button mappings and the most optimal gameplay strategy.]
+**In this section, explain how the game should be played. Treat this like a manual within a game. It is encouraged to explain the button mappings and the most optimal gameplay strategy.**
 
 
 
