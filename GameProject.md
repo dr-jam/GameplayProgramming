@@ -9,7 +9,7 @@ In this project, you will be designing and creating a game in Unity in teams of 
 
 # Grading
 
-The projectr will be graded on a 100 point scale with the follow weights:
+The project will be graded on a 100 point scale with the follow weights:
 * Main Role
   * 30 Implementation
   * 10 Documentation
