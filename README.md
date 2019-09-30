@@ -23,9 +23,9 @@ Office: ~55 Kemper Hall~
 Office hours: ~Thursday from 1-2 PM~  
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016  
-Lab Meeting Time: Thursdays at 4:10-5:00 PM in Art Building 204.  
-Final Examination Period: Friday, June 7th at 1:00-3:00 PM  
+Lecture Meeting Time: Tuesdays and Thursdays at 12:10 to 1:30 PM in Hoagland room 168  
+Lab Meeting Time: Mondays at 5:10 - 6:00 PM in Wellman room 212  
+Final Examination Period: Tuesday, December 10th at 1:00 to 3:00 PM  
 
 ## Course Description
 
@@ -37,9 +37,10 @@ Unity version 2019.3.0b5. Download it [here](https://unity3d.com/unity/beta/2019
 
 ## Grading and Assessment
 
-* [40] Programming Exercises
-* [50] Project
-* [10] Participation and Portfolio
+* [35] Group Game Project
+* [40] Exercises
+* [15] Quizzes
+* [10] Participation/Attendance
 
 ### Grade Scale
 
@@ -78,6 +79,7 @@ Students are required to attend and participate in class, labs, and their team m
 
 ## Schedule
 
+~
 Week | Topic
 ----- | -----
 1 | Overview of the course, Game Engines, Game Systems, Command Pattern.
@@ -90,7 +92,7 @@ Week | Topic
 8 | Game AI: character behavior, agents, and real-time performance.
 9 | Game AI: analytics and applications of data science and machine learning.
 10 | Procedural content generation.
-
+~
 ## Development and Design Resources
 
 
