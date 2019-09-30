@@ -79,20 +79,19 @@ Students are required to attend and participate in class, labs, and their team m
 
 ## Schedule
 
-~
-Week | Topic
------ | -----
-1 | Overview of the course, Game Engines, Game Systems, Command Pattern.
-2 | Unity structures. Code standards, best practices, and style guides.
-3 | Gameplay systems. Camera systems. Technical Game Primitive.
-4 | Game Events and the Observer Pattern.Data-driven game systems.
-5 | Game Combat Algorithms.
-6 | Development teams and development methodologies.
-7 | Game balance and testing.
-8 | Game AI: character behavior, agents, and real-time performance.
-9 | Game AI: analytics and applications of data science and machine learning.
-10 | Procedural content generation.
-~
+Week | Topic | Reading
+----- | ----- | -----
+1 | Overview of the course, game engines, anatonmy of game devlopment, command pattern. | Salen and Zimmermen ch. 4 & 5
+2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | Class documentation
+3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](Nystrom)
+4 | Interactivity, rules, component systems. | Salen and Zimmermen ch. 6 & 13, [Component design pattern](Nystrom)
+5 | Emergence, agency, game combat algorithms. | Salen and Zimmermen ch. , Ryan
+6 | The jump. | Swink
+7 | Game balance and testing. | TBA
+8 | Game AI: character behavior, agents, and real-time performance. | TBA
+9 | Game AI: analytics and applications of data science and machine learning. | TBA
+10 | Procedural content generation. | TBA
+
 ## Development and Design Resources
 
 
