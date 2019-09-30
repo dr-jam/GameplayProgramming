@@ -33,7 +33,7 @@ This course is about the design and development of nuanced and highly-contextual
 
 ## Materials
 
-Unity version 2019.3.0b5. Download it [here](https://unity3d.com/unity/beta/2019.3#downloads) or vai the Unity Hub.
+Unity version 2019.3.0b5. Download it [here](https://unity3d.com/unity/beta/2019.3#downloads) or the Unity Hub.
 
 ## Grading and Assessment
 
