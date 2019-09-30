@@ -59,7 +59,7 @@ D  | 64
 D- | 60
 F  | 0
 
-### Programming Exercises
+### Exercises
 
 The programming exercises consist of projects in Unity in which you will have to implement significant game systems or capabilities. These exercises are to be completed individually and will be worth 10 points each. Each will have two components which are described below with the amount of grade points they are worth:
 1. [7] The individual programming assignment.
@@ -69,13 +69,17 @@ The programming exercises consist of projects in Unity in which you will have to
 
 *Peer-review* - For each programming excercise, each student will perform a peer review for another student's work. The reviewing student will be given access to the repository of another student's submmission for review. The peer-reviewer will make a new branch in the repository named "review" and will be responsible for a code review based on C# style guides, an assessment of how well the submission achieved the objectives of the assignment, and notes for improvement.
 
-### Project
+### Group Game Project
 
-Exciting things TBA.
+You will design and develop your own game given a set of themes and constraints in teams of 5. Each team embmer will have a main role and a sub-role on the game.
 
-### Participation and Portfolio
+### Quizzes
 
-Students are required to attend and participate in class, labs, and their team meetings. Additionally, you can boost your participation points by building a portfolio of your work that is accessible to other via the web.
+Light quizzes will be given during discussion sections. Their contents will be based on recent lectures and readings.
+
+### Participation and Attedance
+
+Students are required to attend and participate in class, labs, and their team meetings. Attendance will be taken during lectures and discussion sections.
 
 ## Schedule
 
