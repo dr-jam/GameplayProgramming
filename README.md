@@ -1,7 +1,6 @@
-# ECS189L
-Game Programming
+# ECS189L - Gameplay Programming
 
-# CRN for FALL 2019
+## CRN for FALL 2019
 62871
 
 # Syllabus
@@ -12,17 +11,16 @@ Dr. Joshua A. McCoy, Assistant Professor
 Computer Science and Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: Mondays at 4:15 to 5:15 PM  
+Office Hours: Thursdays at 1:45 to 3:00 PM and by appointment  
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 https://www.twitter.com/deftjams  
-https://www.twitch.tv/deftjamz  
 
 ### TA
-Arunpreet Sandhu  
-Email: asisandhu at ucdavis dot edu  
-Office: 55 Kemper Hall 
-Office hours: Thursday from 1-2 PM  
+Zee Chen  
+Email: zeychen at ucdavis dot edu  
+Office: ~55 Kemper Hall~  
+Office hours: ~Thursday from 1-2 PM~  
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays and Fridays at 3:10-4:00 PM in Haring Hall room 2016  
@@ -35,7 +33,7 @@ This course is about the design and development of nuanced and highly-contextual
 
 ## Materials
 
-Unity version 2018.3.11f1. Download it [here](https://unity3d.com/get-unity/download) via the Unity Hub.
+Unity version 2019.3.0b5. Download it [here](https://unity3d.com/unity/beta/2019.3#downloads) or vai the Unity Hub.
 
 ## Grading and Assessment
 
