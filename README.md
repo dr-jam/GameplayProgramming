@@ -85,7 +85,7 @@ Students are required to attend and participate in class, labs, and their team m
 
 Week | Topic | Reading
 ----- | ----- | -----
-1 | Overview of the course, game engines, anatonmy of game devlopment, command pattern. | Salen and Zimmermen ch. 4 & 5
+1 | Overview of the course, game engines, anatomy of game development, command pattern. | Salen and Zimmermen ch. 4 & 5
 2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | Class documentation
 3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](Nystrom)
 4 | Interactivity, rules, component systems. | Salen and Zimmermen ch. 6 & 13, [Component design pattern](Nystrom)
@@ -114,6 +114,17 @@ Introductory practice exercises for C# and game systems (you can run these in Un
 3. [Fantasy Fight](https://docs.google.com/document/d/1DX_LwKX4Yg7oCnHDdarZkJdcausVmn9BE9hKh_D-Fac/edit?usp=sharing)
 
 [Unity and C# Practice Exam for New Programmers](https://docs.google.com/document/d/1_GUQKvwa-ZqboAhgp63pToQQvR6WdVvVJ3kcRDQ1qR0/edit?usp=sharing)
+
+### Preparing for Projects
+
+Day | Material
+------ | -----
+1 | [Creating Your First Unity Project](https://learn.unity.com/tutorial/create-your-first-unity-project) - [Using the Unity Interface](https://learn.unity.com/tutorial/using-the-unity-interface) - [Microsoft .NET Interactive Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
+2 |[Essential Unity Concepts](https://learn.unity.com/tutorial/essential-unity-concepts) - [Roll-a-ball Tutorial](https://learn.unity.com/project/roll-a-ball-tutorial?courseId=5c61706dedbc2a324a9b022d) - [Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html), 
+3 | [Beginner Scripting](https://learn.unity.com/project/beginner-gameplay-scripting)
+4 | 
+
+[Intermediate Scripting Tutorial](https://learn.unity.com/project/intermediate-gameplay-scripting)
 
 ### Unity
 
