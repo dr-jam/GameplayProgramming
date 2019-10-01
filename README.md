@@ -121,10 +121,9 @@ Day | Material
 ------ | -----
 1 | [Creating Your First Unity Project](https://learn.unity.com/tutorial/create-your-first-unity-project) - [Using the Unity Interface](https://learn.unity.com/tutorial/using-the-unity-interface) - [Microsoft .NET Interactive Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
 2 |[Essential Unity Concepts](https://learn.unity.com/tutorial/essential-unity-concepts) - [Roll-a-ball Tutorial](https://learn.unity.com/project/roll-a-ball-tutorial?courseId=5c61706dedbc2a324a9b022d) - [Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html), 
-3 | [Beginner Scripting](https://learn.unity.com/project/beginner-gameplay-scripting)
-4 | 
-
-[Intermediate Scripting Tutorial](https://learn.unity.com/project/intermediate-gameplay-scripting)
+3 | [Beginner Scripting](https://learn.unity.com/project/beginner-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
+4 | [Intermediate Scripting Tutorial](https://learn.unity.com/project/intermediate-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
+5 | [Project Architecture: Unity Project Folder Structure](https://learn.unity.com/tutorial/project-architecture-unity-project-folder-structure#) - [Unity Tips](https://learn.unity.com/tutorial/unity-tips) (This is long; watch as many as you can or care to.)
 
 ### Unity
 
