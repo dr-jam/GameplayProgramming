@@ -19,8 +19,8 @@ https://www.twitter.com/deftjams
 ### TA
 Zee Chen  
 Email: zeychen at ucdavis dot edu  
-Office: ~55 Kemper Hall~  
-Office hours: ~Thursday from 1-2 PM~  
+Office: 53 Kemper Hall for both OH slots
+Office hours: Monday 11-12 PM and Thursday 2-3 PM   
 
 ### Course
 Lecture Meeting Time: Tuesdays and Thursdays at 12:10 to 1:30 PM in Hoagland room 168  
