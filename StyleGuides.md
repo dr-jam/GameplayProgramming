@@ -6,9 +6,10 @@ Style guides are a set of rules in place to help programmers write cleaner and m
 
 ## Style Guide for Class
 
-We will be using the .Net style guide for C#
+We will be using the .Net style guides for C#
 
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions  
+https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines  
 
 Please refer to this document if there are any questions about style.
 
