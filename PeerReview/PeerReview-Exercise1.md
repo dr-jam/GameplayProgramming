@@ -23,9 +23,9 @@ If you are in the rare situation where there are two peer-reviewers on a single 
 
 ### Description ###
 
-For assessing the solution, you will be choosing ONE choice from: unsatisfactory, satisfactory, good, great, or perfect.
+For assessing the solution, you will be choosing ONE choice from: unsatisfactory, satisfactory, good, great, or perfect. Place an x character inside of the square braces next to the appropriate label.
 
-The break down of each of these labels for the solution assessment.
+The following are the criteria by which you should assess your peer's solution of the exercise's stages.
 
 #### Perfect #### 
     Can't find any flaws in relation to the prompt. Perfectly satisfied all stage objectives.
@@ -47,7 +47,7 @@ The break down of each of these labels for the solution assessment.
 
 - [ ] Perfect
 - [ ] Great
-- [ ] Good
+- [x] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
@@ -58,7 +58,7 @@ Write Justification here.
 
 - [ ] Perfect
 - [ ] Great
-- [ ] Good
+- [x] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
@@ -69,7 +69,7 @@ Write Justification here.
 
 - [ ] Perfect
 - [ ] Great
-- [ ] Good
+- [x] Good
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
@@ -100,7 +100,7 @@ It should look something like this:
 
 Here is an example of the permalink drop down on Github.
 
-![Permalink option](./images/permalink_example.png)
+![Permalink option](../images/permalink_example.png)
 
 Here is another example as well.
 
