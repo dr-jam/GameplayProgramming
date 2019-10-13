@@ -9,7 +9,7 @@ Abusive or hateful language or comments will not be tolerated and will result in
 
 If there are any questions at any point, please email the TA.
 
-Email: asisandhu at ucdavis dot edu
+Email: zeychen at ucdavis dot edu
 
 ## Due Date and Submission Information ##
 This code review is due on:
