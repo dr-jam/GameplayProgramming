@@ -63,9 +63,9 @@ F  | 0
 
 ### Exercises
 
-The programming exercises consist of projects in Unity in which you will have to implement significant game systems or capabilities. These exercises are to be completed individually and will be worth 10 points each. Each will have two components which are described below with the amount of grade points they are worth:
-1. [7] The individual programming assignment.
-2. [3] Peer-reviewing the work of another pseudo-randomly assigned student.
+The programming exercises consist of projects in Unity in which you will have to implement significant game systems or capabilities. These exercises are to be completed individually and will be worth 10 points each. Each will have two components which are described below with a typical amount of grade points they are worth:
+1. [70] The individual programming assignment.
+2. [30] Peer-reviewing the work of another pseudo-randomly assigned student.
 
 *Individual Programming Assignment* - The exercise repositories complete with project descriptions and work specific ations will distributed via GitHub Classroom. You will be responsible for completing the excercise objectives, code quality, and following the best practices as described in class. Final submissions will be made via GitHub classroom.
 
@@ -118,6 +118,8 @@ Introductory practice exercises for C# and game systems (you can run these in Un
 [Unity and C# Practice Exam for New Programmers](https://docs.google.com/document/d/1_GUQKvwa-ZqboAhgp63pToQQvR6WdVvVJ3kcRDQ1qR0/edit?usp=sharing)
 
 ### Preparing for Projects
+
+This is a 5-day regimen of training tutorials to learn the basics of Unity for use in this course. Each day consist of between 2 and 3 hours of material per day.
 
 Day | Material
 ------ | -----
