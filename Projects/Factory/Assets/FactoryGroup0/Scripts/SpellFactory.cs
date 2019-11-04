@@ -24,8 +24,8 @@ namespace Arcanum
             }
             else if (Spells.Meteor == type)
             {
-                var fireball = this.GetComponent<MeteorMaker>().Make();
-                fireball.transform.position = this.transform.position;
+                var Meteor = this.GetComponent<MeteorMaker>().Make();
+                Meteor.transform.position = this.transform.position;
             }
         }
 

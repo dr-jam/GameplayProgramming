@@ -4,18 +4,21 @@ using UnityEngine;
 
 public class MeteorMotion : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] private Vector3 Movement;
-    [SerializeField] private float Speed = 9.81f;
+    private bool firsthit = false;
+    [SerializeField] private GameObject prefab;
 
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+
+
+    void OnCollisionEnter(Collision col)
     {
-        this.gameObject.transform.position += Time.deltaTime * this.Movement * this.Speed;
+        if (firsthit == true)
+        {
+            Debug.Log(gameObject.name + " was Collided with" + col.gameObject.name);
+            Destroy(this.gameObject);
+            Instantiate(this.prefab);
+        }
+
+        firsthit = true;
     }
 }
