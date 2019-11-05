@@ -90,10 +90,10 @@ Week | Topic | Reading
 1 | Overview of the course, game engines, anatomy of game development, command pattern. | Salen and Zimmermen ch. 4 & 5
 2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | [Style Guide and Best Practices](./StyleGuides.md), [Scroll Back: The Theory and Practice of Cameras in Side-Scrollers](http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php) by Itay Karen.
 3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](Nystrom)
-4 | Interactivity, rules, component systems. | Salen and Zimmermen ch. 6 & 13, [Component design pattern](Nystrom)
-5 | Emergence, agency, game combat algorithms. | Salen and Zimmermen ch. , Ryan
-6 | The jump. | Swink
-7 | Game balance and testing. | TBA
+4 | Mechanics, rules, gameplay systems, component systems. | Salen and Zimmermen ch. 6 & 13, [Component design pattern](Nystrom)
+5 | Interactivity, factory pattern. | Salen and Zimmermen ch. , Ryan
+6 | Game combat algorithms. | 
+7 | The Jump. | Swink
 8 | Game AI: character behavior, agents, and real-time performance. | TBA
 9 | Game AI: analytics and applications of data science and machine learning. | TBA
 10 | Procedural content generation. | TBA
