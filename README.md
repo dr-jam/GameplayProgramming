@@ -92,7 +92,7 @@ Week | Topic | Reading
 3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](Nystrom)
 4 | Mechanics, rules, gameplay systems, component systems. | Salen and Zimmermen ch. 11, 12, 13, [Component design pattern](Nystrom)
 5 | Interactivity, factory pattern. | Salen and Zimmermen ch. 6, Crawford [The Art of Game Design, ch. 1, INTERACTION section](https://www.digitpress.com/library/books/book_art_of_computer_game_design.pdf)
-6 | Game combat algorithms. | 
+6 | Game combat algorithms. | Achterman *The Craft of Game Systems* series [1](https://www.gamasutra.com/view/news/128271/The_Craft_of_Game_Systems_General_Guidelines.php), [2](https://www.gamasutra.com/view/news/128476/The_Craft_of_Game_Systems_Powerful_Flexible_Systems.php), [3](https://www.gamasutra.com/view/news/128877/The_craft_of_game_systems_Practical_examples.php), & [4](https://www.gamasutra.com/view/news/129714/The_craft_of_game_systems_Tuning_RPG_content.php)
 7 | The Jump. | Swink
 8 | Game AI: character behavior, agents, and real-time performance. | TBA
 9 | Game AI: analytics and applications of data science and machine learning. | TBA
