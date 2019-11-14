@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ADSRManager : MonoBehaviour
 {
+
+    [SerializeField] private bool ShowPhases = true;
+
     [SerializeField] private float Speed = 10.0f;
 
     [SerializeField] private float AttackDuration = 0.5f;
@@ -18,6 +21,8 @@ public class ADSRManager : MonoBehaviour
     [SerializeField] private float ReleaseDuration = 0.25f;
     [SerializeField] private AnimationCurve Release;
 
+    private string RightInputButton = "Fire1";
+    private string LeftInputButton = "Fire2";
 
     private float AttackTimer;
     private float DecayTimer;
@@ -39,37 +44,37 @@ public class ADSRManager : MonoBehaviour
     {
         //Challenge: fix intermixing between presses to Fire1 and Fire2
 
-        if (Input.GetButtonDown("Fire1") )
+        if (Input.GetButtonDown(RightInputButton) )
         {
             this.ResetTimers();
             this.CurrentPhase = Phase.Attack;
             this.InputDirection = 1.0f;
         }
 
-        if(Input.GetButton("Fire1")) 
+        if(Input.GetButton(RightInputButton)) 
         {
             this.InputDirection = 1.0f;
         }
 
-        if (Input.GetButtonUp("Fire1"))
+        if (Input.GetButtonUp(RightInputButton))
         {
             this.InputDirection = 1.0f;
             this.CurrentPhase = Phase.Release;
         }
 
-        if (Input.GetButtonDown("Fire2"))
+        if (Input.GetButtonDown(LeftInputButton))
         {
             this.ResetTimers();
             this.CurrentPhase = Phase.Attack;
             this.InputDirection = -1.0f;
         }
 
-        if (Input.GetButton("Fire2"))
+        if (Input.GetButton(LeftInputButton))
         {
             this.InputDirection = -1.0f;
         }
 
-        if (Input.GetButtonUp("Fire2"))
+        if (Input.GetButtonUp(LeftInputButton))
         {
             this.InputDirection = -1.0f;
             this.CurrentPhase = Phase.Release;
@@ -82,7 +87,10 @@ public class ADSRManager : MonoBehaviour
             this.gameObject.transform.position = position;
         }
 
-        this.SetColorByPhase();
+        if (this.ShowPhases)
+        {
+            this.SetColorByPhase();
+        }
     }
 
     float ADSREnvelope()

@@ -315,7 +315,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &855165019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,7 +328,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4a580c08f1ac43aeb948e7eb87d27ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
+  ShowPhases: 1
+  Speed: 1.5
   AttackDuration: 0.1
   Attack:
     serializedVersion: 2
@@ -523,7 +524,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1123679436
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -536,7 +537,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4a580c08f1ac43aeb948e7eb87d27ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
+  ShowPhases: 1
+  Speed: 1.5
   AttackDuration: 0.25
   Attack:
     serializedVersion: 2
@@ -752,7 +754,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4a580c08f1ac43aeb948e7eb87d27ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
+  ShowPhases: 0
+  Speed: 1.5
   AttackDuration: 0.66
   Attack:
     serializedVersion: 2
@@ -946,7 +949,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1489916953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -959,7 +962,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4a580c08f1ac43aeb948e7eb87d27ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 1
+  ShowPhases: 1
+  Speed: 1.5
   AttackDuration: 1.2
   Attack:
     serializedVersion: 2
