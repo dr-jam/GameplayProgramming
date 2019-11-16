@@ -95,7 +95,7 @@ Week | Topic | Reading | Discussion Plan | Deadlines
 6 | Game combat algorithms, game design documents.| Achterman *The Craft of Game Systems* series [1](https://www.gamasutra.com/view/news/128271/The_Craft_of_Game_Systems_General_Guidelines.php), [2](https://www.gamasutra.com/view/news/128476/The_Craft_of_Game_Systems_Powerful_Flexible_Systems.php), [3](https://www.gamasutra.com/view/news/128877/The_craft_of_game_systems_Practical_examples.php), & [4](https://www.gamasutra.com/view/news/129714/The_craft_of_game_systems_Tuning_RPG_content.php)
 7 | The Jump. | Swink | | 
 8 | Game AI: character behavior, agents, and real-time performance. | TBA | Introduce pitches and game design docs with examples 
-9 | Game AI: analytics and applications of data science and machine learning. | TBA | 3 minute project pitches | Final project design doc due
+9 | Game AI: analytics and applications of data science and machine learning. | TBA | 3 minute final project pitches from each group | Final project design doc due
 10 | Procedural content generation. | TBA | Final project demo |
 
 ## Development and Design Resources
