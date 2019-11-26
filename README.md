@@ -89,7 +89,7 @@ Each submitted participation code is worth 1 grade point. This means you need 5 
 
 #### Attendance
 
-The attendance algorithms is as follows:  
+The attendance algorithm is as follows:  
 AttendanceGrade = 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1))  
 
 ## Schedule
