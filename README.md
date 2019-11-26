@@ -83,6 +83,15 @@ Light quizzes will be given during discussion sections. Their contents will be b
 
 Students are required to attend and participate in class, labs, and their team meetings. Attendance will be taken during lectures and discussion sections.
 
+#### Participation
+
+Each submitted participation code is worth 1 grade point. This means you need 5 codes to max out your particpation grade.
+
+#### Attendance
+
+The attendance algorithms is as follows:  
+AttendanceGrade = 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1))  
+
 ## Schedule
 
 Week | Topic | Reading | Discussion Plan | Deadlines
