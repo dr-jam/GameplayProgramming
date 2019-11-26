@@ -73,7 +73,7 @@ The programming exercises consist of projects in Unity in which you will have to
 
 ### Group Game Project
 
-You will design and develop your own game given a set of themes and constraints in teams of 5. Each team embmer will have a main role and a sub-role on the game.
+You will design and develop your own game given a set of themes and constraints in teams of 5. Each team member will have a main role and a sub-role on the game.
 
 ### Quizzes
 
