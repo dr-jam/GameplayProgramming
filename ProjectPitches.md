@@ -2,10 +2,10 @@
 
 ## Requirements for Project Pitches
 
-Your pitches should consist of slide-based presentations that last 3 minutes. You may designate a represtative to give the pitch for your team or you may have multiple team members participate.
+Your pitches should consist of slide-based presentations that last 3 minutes. You may designate a representative to give the pitch for your team or you may have multiple team members participate.
 
 You should explain the following in your pitch:
-* The succinct core game idea (i.e. make your game compelling in 30 seconds of talking with the one-sentene pitch displayed).
+* The succinct core game idea (i.e. make your game compelling in 30 seconds of talking with the one-sentence pitch displayed).
 * Explain why your game is novel or why it should be made.
 * Situate your game with respect to existing games and/or genres.
 * How feasible is this project with respect to the restrictions of this class.
@@ -17,24 +17,24 @@ You should explain the following in your pitch:
 Basic criteria:
 1 Give the pitch.
 2 Meet all of the requirements listed above
-3 Submit your slidedeck with presentation notes to the shared folder given to you via official course communication channels.
+3 Submit your slide deck with presentation notes to the shared folder given to you via official course communication channels.
 
 To do even better:
 * Make the pitch as close to 3 minutes as possible.
-  * Productive use every second of the allocated to you. (If this were a pitch to a publisher, you would not want to waste a single second or direspect their time by take more than was grated.)
+  * Productive use every second of the allocated to you. (If this were a pitch to a publisher, you would not want to waste a single second or disrespect their time by taking more than was granted.)
 * Make slides that can stand on their own without relying on a lot of bullet points or text. 
 * Slides should augment what you are saying and should not distract from it.
-* Do not be vague or shallow in your explainations in the pitch. 
+* Do not be vague or shallow in your explanations in the pitch. 
 * Tell a coherent story.
-* Presentation skills: fluid slide deliver, loud and clear speach, make eye contact with the audience, etc.
+* Presentation skills: fluid slide deliver, loud and clear speech, make eye contact with the audience, etc.
 * Practice :)
 * Integrate concepts from earlier in the course into your presented content.
 
 ## What is a Game Pitch?
 
-Game pitches come in a few formats: 1 sentence, 30 second, 2 minute, and ~5-15 minute visual presentations. 
-The goal of a game pitch is to communicate the novel, exciting, and desirable aspects of your game design vision to particular audience.
-Basically, your task is to effectively commmunicate a value proposition.
+Game pitches come in a few formats: 1 sentence, 30 seconds, 2 minutes, and ~5-15 minute visual presentations. 
+The goal of a game pitch is to communicate the novel, exciting, and desirable aspects of your game design vision to a particular audience.
+Your task is to effectively communicate a value proposition.
 Often, these audiences are producers, funders, juries, or some other people who are looking to find the best of many pitches.
 
 ## Key Features of a Good Pitch
@@ -66,7 +66,7 @@ Framing your pitch ([from Rami Ismail](https://www.gdcvault.com/play/1020877/In-
 
 ## Advice on Pitching
 [30 Things I hate About Your Game Pitch](https://www.youtube.com/watch?v=4LTtr45y7P0) by Brian Upton  
-[How to Creat a Pitch for your Video Game](https://www.youtube.com/watch?v=YAnQPWo9SWM) by My Child Lebensborn  
+[How to Create a Pitch for your Video Game](https://www.youtube.com/watch?v=YAnQPWo9SWM) by My Child Lebensborn  
 [Presenting our New Video Game Pitch](https://www.youtube.com/watch?v=CCm7qQwz1jU) by My Child Lebensborn  
 [How To Pitch Your Project To Publishers](https://www.gamasutra.com/view/feature/134571/how_to_pitch_your_project_to_.php)  
 [Pitching Secrets Revealed](https://www.gdcvault.com/play/1018065/Pitching-Secrets) by Cindy Au, Ian Baverstock, Chris Charla, John Cook, Pete Smith  
