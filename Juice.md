@@ -22,4 +22,4 @@ Your task is to identify at least 3 concepts, rules of thumb, or tools from the 
 * [The Art of Screenshake](https://www.youtube.com/watch?v=AJdEqssNZ-U&) by Jan Willem Nijman of Vlambeer in INDIGO Classes 2013. *"Just fill your game with love and tiny details."* 
 * [Don't Juice It or Lose It](https://www.gdcvault.com/play/1020861/Don-t-Juice-It-or) by Folmer Kelly of Sets and Settings at GDC Europe 2014.
 * [Juicing your Cameras With Math](https://www.gdcvault.com/play/1023557/Math-for-Game-Programmers-Juicing) by Squirrel Eiserloh of the Guildhall at SMU in GDC 2016.
-* [Building a better Jump](gdcvault.com/play/1023559/Math-for-Game-Programmers-Building) by Kyle Pittman of Minor Key Games in GDC 2016.
+* [Building a better Jump](https://www.gdcvault.com/play/1023148/Math-for-Game-Programmers-Building) by Kyle Pittman of Minor Key Games in GDC 2016.
