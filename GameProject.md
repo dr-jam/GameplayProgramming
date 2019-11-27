@@ -9,7 +9,7 @@ In this project, you will be designing and creating a game in Unity in teams of 
 
 # Grading
 
-The project will be graded on a 100 point scale with the follow weights:
+The project will be graded on a 100 point scale with the following weights:
 * Main Role
   * 30 Implementation
   * 10 Documentation
@@ -20,11 +20,11 @@ The project will be graded on a 100 point scale with the follow weights:
 
 # Submission Information
 
-All of your project materials are due by ~~Friday, June 7th at 1:00 PM~~ Monday, June 10th at 8:00 AM. A portion of your team score points will assessed during the final meeting period on Friday, June 7th at 1:00 PM.
+All of your project materials are due by ~~Friday, June 7th at 1:00 PM~~ Monday, June 10th at 8:00 AM. A portion of your team score points will be assessed during the final meeting period on Friday, June 7th at 1:00 PM.
 
 Submissions will be taken from the [team registration spreadsheet](https://docs.google.com/spreadsheets/d/1XJzAVba3Xv8tIHESsGGHAMc50W8S9ytrXSrFoPadhlU/edit?usp=sharing) via your teams GitHub repository link. Your project code
 
-Your repository should include the following .gitignore file in the rood directory of the project: https://gitignore.io/api/osx,unity,linux,windows
+Your repository should include the following .gitignore file in the root directory of the project: https://gitignore.io/api/osx,unity,linux,windows
 
 Your game must be made for one of the following versions of Unity:
 * 2018.3.11f1
@@ -41,7 +41,7 @@ The following are the main roles and their basic descriptions
 
 ### User Interface
 
-In this role, you are responsible for the user interface elements of the game. This typically includes the contents of the heads up display or HUD. This traditionally comprises gameplay status information such as player character health, score, resources like magic points or gold,  and time-keepers. This is also responsible for menu and credit screens. You are responsible for documenting the various UI elements you implement and how they interact with the changing state of the game.
+In this role, you are responsible for the user interface elements of the game. This typically includes the contents of the heads up display or HUD. This traditionally comprises gameplay status information such as player character health, score, resources like magic points or gold,  and time-keepers. This is also responsible for the menu and credit screens. You are responsible for documenting the various UI elements you implement and how they interact with the changing state of the game.
 
 ### Movement/Physics
 
@@ -67,7 +67,7 @@ You are responsible for defining the game's sound style, procuring audio assets,
 
 ### Gameplay Testing
 
-As the gameplay tester, you are responsible for having 10 non-team members playtest your game. You fill out the Observation and Playtester Comments form for each of your play testers and describe the results in the design document (after you share the results with your tea, of course!). For each playtester, fill out an [Observations and Playetester Comments form](https://docs.google.com/document/d/1oW7AulzjpEocDmMikRL0S0PKxlRrOxsEEP7KB-nGg-A/edit?usp=sharing).
+As the gameplay tester, you are responsible for having 10 non-team members playtest your game. You fill out the Observation and Playtester Comments form for each of your playtesters and describe the results in the design document (after you share the results with your tea, of course!). For each playtester, fill out an [Observations and Playetester Comments form](https://docs.google.com/document/d/1oW7AulzjpEocDmMikRL0S0PKxlRrOxsEEP7KB-nGg-A/edit?usp=sharing).
 
 ### Narrative Design
 
