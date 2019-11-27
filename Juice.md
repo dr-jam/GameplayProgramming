@@ -1,4 +1,4 @@
-# Game Juice: A Take-Home Lesson
+# Game Juice: A Lesson of Expanding Game Feel from Juice to Level Design
 
 This take-home lesson is about one of the prominent game development discussions of the last few years: game juiciness. 
 The study portion of the lesson consists of watching talks and analysis videos from prominent figures in the (mostly indie) game development community.
