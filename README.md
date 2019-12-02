@@ -48,7 +48,7 @@ You can download Unity Hub [here](https://unity3d.com/get-unity/download).
 
 Grade | Point Threshold
 ------ | -------
-A  | 95
+A  | 94
 A- | 90
 B+ | 87
 B  | 84
@@ -90,7 +90,7 @@ Each submitted participation code is worth 1 grade point. This means you need 5 
 #### Attendance
 
 The attendance algorithm is as follows:  
-AttendanceGrade = 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1))  
+AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1)))
 
 ## Schedule
 
