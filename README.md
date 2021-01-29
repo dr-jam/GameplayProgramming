@@ -1,7 +1,7 @@
 # ECS189L - Gameplay Programming
 
-## CRN for FALL 2019
-62871
+## CRN for Spring 2021
+40582
 
 # Syllabus
 ## Basic Information
@@ -11,21 +11,18 @@ Dr. Joshua A. McCoy, Assistant Professor
 Computer Science and Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: Thursdays at 1:45 to 3:00 PM and by appointment  
+Office Hours: TBA
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 https://www.twitter.com/deftjams  
 
 ### TA
-Zee Chen  
-Email: zeychen at ucdavis dot edu  
-Office: 53 Kemper Hall for both OH slots
-Office hours: Monday 11-12 PM and Thursday 2-3 PM   
+TBA
 
 ### Course
-Lecture Meeting Time: Tuesdays and Thursdays at 12:10 to 1:30 PM in Hoagland room 168  
-Lab Meeting Time: Mondays at 5:10 - 6:00 PM in Wellman room 212  
-Final Examination Period: Tuesday, December 10th at 1:00 to 3:00 PM  
+Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 10:00-10:50 AM
+Duscussion Meeting Time: Wednesdays at 11:00-11:50 AM
+Final Examination Period: Wednesday, June 9th at 6:00-8:00 PM
 
 ## Course Description
 
