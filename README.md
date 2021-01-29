@@ -20,9 +20,9 @@ https://www.twitter.com/deftjams
 TBA
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 10:00-10:50 AM
-Duscussion Meeting Time: Wednesdays at 11:00-11:50 AM
-Final Examination Period: Wednesday, June 9th at 6:00-8:00 PM
+Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 10:00-10:50 AM  
+Duscussion Meeting Time: Wednesdays at 11:00-11:50 AM  
+Final Examination Period: Wednesday, June 9th at 6:00-8:00 PM  
 
 ## Course Description
 
