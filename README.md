@@ -39,7 +39,7 @@ You can download Unity Hub [here](https://unity3d.com/get-unity/download).
 * [35] Group Game Project
 * [40] Exercises
 * [15] Quizzes
-* [10] Participation~~/Attendance~~
+* [10] Participation ~~/Attendance~~
 
 ### Grade Scale
 
