@@ -39,7 +39,7 @@ You can download Unity Hub [here](https://unity3d.com/get-unity/download).
 * [35] Group Game Project
 * [40] Exercises
 * [15] Quizzes
-* [10] Participation/Attendance
+* [10] Participation~~/Attendance~~
 
 ### Grade Scale
 
@@ -78,7 +78,7 @@ Light quizzes will be given during discussion sections. Their contents will be b
 
 ### Participation and Attedance
 
-Students are required to attend and participate in class, labs, and their team meetings. Attendance will be taken during lectures and discussion sections.
+Students are required to attend and participate in class, labs, and their team meetings. ~~Attendance will be taken during lectures and discussion sections.~~
 
 #### Participation
 
@@ -86,8 +86,10 @@ Each submitted participation code is worth 1 grade point. This means you need 5 
 
 #### Attendance
 
-The attendance algorithm is as follows:  
-AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1)))
+The attendance rules are suspended while the course is offered remotely.  
+
+~~The attendance algorithm is as follows:  
+AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1)))~~
 
 ## Schedule
 
