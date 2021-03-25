@@ -36,9 +36,8 @@ You can download Unity Hub [here](https://unity3d.com/get-unity/download).
 
 ## Grading and Assessment
 
-* [35] Group Game Project
-* [40] Exercises
-* [15] Quizzes
+* [45] Group Game Project
+* [45] Exercises
 * [10] Participation ~~/Attendance~~
 
 ### Grade Scale
