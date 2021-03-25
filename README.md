@@ -30,7 +30,7 @@ This course is about the design and development of nuanced and highly-contextual
 
 ## Materials
 
-Unity version 2021.1.0 Tech Stream release. Download it directly [here](unityhub://2021.1.0f1/61a549675243) or get it with Unity Hub putting the following URI in your browser:  
+Unity version 2021.1.0 Tech Stream release. Download it directly [here](https://unity3d.com/unity/whats-new/2021.1.0) or get it with Unity Hub putting the following URI in your browser:  
 unityhub://2021.1.0f1/61a549675243  
 You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
 
