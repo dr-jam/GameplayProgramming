@@ -140,7 +140,7 @@ Day | Material
 
 ### Unity
 
-[Unity User Manual (2018.3)](https://docs.unity3d.com/Manual/index.html)  
+[Unity User Manual](https://docs.unity3d.com/Manual/index.html)  
 [Unity Tutorials](https://unity3d.com/learn/get-started)
 
 #### Learning the Basics
