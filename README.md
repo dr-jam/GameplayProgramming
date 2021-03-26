@@ -73,7 +73,9 @@ You will design and develop your own game given a set of themes and constraints 
 
 ### Quizzes
 
-Light quizzes will be given during discussion sections. Their contents will be based on recent lectures and readings.
+Due demands for ansynchronous course material, there will be no quizzes this quarter.
+
+~~Light quizzes will be given during discussion sections. Their contents will be based on recent lectures and readings.~~
 
 ### Participation and Attedance
 
