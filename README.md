@@ -163,7 +163,6 @@ Day | Material
 * [Getting started iwth C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
 * [Beginning C# 7 Programming with Visual Studio 2017](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51321760760003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Perkins, Benjamin, Hammer, Jacob Vibe, and Reid, Jon D.
 * [Illustrated C# 7 : the C# language presented clearly, concisely, and visually](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51326862240003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Solis, Daniel M., and Schrotenboer, Cal.
-* [Design patterns in C# : a hands-on guide with real-world examples](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51326874630003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Sarcar, Vaskaran.
 
 
 
