@@ -94,10 +94,10 @@ AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendance
 
 ## Schedule
 
-Week | Topic | Reading | Discussion Plan | Deadlines
+Week | Topic | Reading | Discussion Plan | Assignments and Due Dates
 ----- | ----- | ----- | ----- | -----
 1 | Overview of the course, game engines, anatomy of game development, command pattern. | Salen and Zimmermen ch. 4 & 5 | Dissecting Unity projects. | Getting started with Unity materials
-2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | [Command Pattern](https://gameprogrammingpatterns.com/command.html), [Style Guide and Best Practices](./StyleGuides.md), [Scroll Back: The Theory and Practice of Cameras in Side-Scrollers](http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php) by Itay Karen. | Programming Exercise 1: Command Pattern 
+2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | [Command Pattern](https://gameprogrammingpatterns.com/command.html), [Style Guide and Best Practices](./StyleGuides.md), [Scroll Back: The Theory and Practice of Cameras in Side-Scrollers](http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php) by Itay Karen. | Overview of Programming Exercise 1: Command Pattern | Assigned: [Exercise 1: Command Pattern](https://github.com/dr-jam/CommandPatternExercise)
 3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](https://gameprogrammingpatterns.com/event-queue.html)
 4 | Mechanics, rules, gameplay systems, component systems. | Salen and Zimmermen ch. 11, 12, 13, [Component design pattern](https://gameprogrammingpatterns.com/component.html)
 5 | Interactivity, factory pattern. | Salen and Zimmermen ch. 6, Crawford [The Art of Game Design, ch. 1, INTERACTION section](https://www.digitpress.com/library/books/book_art_of_computer_game_design.pdf)
