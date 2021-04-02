@@ -17,7 +17,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 https://www.twitter.com/deftjams  
 
 ### TA
-TBA
+See Canvas.
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 10:00-10:50 AM  
