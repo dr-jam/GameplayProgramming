@@ -83,7 +83,7 @@ Students are required to attend and participate in class, labs, and their team m
 
 #### Participation
 
-Each submitted participation code is worth ~~1~~ 2 grade point. This means you need 5 codes to max out your particpation grade.
+Each submitted participation code is worth ~~1~~ 2 grade points. This means you need 5 codes to max out your particpation grade.
 
 #### Attendance
 
