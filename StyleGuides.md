@@ -11,7 +11,9 @@ We will be using the .Net style guides for C#
 https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions  
 https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidelines  
 
-Please refer to this document if there are any questions about style.
+Please refer to this document if there are any questions about C# style. For more general style advice including the crafting of comments, follow Microsoft's style guide:
+
+https://docs.microsoft.com/en-us/style-guide/welcome/
 
 
 # Coding Conventions
