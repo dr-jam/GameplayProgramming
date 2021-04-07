@@ -11,13 +11,13 @@ Dr. Joshua A. McCoy, Assistant Professor
 Computer Science and Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: TBA  
+Office Hours: *tentative* Tuesdays at 2:00 PM    
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 https://www.twitter.com/deftjams  
 
 ### TA
-TBA
+See Canvas.
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 10:00-10:50 AM  
@@ -83,7 +83,7 @@ Students are required to attend and participate in class, labs, and their team m
 
 #### Participation
 
-Each submitted participation code is worth 1 grade point. This means you need 5 codes to max out your particpation grade.
+Each submitted participation code is worth ~~1~~ 2 grade points. This means you need 5 codes to max out your particpation grade.
 
 #### Attendance
 
@@ -94,12 +94,12 @@ AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendance
 
 ## Schedule
 
-Week | Topic | Reading | Discussion Plan | Deadlines
+Week | Topic | Reading | Discussion Plan | Assignments and Due Dates
 ----- | ----- | ----- | ----- | -----
-1 | Overview of the course, game engines, anatomy of game development, command pattern. | Salen and Zimmermen ch. 4 & 5
-2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | [Style Guide and Best Practices](./StyleGuides.md), [Scroll Back: The Theory and Practice of Cameras in Side-Scrollers](http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php) by Itay Karen.
-3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](https://gameprogrammingpatterns.com/event-queue.html)
-4 | Mechanics, rules, gameplay systems, component systems. | Salen and Zimmermen ch. 11, 12, 13, [Component design pattern](https://gameprogrammingpatterns.com/component.html)
+1 | Overview of the course, game engines, anatomy of game development, command pattern. | Salen and Zimmermen ch. 4 & 5 | Dissecting Unity projects. | Getting started with Unity materials
+2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | [Command Pattern](https://gameprogrammingpatterns.com/command.html), [Style Guide and Best Practices](./StyleGuides.md), [Scroll Back: The Theory and Practice of Cameras in Side-Scrollers](http://www.gamasutra.com/blogs/ItayKeren/20150511/243083/Scroll_Back_The_Theory_and_Practice_of_Cameras_in_SideScrollers.php) by Itay Karen. | Overview of Programming Exercise 1: Command Pattern | **Assigned on 7 April**: [Exercise 1: Command Pattern](https://github.com/dr-jam/CommandPatternExercise)
+3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](https://gameprogrammingpatterns.com/event-queue.html) | | **Assigned on 14 April**: Exercise 2; **Due on 14 April**: Exercise 1 Implementation
+4 | Mechanics, rules, gameplay systems, component systems. | Salen and Zimmermen ch. 11, 12, 13, [Component design pattern](https://gameprogrammingpatterns.com/component.html) | | Due on 21 April: Exercise 1 Peer Review
 5 | Interactivity, factory pattern. | Salen and Zimmermen ch. 6, Crawford [The Art of Game Design, ch. 1, INTERACTION section](https://www.digitpress.com/library/books/book_art_of_computer_game_design.pdf)
 6 | Game combat algorithms, game design documents.| Achterman *The Craft of Game Systems* series [1](https://www.gamasutra.com/view/news/128271/The_Craft_of_Game_Systems_General_Guidelines.php), [2](https://www.gamasutra.com/view/news/128476/The_Craft_of_Game_Systems_Powerful_Flexible_Systems.php), [3](https://www.gamasutra.com/view/news/128877/The_craft_of_game_systems_Practical_examples.php), & [4](https://www.gamasutra.com/view/news/129714/The_craft_of_game_systems_Tuning_RPG_content.php)
 7 | The Jump. | [Game Feel by Steve Swink](http://www.game-feel.com/) | | 
