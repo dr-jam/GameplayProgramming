@@ -1,5 +1,5 @@
 
-# Created by https://www.gitignore.io/api/osx,unity,linux,windows
+# Created by https://www.gitignore.io/api/osx,unity,linux,windows,vscode
 # Edit at https://www.gitignore.io/?templates=osx,unity,linux,windows
 
 ### Linux ###
@@ -128,3 +128,16 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/osx,unity,linux,windows
+
+# Created by https://www.toptal.com/developers/gitignore/api/vscode
+# Edit at https://www.toptal.com/developers/gitignore?templates=vscode
+
+### vscode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# End of https://www.toptal.com/developers/gitignore/api/vscode
