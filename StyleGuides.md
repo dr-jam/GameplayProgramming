@@ -13,7 +13,7 @@ https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/naming-guidel
 
 Please refer to this document if there are any questions about C# style. For more general style advice including the crafting of comments, follow 1.) Unity's style guide and then 2) Microsoft's style guide:
 
-https://unity-docs.gitbook.io/style-guide/
+https://unity-docs.gitbook.io/style-guide/  
 https://docs.microsoft.com/en-us/style-guide/welcome/
 
 
