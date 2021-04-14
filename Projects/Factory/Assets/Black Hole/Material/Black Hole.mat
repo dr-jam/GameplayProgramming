@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Black Hole
+  m_Shader: {fileID: 4800000, guid: e1f5387f07fd10d4bbe363d87fe46b0d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ComplicatedAmount1: 0.85
+    - _ComplicatedRadiusInner1: 0.2
+    - _ComplicatedRadiusOuter1: 0.27
+    - _DarkRange: 0.044
+    - _Distortion: -1.592
+    - _Form: 0.3
+    - _Radius: 1
+    - _SimpleAmount1: 0.5
+    - _SimpleAmount2: 0.5
+    - _SimpleAmount3: 0.5
+    - _SimpleAmount4: 0.5
+    - _SimpleAmount5: 0.5
+    - _SimpleAmount6: 0.5
+    - _SimpleAmount7: 0.5
+    - _SimpleAmount8: 0.5
+    m_Colors:
+    - _Center: {r: 0.32575756, g: 0.36916837, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _ComplicatedCenter1: {r: 0, g: 0, b: 0, a: 0}
+    - _SimpleCenterRadial1: {r: 0.5, g: 0.5, b: 0.1, a: 0.1}
+    - _SimpleCenterRadial2: {r: 0, g: 0, b: 0, a: 0}
+    - _SimpleCenterRadial3: {r: 0, g: 0, b: 0, a: 0}
+    - _SimpleCenterRadial4: {r: 0, g: 0, b: 0, a: 0}
+    - _SimpleCenterRadial5: {r: 0, g: 0, b: 0, a: 0}
+    - _SimpleCenterRadial6: {r: 0, g: 0, b: 0, a: 0}
+    - _SimpleCenterRadial7: {r: 0, g: 0, b: 0, a: 0}
+    - _SimpleCenterRadial8: {r: 0, g: 0, b: 0, a: 0}

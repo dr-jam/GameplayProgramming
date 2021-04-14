@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: b89d0144e51920b4a8a4fcc9f255ad3b, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.17797944, g: 0.11974489, b: 0.21461836, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -195,7 +195,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 4.587e-41, y: 1.708e-42, z: 0, w: 1.26259495e+11}
+  m_BoundingSphereOverride: {x: 9.29e-43, y: -1.7249285e+11, z: 4.5905e-41, w: -1.724884e+11}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -395,6 +395,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2036623790823496153, guid: 09b0380f9f6cf44018f07370fd8ab3ac,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 8767551231105739241, guid: 2abfb403fb2814534b8745b354004b0c,
+        type: 3}
+    - target: {fileID: 2036623790823496152, guid: 09b0380f9f6cf44018f07370fd8ab3ac,
+        type: 3}
+      propertyPath: prefab
+      value: 
+      objectReference: {fileID: 1000010869019282, guid: 30d66f14ff658b1459c3fdbcd8c62695,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09b0380f9f6cf44018f07370fd8ab3ac, type: 3}
 --- !u!1 &2146090188
@@ -411,7 +423,7 @@ GameObject:
   - component: {fileID: 2146090189}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

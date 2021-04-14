@@ -11,7 +11,7 @@ namespace Arcanum
 
         public GameObject Make()
         {
-            var newGameObject = Instantiate(prefab);
+            var newGameObject = Instantiate(this.prefab);
             return newGameObject;
         }
     }
