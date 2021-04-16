@@ -122,7 +122,7 @@ This should be similar to the Code Style justification.
 
 * [description of infraction](https://github.com/dr-jam/ECS189L) - this is the justification.
 
-### Best Practices Refiew ###
+### Best Practices Review ###
 
 #### Best Practices Infractions ####
 
