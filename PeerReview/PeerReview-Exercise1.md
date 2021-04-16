@@ -9,8 +9,6 @@ Abusive or hateful language or comments will not be tolerated and will result in
 
 If there are any questions at any point, please email the TA.
 
-Email: zeychen at ucdavis dot edu
-
 ## Due Date and Submission Information ##
 This code review is due on:
 Thursday, October 17th by 11:59 PM
