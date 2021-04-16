@@ -11,7 +11,7 @@ If there are any questions at any point, please email the TA.
 
 ## Due Date and Submission Information ##
 This code review is due on:
-Thursday, October 17th by 11:59 PM
+Wednesday, April 21st by 11:59 PM
 
 A successful submission should consist of a copy of this markdown document template that is modified with your peer-review. The file name should be the same as it is in the template: PeerReview-Exercise1.md. You also need to include your name and email address in the Peer-reviewer Information section below. This review document should be placed into the base folder of the repo you are reviewing in a branch called review. This branch should be on the origin of the repository you are reviewing.
 
