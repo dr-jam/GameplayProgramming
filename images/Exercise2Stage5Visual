@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2021-04-20T01:38:32.586Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" version="14.6.1" etag="g71RqWoaT4z9sLOd0bRv" type="github"><diagram id="2PfXGW4e8lN4dieRNxsf">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-04-20T02:14:45.286Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.128 Safari/537.36" etag="9V50zVbUJ7G1mUMLelGI" version="14.6.1" type="github" pages="2">
+  <diagram id="2PfXGW4e8lN4dieRNxsf" name="4-way speedup push zone">
+    <mxGraphModel dx="779" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SFxyfJ8UTiN1GbmfctNt-5" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;fillColor=#e1d5e7;gradientDirection=north;container=1;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="160" y="160" width="470" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SFxyfJ8UTiN1GbmfctNt-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;container=1;fillColor=#4CD7D0;strokeColor=#E1C340;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;" vertex="1" parent="SFxyfJ8UTiN1GbmfctNt-5">
+          <mxGeometry width="470" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="SFxyfJ8UTiN1GbmfctNt-15" value="If the player is in this middle region, you move the camera at the &lt;b&gt;PlayerMovementDirection * PushRatio&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeWidth=4;gradientColor=none;position2=0;flipH=0;flipV=0;fillColor=#4CD7D0;strokeColor=#A4E8E0;" vertex="1" parent="SFxyfJ8UTiN1GbmfctNt-1">
+          <mxGeometry x="330" y="90" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SFxyfJ8UTiN1GbmfctNt-9" value="When touching a border and movement direction points across border, &lt;b&gt;move at player movement speed in the border-facing direction.&lt;/b&gt;&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=4;fillColor=#E1C340;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeColor=#A4E8E0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="44" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SFxyfJ8UTiN1GbmfctNt-11" value="&lt;i&gt;Example:&lt;/i&gt; if the player is touching the bottom border here and is moving along the direction &amp;lt;0.5, -0.5&amp;gt; with a speed of 200, you would move the box by &lt;b&gt;&amp;lt;100*PushRatio, -100&amp;gt; * Time.deltaTime.&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=4;fillColor=#E1C340;size=30;position=0.09;position2=0.16;rotation=0;flipH=1;flipV=1;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeColor=#A4E8E0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="605" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="SFxyfJ8UTiN1GbmfctNt-17" value="Care for the corners!" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.loud_callout;rounded=0;shadow=0;glass=0;sketch=0;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeColor=#A4E8E0;strokeWidth=4;fillColor=#4CD7D0;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="161" y="97" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="4-way double box push zone" id="p62lvQVT7sRqCJKUioVk">
+    <mxGraphModel dx="779" dy="1104" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-0" />
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-1" parent="x7BGnfMldAZ4R4Sd2i_O-0" />
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-2" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;fillColor=#e1d5e7;gradientDirection=north;container=1;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;" vertex="1" connectable="0" parent="x7BGnfMldAZ4R4Sd2i_O-1">
+          <mxGeometry x="160" y="160" width="440" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=6;container=1;fillColor=#4CD7D0;strokeColor=#E1C340;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;" vertex="1" parent="x7BGnfMldAZ4R4Sd2i_O-2">
+          <mxGeometry width="440" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=2;sketch=0;shadow=0;rounded=0;glass=0;strokeColor=none;fillColor=#F8EA8C;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;" vertex="1" parent="x7BGnfMldAZ4R4Sd2i_O-2">
+          <mxGeometry x="80" y="75" width="290" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-5" value="When touching a border and movement direction points across border, &lt;b&gt;move at player movement speed in the border-facing direction.&lt;/b&gt;&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=4;fillColor=#E1C340;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeColor=#A4E8E0;" vertex="1" parent="x7BGnfMldAZ4R4Sd2i_O-1">
+          <mxGeometry x="370" y="44" width="280" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-6" value="&lt;i&gt;Example:&lt;/i&gt; if the player is touching the bottom border here and is moving along the direction &amp;lt;0.5, -0.5&amp;gt; with a speed of 200, you would move the box by &lt;b&gt;&amp;lt;100*PushRatio, -100&amp;gt; * Time.deltaTime.&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=0;strokeWidth=4;fillColor=#E1C340;size=30;position=0.09;position2=0.16;rotation=0;flipH=1;flipV=1;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeColor=#A4E8E0;" vertex="1" parent="x7BGnfMldAZ4R4Sd2i_O-1">
+          <mxGeometry x="230" y="605" width="400" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-7" value="If the player is in this middle region, you move the camera at the &lt;b&gt;PlayerMovementDirection * PushRatio&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeWidth=4;gradientColor=none;position2=0;flipH=0;flipV=0;fillColor=#4CD7D0;strokeColor=#A4E8E0;" vertex="1" parent="x7BGnfMldAZ4R4Sd2i_O-1">
+          <mxGeometry x="550" y="310" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-8" value="Care for the corners!" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.loud_callout;rounded=0;shadow=0;glass=0;sketch=0;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeColor=#A4E8E0;strokeWidth=4;fillColor=#4CD7D0;gradientColor=none;" vertex="1" parent="x7BGnfMldAZ4R4Sd2i_O-1">
+          <mxGeometry x="161" y="97" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x7BGnfMldAZ4R4Sd2i_O-9" value="If the player is in the middle, do not move the camera." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=0;shadow=0;glass=0;sketch=0;fontFamily=comfortaa;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3Dcomfortaa;fontColor=#333333;strokeWidth=4;gradientColor=none;position2=0.89;flipH=0;flipV=0;strokeColor=#A4E8E0;fillColor=#F8EA8C;" vertex="1" parent="x7BGnfMldAZ4R4Sd2i_O-1">
+          <mxGeometry x="100" y="260" width="190" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
