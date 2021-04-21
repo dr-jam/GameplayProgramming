@@ -60,8 +60,8 @@ ___
 - [ ] Unsatisfactory
 
 ___
-#### Justifaction ##### 
-Write justifaction here.
+#### Justification ##### 
+Write Justification here.
 
 ___
 ### Stage 2 ###
@@ -73,8 +73,8 @@ ___
 - [ ] Unsatisfactory
 
 ___
-#### Justifaction ##### 
-Write justifaction here.
+#### Justification ##### 
+Write Justification here.
 
 ___
 ### Stage 3 ###
@@ -86,8 +86,8 @@ ___
 - [ ] Unsatisfactory
 
 ___
-#### Justifaction ##### 
-Write justifaction here.
+#### Justification ##### 
+Write Justification here.
 
 ___
 ### Stage 4 ###
@@ -99,8 +99,8 @@ ___
 - [ ] Unsatisfactory
 
 ___
-#### Justifaction ##### 
-Write justifaction here.
+#### Justification ##### 
+Write Justification here.
 
 ___
 ### Stage 5 ###
@@ -112,8 +112,8 @@ ___
 - [ ] Unsatisfactory
 
 ___
-#### Justifaction ##### 
-Write justifaction here.
+#### Justification ##### 
+Write Justification here.
 ___
 # Code Style #
 
