@@ -44,7 +44,7 @@ The break down of each of these labels for the solution assessment.
     Couple of major flaws. Heading towards solution, however did not fully realize solution.
 
 #### Unsatisfactory ####
-    Partial work, not really converging to a solution. Pervasive Major flaws. Objective largely unmet.
+    Partial work, not converging to a solution. Pervasive Major flaws. Objective largely unmet.
 
 
 ___
