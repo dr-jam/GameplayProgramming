@@ -65,7 +65,7 @@ The programming exercises consist of projects in Unity in which you will have to
 
 *Individual Programming Assignment* - The exercise repositories complete with project descriptions and work specific ations will distributed via GitHub Classroom. You will be responsible for completing the excercise objectives, code quality, and following the best practices as described in class. Final submissions will be made via GitHub classroom.
 
-*Peer-review* - For each programming excercise, each student will perform a peer review for another student's work. The reviewing student will be given access to the repository of another student's submmission for review. The peer-reviewer will make a new branch in the repository named "review" and will be responsible for a code review based on C# style guides, an assessment of how well the submission achieved the objectives of the assignment, and notes for improvement.
+*Peer-review* - For each programming excercise, each student will perform a peer review for another student's work. The reviewing student will be given access to the repository of another student's submmission for review. The peer-reviewer will be responsible for a code review based on C# style guides, an assessment of how well the submission achieved the objectives of the assignment, and notes for improvement. This review should be done in the master branch and in the root directory of the repo (the same folder that contains the assignment's README). 
 
 ### Group Game Project
 
