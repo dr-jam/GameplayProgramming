@@ -15,7 +15,6 @@ namespace Arcanum
 
         public GameObject Make()
         {
-            Debug.Log("here");
             GameObject newGameObject = (GameObject)Instantiate(this.prefab);
             return newGameObject;
         }

@@ -8,6 +8,7 @@ namespace Arcanum
 
     [RequireComponent(typeof(BlackHoleMaker))]
     [RequireComponent(typeof(FireballMaker))]
+    [RequireComponent(typeof(MeteorMaker))]
     public class SpellFactory : MonoBehaviour
     {
         public void BuildSpell(Spells type)

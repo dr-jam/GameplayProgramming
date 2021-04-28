@@ -8,11 +8,6 @@ public class MeteorMotion : MonoBehaviour
     [SerializeField] private Vector3 Movement;
     [SerializeField] private float Speed = 9.81f;
 
-    void Start()
-    {
-        
-    }
-
     // Update is called once per frame
     void Update()
     {
