@@ -20,16 +20,11 @@ The project will be graded on a 100 point scale with the following weights:
 
 # Submission Information
 
-All of your project materials are due by ~~Friday, June 7th at 1:00 PM~~ Monday, June 10th at 8:00 AM. A portion of your team score points will be assessed during the final meeting period on Friday, June 7th at 1:00 PM.
+All of your project materials are due by the finals time for the course. A portion of your team score points will be assessed during the final meeting period on Friday, June 7th at 1:00 PM.
 
 Submissions will be taken from the [team registration spreadsheet](https://docs.google.com/spreadsheets/d/1XbsxhXgVKX3uDnTIwuQphDNeCl5Lfx8d3zd4ngeEizs/edit?usp=sharing) via your teams GitHub repository link. Your project code
 
-Your repository should include the following .gitignore file in the root directory of the project: https://gitignore.io/api/osx,unity,linux,windows
-
-Your game must be made for one of the following versions of Unity:
-* 2018.3.11f1
-* 2019.1.3f1
-* 2019.1.4f1
+Your repository should include the following .gitignore file in the root directory of the project: https://gitignore.io/api/osx,unity,linux,windows,vscode
 
 # Team Member Roles
 
