@@ -105,7 +105,7 @@ Week | Topic | Reading | Discussion Plan | Assignments and Due Dates
 7 | The Jump. | [Game Feel by Steve Swink](http://www.game-feel.com/) | | 
 8 | Game AI: character behavior, agents, and real-time performance. | TBA | ~~Introduce pitches and game design docs with examples~~
 9 | Procedural content generation. | TBA | ~~3 minute final project pitches from each group~~ | ~~Final project design doc due~~
-10 | Game AI: analytics and applications of data science and machine learning. | TBA | Final project demo |
+10 | Game AI: analytics and applications of data science and machine learning. | TBA | ~~Final project demo~~ |
 
 ## Development and Design Resources
 
