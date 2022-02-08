@@ -1,7 +1,13 @@
 # ECS189L - Gameplay Programming
+## UPDATES FOR SPRING 2022
 
-## CRN for Spring 2021
-40582
+* Removed referencds to the class being asynchronous. This is no longer permitted without special case by the administration.
+* Changed CRN to the one for 2022.
+* Re-instuted the attendance policy.
+* Changed office hours to TDB.
+
+## CRN for Spring 2022
+40598
 
 # Syllabus
 ## Basic Information
@@ -11,7 +17,7 @@ Dr. Joshua A. McCoy, Assistant Professor
 Computer Science and Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: *tentative* Tuesdays at 2:00 PM    
+Office Hours: TBD   
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 https://www.twitter.com/deftjams  
@@ -20,9 +26,9 @@ https://www.twitter.com/deftjams
 See Canvas.
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 10:00-10:50 AM  
-Duscussion Meeting Time: Wednesdays at 11:00-11:50 AM  
-Final Examination Period: Wednesday, June 9th at 6:00-8:00 PM  
+Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 11:00-11:50 AM in AMART204  
+Duscussion Meeting Time: Wednesdays at 12:10-1:00 PM in WELLMN119  
+Final Examination Period: Moinday, June 6th at 1:00-3:00 PM  
 
 ## Course Description
 
