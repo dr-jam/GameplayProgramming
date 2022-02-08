@@ -81,11 +81,11 @@ You will design and develop your own game given a set of themes and constraints 
 
 Due demands for ansynchronous course material, there will be no quizzes this quarter.
 
-~~Light quizzes will be given during discussion sections. Their contents will be based on recent lectures and readings.~~
+Light quizzes will be given during discussion sections. Their contents will be based on recent lectures and readings.
 
 ### Participation and Attedance
 
-Students are required to attend and participate in class, labs, and their team meetings. ~~Attendance will be taken during lectures and discussion sections.~~
+Students are required to attend and participate in class, labs, and their team meetings. Attendance will be taken during lectures and discussion sections.
 
 #### Participation
 
@@ -95,8 +95,8 @@ Each submitted participation code is worth ~~1~~ 2 grade points. This means you 
 
 The attendance rules are suspended while the course is offered remotely.  
 
-~~The attendance algorithm is as follows:  
-AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1)))~~
+The attendance algorithm is as follows:  
+AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1)))
 
 ## Schedule
 
