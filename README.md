@@ -26,7 +26,7 @@ https://www.twitter.com/deftjams
 See Canvas.
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 11:00-11:50 AM in AMART204  
+Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 11:00-11:50 AM in ART 204  
 Duscussion Meeting Time: Wednesdays at 12:10-1:00 PM in WELLMN119  
 Final Examination Period: Moinday, June 6th at 1:00-3:00 PM  
 
