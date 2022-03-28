@@ -1,7 +1,8 @@
 # ECS189L - Gameplay Programming
 ## UPDATES FOR SPRING 2022
 
-* Removed referencds to the class being asynchronous. This is no longer permitted without special case by the administration.
+* Updated Unity editor version information and added holiday info.
+* Removed references to the class being asynchronous. This is no longer permitted without special case by the administration. (Well, except quizes.)
 * Changed CRN to the one for 2022.
 * Re-instuted the attendance policy.
 * Changed office hours to TDB.
