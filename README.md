@@ -1,6 +1,7 @@
 # ECS189L - Gameplay Programming
 ## UPDATES FOR SPRING 2022
 
+* Discussion section is on MONDAY! (not Wednesday)
 * Updated Unity editor version information, assignment dates, and added holiday info.
 * Removed references to the class being asynchronous. This is no longer permitted without special case by the administration. (Well, except quizes.)
 * Changed CRN to the one for 2022.
@@ -28,7 +29,7 @@ See Canvas.
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 11:00-11:50 AM in ART 204  
-Duscussion Meeting Time: Wednesdays at 12:10-1:00 PM in WELLMN119  
+Discussion Meeting Time: Mondays at 12:10-1:00 PM in WELLMN119  
 Holiday: Memorial Day - Monday, May 30th  
 Final Examination Period: Monday, June 6th at 1:00-3:00 PM  
 
