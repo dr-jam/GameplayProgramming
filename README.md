@@ -37,15 +37,15 @@ This course is about the design and development of nuanced and highly-contextual
 
 ## Materials
 
-Unity version 2021.1.0 Tech Stream release. Download it directly [here](https://unity3d.com/unity/whats-new/2021.1.0) or get it with Unity Hub putting the following URI in your browser:  
-unityhub://2021.1.0f1/61a549675243  
+Unity version 2021.1.0 Tech Stream release. Download it directly [here](https://unity3d.com/unity/qa/lts-releases?version=2020.3) or get it with Unity Hub putting the following URI in your browser:  
+unityhub://2020.3.32f1/12f8b0834f07  
 You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
 
 ## Grading and Assessment
 
 * [45] Group Game Project
 * [45] Exercises
-* [10] Participation ~~/Attendance~~
+* [10] Participation and Attendance
 
 ### Grade Scale
 
