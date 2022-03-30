@@ -25,7 +25,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 https://www.twitter.com/deftjams  
 
 ### TA
-Annie Robison
+Annie Robison  
 Email: amrobison at ucdavis dot edu 
 
 ### Course
