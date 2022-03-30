@@ -25,7 +25,8 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 https://www.twitter.com/deftjams  
 
 ### TA
-See Canvas.
+Annie Robison
+Email: amrobison at ucdavis dot edu 
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 11:00-11:50 AM in ART 204  
