@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CommandPattern;
@@ -11,13 +11,8 @@ public class InputMap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //Standard C# method
         this.fire1 = new ShootCommand();
         this.fire2 = new CollectionNovaCommand();
-        
-        //Method to work with ScriptableObjects
-        //this.fire1 = ScriptableObject.CreateInstance<ShootCommand>();
-        //this.fire2 = ScriptableObject.CreateInstance<CollectionNovaCommand>();
     }
 
     // Update is called once per frame
