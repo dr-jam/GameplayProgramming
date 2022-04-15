@@ -1,7 +1,7 @@
 # Code Review for Programming Exercise 1 #
 ## Description ##
 
-For this assignment, you will be giving feedback on the completeness of Exercise. In order to to do so, we will be giving you a rubric to give feedback on. For the feedback, please give positive criticism and suggestions on how to fix segments of code.
+For this assignment, you will be giving feedback on the completeness of Exercise 1. In order to to do so, we will be giving you a rubric to give feedback on. For the feedback, please give positive criticism and suggestions on how to fix segments of code.
 
 You only need to review code modified or created by the student you are reviewing. You do not have to review the code and project files that were given out by the instructor.
 
