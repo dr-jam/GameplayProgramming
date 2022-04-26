@@ -1,5 +1,10 @@
 # Peer-Review for Programming Exercise 3 #
 
+## Peer-reviewer Information
+
+* *name:* [your name here] 
+* *email:* [your @ucdavis.edu email address here]
+
 ## Description ##
 
 For this assignment, you will be giving feedback on the completeness of assignment three: Pikmini. In order to to do so, we will be giving you a rubric to give feedback on. For the feedback, please give positive criticism and suggestions on how to fix segments of code.
