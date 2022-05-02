@@ -32,6 +32,13 @@ Each team member must take on one main role and one sub-role. You will create th
 
 The following are the main roles and their basic descriptions
 
+
+### Producer
+
+The producer coordinates the technical dependencies and basic team logistics. Responsibilities include but are not limited to creating a dependency chart for the significant development tasks for the game, coordinating team meetings, working with the other roles to integrate their work into the main project, deciding on the Git-based workflow (i.e. how everyone's work gets combined into release branches without breaking the project), and organizing the final presentation.
+
+While this role has fewer direct programming responsibilities, it requires understanding all parts of the development process. When performed well, the producer multiplies the effort of the entire team, which results in a better game project.
+
 ### User Interface
 
 In this role, you are responsible for the user interface elements of the game. This typically includes the contents of the heads up display or HUD. This traditionally comprises gameplay status information such as player character health, score, resources like magic points or gold,  and time-keepers. This is also responsible for the menu and credit screens. You are responsible for documenting the various UI elements you implement and how they interact with the changing state of the game.
@@ -53,6 +60,11 @@ In this role, you will be responsible for managing the input methods for your ga
 In most projects, this will be the most complicated role as it is a point of integration for nearly all of the gameplay systems. Traditionally, most of the game logic is placed in a game manager singleton and is referenced as needed by other scripts. It is the job of your team's game logician to manage the various game states (i.e. current level, main menu, main gameplay mode) and data (i.e. time remaining, quest completion status, references to all active enemies and items).  You will document what game states and game data you managed and what design patterns you used to complete your task. Charts are a great way to visually explain how parts of your game logic interact with the other gameplay systems.
 
 ## Sub-Roles
+
+
+### Cross-Platform
+
+It is common practice for games to be available on various platforms. The default set of platforms is Windows PC, OS X, web, and a mobile or tablet of your choosing. The Cross-Platform sub role is responsible for ensuring your game exports and is playable on multiple platforms. Your team may propose an alternate set of platforms based on the specifics of your design and development choices. This sub role will work with the Input and User Interface roles to ensure the game is playable on all of the target platforms.
 
 ### Audio
 
