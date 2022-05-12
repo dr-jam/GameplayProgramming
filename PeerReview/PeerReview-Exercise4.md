@@ -122,7 +122,7 @@ ___
 ### Description ###
 Check the scripts to see if the student code adheres to the dotnet style guide.
 
-If there are sections that don't adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has infractured the style guide.
+If there are sections that don't adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has infracted the style guide.
 
 It should look something like this:
 
@@ -131,10 +131,10 @@ It should look something like this:
 Please refer to the first code review template on how to do a permalink.
 
 
-## Code Style Infractures ##
+## Code Style Infractions ##
 
 ___
-#### Put style guide infractures ####
+#### Put style guide infractions ####
 
 ___
 
