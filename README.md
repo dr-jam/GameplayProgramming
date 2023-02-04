@@ -1,15 +1,8 @@
 # ECS189L - Gameplay Programming
-## UPDATES FOR SPRING 2022
+## UPDATES FOR SPRING 2023
 
-* Discussion section is on MONDAY! (not Wednesday)
-* Updated Unity editor version information, assignment dates, and added holiday info.
-* Removed references to the class being asynchronous. This is no longer permitted without special case by the administration. (Well, except quizes.)
-* Changed CRN to the one for 2022.
-* Re-instuted the attendance policy.
-* Changed office hours to TDB.
-
-## CRN for Spring 2022
-40598
+## CRN for Spring 2023
+40678
 
 # Syllabus
 ## Basic Information
