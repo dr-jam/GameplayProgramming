@@ -150,7 +150,6 @@ Day | Material
 #### Learning the Basics
 
 * [Editor Basics](https://unity3d.com/learn/tutorials/topics/interface-essentials/editor-basics) - A video introduction to the basics of working with the Unity editor.
-* [Learning the interface](https://docs.unity3d.com/Manual/LearningtheInterface.html) - An introductory web page to the basic components of the Unity editor.
 * [An Introduction to Editor Scripting](https://unity3d.com/learn/tutorials/topics/scripting/introduction-editor-scripting) - An example-driven lesson about the basics of creating Unity scripts in C#.
 * [Important Classes](https://docs.unity3d.com/Manual/ScriptingImportantClasses.html) - Basic descriptions and links to MonoBehavior, Transform, and RigidBody(2D).
 * [Unity C# class relationship diagram](resources/UnityClassHierarchy.png) (originally from this [Reddit post](https://www.reddit.com/r/Unity3D/comments/70ra7b/after_surprising_response_from_the_first_thread_i/))
