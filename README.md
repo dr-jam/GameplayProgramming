@@ -15,17 +15,16 @@ Office: 3033 Kemper Hall
 Office Hours: TBD   
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
-https://www.twitter.com/deftjams  
+~~https://www.twitter.com/deftjams~~  
 
 ### TA
-Annie Robison  
-Email: amrobison at ucdavis dot edu 
+Arunpreet Sandhu  
+
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 11:00-11:50 AM in ART 204  
-Discussion Meeting Time: Mondays at 12:10-1:00 PM in WELLMN119  
-Holiday: Memorial Day - Monday, May 30th  
-Final Examination Period: Monday, June 6th at 1:00-3:00 PM  
+Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 4:10-5:00 PM in WELLMN 126  
+Holiday: Memorial Day - Monday, May 29th  
+Final Examination Period: Tuesday, 21 March at 1:00-3:00 PM.  
 
 ## Course Description
 
