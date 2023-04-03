@@ -163,11 +163,10 @@ Day | Material
 ### C#
 
 #### Learning C#
-* [Getting started iwth C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
-* [Beginning C# 7 Programming with Visual Studio 2017](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51321760760003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Perkins, Benjamin, Hammer, Jacob Vibe, and Reid, Jon D.
-* [Illustrated C# 7 : the C# language presented clearly, concisely, and visually](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51326862240003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Solis, Daniel M., and Schrotenboer, Cal.
-
-
+* [Getting started with C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
+* [Simple and Efficient Programming with C#: Skills to Build Applications with Visual Studio And .NET](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781484287378)
+* [C# 11 and .NET 7 – Modern Cross-Platform Development Fundamentals - Seventh Edition
+Mark J. Price](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781484287378)
 
 ### Game Design
 
