@@ -32,9 +32,11 @@ This course is about the design and development of nuanced and highly-contextual
 
 ## Materials
 
-Unity version 2020.3.32f1 Long Term Support release. Download it directly [here](https://unity3d.com/unity/qa/lts-releases?version=2020.3) or get it with Unity Hub putting the following URI in your browser:  
-unityhub://2020.3.32f1/12f8b0834f07  
+Unity version 2020.2.13. Download it directly [here](https://unity.com/releases/editor/whats-new/2022.2.13#release-notes) or get it with Unity Hub putting the following URI in your browser:  
+unityhub://2022.2.13f1/5f5de2657605  
 You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
+
+Notes: we will be switching to the 2022 Long Term Support release when it is available. I should be virtually identical to 2022.2.13.
 
 ## Grading and Assessment
 
@@ -148,7 +150,6 @@ Day | Material
 #### Learning the Basics
 
 * [Editor Basics](https://unity3d.com/learn/tutorials/topics/interface-essentials/editor-basics) - A video introduction to the basics of working with the Unity editor.
-* [Learning the interface](https://docs.unity3d.com/Manual/LearningtheInterface.html) - An introductory web page to the basic components of the Unity editor.
 * [An Introduction to Editor Scripting](https://unity3d.com/learn/tutorials/topics/scripting/introduction-editor-scripting) - An example-driven lesson about the basics of creating Unity scripts in C#.
 * [Important Classes](https://docs.unity3d.com/Manual/ScriptingImportantClasses.html) - Basic descriptions and links to MonoBehavior, Transform, and RigidBody(2D).
 * [Unity C# class relationship diagram](resources/UnityClassHierarchy.png) (originally from this [Reddit post](https://www.reddit.com/r/Unity3D/comments/70ra7b/after_surprising_response_from_the_first_thread_i/))
@@ -162,11 +163,10 @@ Day | Material
 ### C#
 
 #### Learning C#
-* [Getting started iwth C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
-* [Beginning C# 7 Programming with Visual Studio 2017](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51321760760003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Perkins, Benjamin, Hammer, Jacob Vibe, and Reid, Jon D.
-* [Illustrated C# 7 : the C# language presented clearly, concisely, and visually](https://search.library.ucdavis.edu/primo-explore/fulldisplay?docid=01UCD_ALMA51326862240003126&context=L&vid=01UCD_V1&search_scope=everything_scope&tab=default_tab&lang=en_US) by Solis, Daniel M., and Schrotenboer, Cal.
-
-
+* [Getting started with C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
+* [Simple and Efficient Programming with C#: Skills to Build Applications with Visual Studio And .NET](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781484287378)
+* [C# 11 and .NET 7 – Modern Cross-Platform Development Fundamentals - Seventh Edition
+Mark J. Price](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781484287378)
 
 ### Game Design
 
