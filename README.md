@@ -32,9 +32,11 @@ This course is about the design and development of nuanced and highly-contextual
 
 ## Materials
 
-Unity version 2020.3.32f1 Long Term Support release. Download it directly [here](https://unity3d.com/unity/qa/lts-releases?version=2020.3) or get it with Unity Hub putting the following URI in your browser:  
-unityhub://2020.3.32f1/12f8b0834f07  
+Unity version 2020.2.13. Download it directly [here](https://unity.com/releases/editor/whats-new/2022.2.13#release-notes) or get it with Unity Hub putting the following URI in your browser:  
+unityhub://2022.2.13f1/5f5de2657605  
 You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
+
+Notes: we will be switching to the 2022 Long Term Support release when it is available. I should be virtually identical to 2022.2.13.
 
 ## Grading and Assessment
 
