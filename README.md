@@ -24,7 +24,7 @@ Arunpreet Sandhu
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 4:10-5:00 PM in WELLMN 126  
 Holiday: Memorial Day - Monday, May 29th  
-Final Examination Period: Tuesday, 21 March at 1:00-3:00 PM.  
+Final Examination Period: Tue, 13 June 3:30-5:30 PM  
 
 ## Course Description
 
