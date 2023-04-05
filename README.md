@@ -19,7 +19,8 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 ### TA
 Arunpreet Sandhu  
-
+Email: asisandhu at ucdavis dot edu
+Office Hours: TBD
 
 ### Course
 Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 4:10-5:00 PM in WELLMN 126  
