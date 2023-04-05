@@ -36,7 +36,7 @@ Unity version 2022.2.13. Download it directly [here](https://unity.com/releases/
 unityhub://2022.2.13f1/5f5de2657605  
 You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
 
-Notes: we will be switching to the 2022 Long Term Support release when it is available. I should be virtually identical to 2022.2.13.
+Notes: we will be switching to the 2022 Long Term Support release when it is available. It should be virtually identical to 2022.2.13.
 
 ## Grading and Assessment
 
