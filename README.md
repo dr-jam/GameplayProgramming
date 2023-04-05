@@ -32,7 +32,7 @@ This course is about the design and development of nuanced and highly-contextual
 
 ## Materials
 
-Unity version 2020.2.13. Download it directly [here](https://unity.com/releases/editor/whats-new/2022.2.13#release-notes) or get it with Unity Hub putting the following URI in your browser:  
+Unity version 2022.2.13. Download it directly [here](https://unity.com/releases/editor/whats-new/2022.2.13#release-notes) or get it with Unity Hub putting the following URI in your browser:  
 unityhub://2022.2.13f1/5f5de2657605  
 You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
 
