@@ -19,7 +19,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 ### TA
 Arunpreet Sandhu  
-Email: asisandhu at ucdavis dot edu
+Email: asisandhu at ucdavis dot edu  
 Office Hours: TBD
 
 ### Course
