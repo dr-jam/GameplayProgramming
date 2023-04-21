@@ -1,7 +1,7 @@
 # Code Review for Programming Exercise 1 #
 ## Description ##
 
-For this assignment, you will be giving feedback on the completeness of Exercise 1. In order to to do so, we will be giving you a rubric to give feedback on. For the feedback, please give positive criticism and suggestions on how to fix segments of code.
+For this assignment, you will be giving feedback on the completeness of Exercise 1.  To do so, we will be giving you a rubric to provide feedback on. For the feedback, please provide positive criticism and suggestions on how to fix segments of code.
 
 You only need to review code modified or created by the student you are reviewing. You do not have to review the code and project files that were given out by the instructor.
 
@@ -10,9 +10,9 @@ Abusive or hateful language or comments will not be tolerated and will result in
 If there are any questions at any point, please email the TA.
 
 ## Due Date and Submission Information ##
-See official course schedule for due date.
+See the official course schedule for due date.
 
-A successful submission should consist of a copy of this markdown document template that is modified with your peer-review. The file name should be the same as it is in the template: PeerReview-Exercise1.md. You also need to include your name and email address in the Peer-reviewer Information section below. This review document should be placed into the base folder of the repo you are reviewing in the master branch. This branch should be on the origin of the repository you are reviewing.
+A successful submission should consist of a copy of this markdown document template that is modified with your peer-review. The file name should be the same as in the template: PeerReview-Exercise1.md. You also need to include your name and email address in the Peer-reviewer Information section below. This review document should be placed into the base folder of the repo you are reviewing in the master branch. This branch should be on the origin of the repository you are reviewing.
 
 If you are in the rare situation where there are two peer-reviewers on a single repository, append your UC Davis user name before the extension of your review file. An example: PeerReview-Exercise1-username.md. Both reviewers should submit their reviews in the master branch.  
 
@@ -75,8 +75,8 @@ Write Justification here.
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
-#### Justifaction ##### 
-Write justifaction here.
+#### justification ##### 
+Write justification here.
 
 ### Stage 4 ###
 
@@ -86,15 +86,15 @@ Write justifaction here.
 - [ ] Satisfactory
 - [ ] Unsatisfactory
 
-#### Justifaction ##### 
-Write justifaction here.
+#### justification ##### 
+Write justification here.
 
 ## Code Style ##
 
 ### Description ###
-Check the scripts to see if the student code adheres to the dotnet style guide.
+Check the scripts to see if the student code follows the .Net style guide.
 
-If there are sections that don't adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has infractured the style guide.
+If there are sections that don't adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has infractions of style guide.
 
 It should look something like this:
 
