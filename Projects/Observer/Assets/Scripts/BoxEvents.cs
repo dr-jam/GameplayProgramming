@@ -10,7 +10,6 @@ namespace ObserverPattern
         public abstract float GetJumpForce();
     }
 
-
     public class JumpLittle : BoxEvents
     {
         public override float GetJumpForce()
@@ -19,7 +18,6 @@ namespace ObserverPattern
         }
     }
 
-
     public class JumpMedium : BoxEvents
     {
         public override float GetJumpForce()
@@ -27,7 +25,6 @@ namespace ObserverPattern
             return 60f;
         }
     }
-
 
     public class JumpHigh : BoxEvents
     {
