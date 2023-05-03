@@ -8,8 +8,6 @@ public class Factory : MonoBehaviour
 
     public MonoBehaviour GetNewInstance(Spells type)
     {
-
-
         //return Instantiate(GameObject);
         return null;
     }

@@ -8,6 +8,7 @@ namespace Arcanum
 
     [RequireComponent(typeof(BlackHoleMaker))]
     [RequireComponent(typeof(FireballMaker))]
+    [RequireComponent(typeof(MeteorMaker))]
     public class SpellFactory : MonoBehaviour
     {
         public void BuildSpell(Spells type)
@@ -33,7 +34,6 @@ namespace Arcanum
         {
             if (Input.GetButtonDown("Jump"))
             {
-
                 this.BuildSpell(Spells.BlackHole);
             }
             else if(Input.GetButtonDown("Fire1"))
