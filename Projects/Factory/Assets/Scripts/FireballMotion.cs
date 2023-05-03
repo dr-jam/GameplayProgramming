@@ -2,14 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireballMotion : MonoBehaviour
+namespace Arcanum
 {
-    [SerializeField] private float Speed = 5.0f;
-
-    void Update()
+    public class FireballMotion : MonoBehaviour
     {
-        var pos = this.transform.position;
-        pos += this.Speed * Time.deltaTime * this.transform.forward;
-        this.transform.position = pos;
+        [SerializeField] private float Speed = 5.0f;
+
+        void Update()
+        {
+            var pos = this.transform.position;
+            pos += this.Speed * Time.deltaTime * this.transform.forward;
+            this.transform.position = pos;
+        }
     }
 }

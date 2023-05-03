@@ -4,7 +4,6 @@ using UnityEngine;
 
 namespace Arcanum
 {
-
     public class MeteorMaker : MonoBehaviour, IFactorySpell
     {
         [SerializeField] private GameObject prefab;

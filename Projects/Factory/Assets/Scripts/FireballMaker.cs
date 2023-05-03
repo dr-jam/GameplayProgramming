@@ -8,10 +8,6 @@ namespace Arcanum
     {
         [SerializeField] private GameObject prefab;
 
-        public void Start()
-        {
-        }
-
         public GameObject Make()
         {
             GameObject newGameObject = Instantiate(this.prefab, this.gameObject.transform);
