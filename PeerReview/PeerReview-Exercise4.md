@@ -122,9 +122,6 @@ Please refer to the first code review template on how to do a permalink.
 #### Style Guide Exemplars ####
 
 ___
-#### Put style guide infractures ####
-
-___
 
 # Best Practices #
 
