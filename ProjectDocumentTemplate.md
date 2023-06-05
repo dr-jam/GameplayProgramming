@@ -56,7 +56,7 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 ## Cross-Platform
 
-** Describe the platforms you targeted for your game release. For each, describe the process and unique actions taken for each platform. What obstacles did you overcome? What was easier than expected? **
+**Describe the platforms you targeted for your game release. For each, describe the process and unique actions taken for each platform. What obstacles did you overcome? What was easier than expected?**
 
 ## Audio
 
