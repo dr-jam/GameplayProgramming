@@ -1,8 +1,7 @@
-# ECS189L - Gameplay Programming
-## UPDATES FOR SPRING 2023
-
-## CRN for Spring 2023
-40678
+# ECS179 - Gameplay Programming
+## UPDATES FOR WINTER 2024
+Update from the topic course listing ECS189L to full elective status as ECS179!
+CRNs are no longer required for the course.
 
 # Syllabus
 ## Basic Information
@@ -18,14 +17,15 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 ~~https://www.twitter.com/deftjams~~  
 
 ### TA
-Arunpreet Sandhu  
-Email: asisandhu at ucdavis dot edu  
+Kyle Mitchel  
+Email: kdmitchell at ucdavis dot edu  
 Office Hours: TBD
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 4:10-5:00 PM in WELLMN 126  
-Holiday: Memorial Day - Monday, May 29th  
-Final Examination Period: Tue, 13 June 3:30-5:30 PM  
+Lecture Meeting Time: Tuesdays and ThursdayS at 1:40-3:00 PM in YOUNG 184  
+Discussion: Tuesdays at 8:00-8:50 PM ~~in YOUNG184~~  
+Holiday:   
+Final Examination Period: Thursday, March 21st at 3:30 PM  
 
 ## Course Description
 
