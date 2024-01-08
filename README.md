@@ -18,7 +18,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 ### TA
 Kyle Mitchell  
-Email: kdmitchell at ucdavis dot edu  
+Email: kdmitch at ucdavis dot edu  
 Office Hours: TBD
 
 ### Course
