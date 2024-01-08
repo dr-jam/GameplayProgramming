@@ -23,7 +23,7 @@ Office Hours: TBD
 
 ### Course
 Lecture Meeting Time: Tuesdays and Thursday at 1:40-3:00 PM in YOUNG 184  
-Discussion: Tuesdays at 8:00-8:50 PM ~~in YOUNG184~~  
+Discussion: Tuesdays at 8:00-8:50 AM ~~in YOUNG184~~  
 Holiday:   
 Final Examination Period: Thursday, March 21st at 3:30 PM  
 
