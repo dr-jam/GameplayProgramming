@@ -17,7 +17,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 ~~https://www.twitter.com/deftjams~~  
 
 ### TA
-Kyle Mitchel  
+Kyle Mitchell  
 Email: kdmitchell at ucdavis dot edu  
 Office Hours: TBD
 
