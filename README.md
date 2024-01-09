@@ -158,23 +158,23 @@ Day | Material
 
 #### Learning C#
 * [Getting started with C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
+* [Mastering C# : a beginner's guide](https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9917226567406531)
 * [Simple and Efficient Programming with C#: Skills to Build Applications with Visual Studio And .NET](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781484287378)
-* [C# 11 and .NET 7 – Modern Cross-Platform Development Fundamentals - Seventh Edition
-Mark J. Price](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781484287378)
+* [C# 12 Pocket Reference](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_safari_books_v2_9781098147532)
 
 ### Game Design
 
 ##### How Games are Made
 * [Fallout: A Postmortem](https://www.gdcvault.com/play/1015843/Classic-Game-Postmortem) by Timothy Cain
 * [Postmortem: Ion Storm's Deus Ex](http://www.gamasutra.com/view/feature/131523/postmortem_ion_storms_deus_ex.php) by Warren Spector
-* [How Long Does It Take to Make an Indie Game?]( http://www.gamasutra.com/blogs/JosephMirabello/20140407/214931/How_Long_Does_It_Take_to_Make_an_Indie_Game.php) by Joseph Mirabello
+* [How Long Does It Take to Make an Indie Game?](https://www.gamedeveloper.com/business/how-long-does-it-take-to-make-an-indie-game-) by Joseph Mirabello
 
 #### Design Documents
 * [The "Core" of a Game](https://bbrathwaite.wordpress.com/2008/10/15/the-core-of-a-game/) by Brenda Romero
 * [A Feature Set from a “Core”](https://bbrathwaite.wordpress.com/2008/10/17/a-feature-set-from-a-core/) by Brenda Romero
 * [Creating a Game Design Document](https://bbrathwaite.wordpress.com/2008/11/30/creating-a-game-design-document/) by Brenda Romero
 * [One Page Designs](http://www.gdcvault.com/play/1012356/One-Page) by Stone Librande
-* [A GDD Template for the Indie Developer](http://www.gamasutra.com/blogs/JasonBakker/20090604/84211/A_GDD_Template_for_the_Indie_Developer.php) by Jason Bakker
+* [A GDD Template for the Indie Developer](https://www.gamedeveloper.com/design/a-gdd-template-for-the-indie-developer) by Jason Bakker
 * [Effectively Organize Your Game's Development With a Game Design Document](http://code.tutsplus.com/articles/effectively-organize-your-games-development-with-a-game-design-document--active-10140) by Gamux
 
 #### Game Feel
@@ -182,7 +182,7 @@ Mark J. Price](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/c
  * [Juice it or lose it](https://www.youtube.com/watch?v=Fy0aCDmgnxg) by Martin Jonasson and Petri Purho
 
 #### Production Cycles
-* [The four phases of game development](http://www.gamasutra.com/blogs/PascalBestebroer/20151020/256765/The_four_phases_of_game_development.php) by Pascal Bestebroer
+* [The four phases of game development](https://www.gamedeveloper.com/business/the-four-phases-of-game-development) by Pascal Bestebroer
 
 #### Development teams
 * [pp. 39-56 of Game Development and Production](https://books.google.com/books?id=m5exIODbtqkC&lpg=PR1&pg=PA39#v=onepage&q&f=false) by Erik Bethke [free preview]
@@ -194,7 +194,7 @@ Mark J. Price](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/c
 #### Scrum and GitHub
 
 * [Agile Lessons from Ryse and Crysis 3](http://www.gdcvault.com/play/1020790/Agile-Lessons-from-Ryse-and) by Patrick Payne
-* [Beyond Scrum: Lean and Kanban for Game Developers](http://www.gamasutra.com/view/feature/132241/beyond_scrum_lean_and_kanban_for_.php) by Clinton Keith
+* [Beyond Scrum: Lean and Kanban for Game Developers](https://clintonkeith.com/resources/Beyond%20Scrum_%20Lean%20and%20Kanban%20for%20Game%20Developers.pdf) by Clinton Keith
 * [git - the simple guide](http://rogerdudler.github.io/git-guide/) by Roger Dudler
 
 #### Project Versioning and Control
