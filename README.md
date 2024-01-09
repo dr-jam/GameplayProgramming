@@ -128,11 +128,11 @@ Introductory practice exercises for C# and game systems (you can run these in Un
 
 ### Preparing for Projects
 
-This is a 5-day regimen of training tutorials to learn the basics of Unity for use in this course. Each day consist of between 2 and 3 hours of material per day.
+This is a 5-day regimen of training tutorials to learn the basics of Unity for use in this course. Each day consists of between 2 and 3 hours of material per day.
 
 Day | Material
 ------ | -----
-1 | [Creating Your First Unity Project](https://learn.unity.com/tutorial/create-your-first-unity-project) - [Using the Unity Interface](https://learn.unity.com/tutorial/using-the-unity-interface) - [Microsoft .NET Interactive Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
+1 | [Creating Your First Unity Project](https://learn.unity.com/tutorial/create-your-first-unity-project) - [Using the Unity Interface](https://learn.unity.com/tutorial/explore-the-unity-editor-1) - [Microsoft .NET Interactive Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/)
 2 |[Essential Unity Concepts](https://learn.unity.com/tutorial/essential-unity-concepts) - [Roll-a-ball Tutorial](https://learn.unity.com/project/roll-a-ball) - [Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html), 
 3 | [Beginner Scripting](https://learn.unity.com/project/beginner-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
 4 | [Intermediate Scripting Tutorial](https://learn.unity.com/project/intermediate-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
