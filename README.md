@@ -8,7 +8,7 @@ CRNs are no longer required for the course.
 
 ### Instructor
 Dr. Joshua A. McCoy, Assistant Professor  
-Computer Science and Cinema and Digital Media Departments  
+Computer Science & Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
 Office Hours: TBD   
@@ -22,22 +22,20 @@ Email: kdmitch at ucdavis dot edu
 Office Hours: TBD
 
 ### Course
-Lecture Meeting Time: Tuesdays and Thursday at 1:40-3:00 PM in YOUNG 184  
+Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in YOUNG 184  
 Discussion: Tuesdays at 8:00-8:50 AM ~~in YOUNG184~~  
 Holiday:   
 Final Examination Period: Thursday, March 21st at 3:30 PM  
 
 ## Course Description
 
-This course is about the design and development of nuanced and highly-contextual gameplay systems built on the foundation of traditional game engines. Technical game development has many facets including graphics engines, sound engines, networking, and animation system. Many of these facets are now well-established and are provided for in modern game engines. The focus of this course is on the remaining areas that are difficult to abstract and engineer into game engines as they are depend on the genre or details of a specific game design.
+This course is about the design and development of nuanced and highly contextual gameplay systems built on the foundation of traditional game engines. Technical game development has many facets, including graphics engines, sound engines, networking, and animation systems. Many of these facets are well-established and provided for in modern game engines. The focus of this course is on the remaining areas that are difficult to abstract and engineer into game engines as they depend on the genre or details of a specific game design.
 
 ## Materials
 
-Unity version 2022.2.13. Download it directly [here](https://unity.com/releases/editor/whats-new/2022.2.13) or get it with Unity Hub putting the following URI in your browser:  
-unityhub://2022.2.13f1/5f5de2657605  
+Unity version 2022.3.16. Download it directly [here](https://unity.com/releases/editor/whats-new/2022.3.16) or get it with Unity Hub putting the following URI in your browser:  
+unityhub://2022.3.16f1/d2c21f0ef2f1  
 You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
-
-Notes: we will be switching to the 2022 Long Term Support release when it is available. It should be virtually identical to 2022.2.13.
 
 ## Grading and Assessment
 
@@ -63,31 +61,29 @@ D- | 60
 F  | 0
 
 ### Exercises
-The programming exercises consist of projects in Unity in which you will have to implement significant game systems or capabilities. These exercises are to be completed individually and will be worth an equal number of points. Each will have two components which are described below with a typical amount of grade points they are worth:
+The programming exercises consist of projects in Unity in which you must implement significant game systems or capabilities. These exercises are to be completed individually and will be worth equal points. Each will have two components, which are described below with a typical amount of grade points they are worth:
 1. [70] The individual programming assignment.
 2. [30] Peer-reviewing the work of another pseudo-randomly assigned student.
  
-*Individual Programming Assignment* - The exercise repositories complete with project descriptions and work specific ations will distributed via GitHub Classroom. You will be responsible for completing the excercise objectives, code quality, and following the best practices as described in class. Final submissions will be made via GitHub classroom.
+*Individual Programming Assignment* - The exercise repositories, with project descriptions and work specifics, will be distributed via GitHub Classroom. You will be responsible for completing the exercise objectives, code quality, and following the best practices described in class. Final submissions will be made via GitHub Classroom.
 
-*Peer-review* - For each programming excercise, each student will perform a peer review for another student's work. The reviewing student will be given access to the repository of another student's submmission for review. The peer-reviewer will be responsible for a code review based on C# style guides, an assessment of how well the submission achieved the objectives of the assignment, and notes for improvement. This review should be done in the master branch and in the root directory of the repo (the same folder that contains the assignment's README). 
+*Peer review* - For each programming exercise, each student will peer review another student's work. The reviewing student will be given access to the repository of another student's submission for review. The peer reviewer will be responsible for a code review based on C# style guides, an assessment of how well the submission achieved the objectives of the assignment and notes for improvement. This review should be done in the master branch and in the root directory of the repo (the same folder that contains the assignment's README). 
 
 ### Group Game Project
 
-You will design and develop your own game given a set of themes and constraints in teams. Each team member will have a main role and a sub-role on the game.
+You will design and develop your own game given a set of themes and constraints in teams. Each team member will have a main role and a sub-role in the game.
 
 ### Quizzes
 
-Due demands for ansynchronous course material, there will be no quizzes this quarter.
+Light quizzes may be given during class meetings. Their contents will be based on recent lectures and readings.
 
-Light quizzes will be given during discussion sections. Their contents will be based on recent lectures and readings.
+### Participation and Attendance
 
-### Participation and Attedance
-
-Students are required to attend and participate in class, labs, and their team meetings. Attendance will be taken during lectures and discussion sections.
+Students are required to attend and participate in class, labs, and team meetings. Attendance will be taken during lectures and discussion sections.
 
 #### Participation
 
-Each submitted participation code is worth 1 grade point. This means you need 5 codes to max out your particpation grade.
+Each submitted participation code is worth 1 grade point. You need at least five codes to max out your participation grade.
 
 #### Attendance
 
@@ -149,15 +145,15 @@ Day | Material
 
 #### Learning the Basics
 
-* [Editor Basics](https://unity3d.com/learn/tutorials/topics/interface-essentials/editor-basics) - A video introduction to the basics of working with the Unity editor.
-* [An Introduction to Editor Scripting](https://unity3d.com/learn/tutorials/topics/scripting/introduction-editor-scripting) - An example-driven lesson about the basics of creating Unity scripts in C#.
+* [Editor Basics](https://unity3d.com/learn/tutorials/topics/interface-essentials/editor-basics) - A video introduction to working with the Unity editor.
+* [An Introduction to Editor Scripting](https://unity3d.com/learn/tutorials/topics/scripting/introduction-editor-scripting) - An example-driven lesson about creating Unity scripts in C#.
 * [Important Classes](https://docs.unity3d.com/Manual/ScriptingImportantClasses.html) - Basic descriptions and links to MonoBehavior, Transform, and RigidBody(2D).
 * [Unity C# class relationship diagram](resources/UnityClassHierarchy.png) (originally from this [Reddit post](https://www.reddit.com/r/Unity3D/comments/70ra7b/after_surprising_response_from_the_first_thread_i/))
-* [Vector Cookbook](https://docs.unity3d.com/Manual/VectorCookbook.html) - A basic introduction into vector operations in Unity.
+* [Vector Cookbook](https://docs.unity3d.com/Manual/VectorCookbook.html) - A basic introduction to vector operations in Unity.
 * [2D or 3D projects](https://docs.unity3d.com/Manual/2Dor3D.html) - A guide to the differences between 2D and 3D projects in Unity.
-* [Graphics](https://docs.unity3d.com/Manual/Graphics.html) - The entrypoint to the graphics capabilities of Unity.
-* [Physics](https://docs.unity3d.com/Manual/PhysicsSection.html) - The entrypoint to Unity's physics system.
-* [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html) - The entrypoint into scripting in Unity.
+* [Graphics](https://docs.unity3d.com/Manual/Graphics.html) - The entry point to the graphics capabilities of Unity.
+* [Physics](https://docs.unity3d.com/Manual/PhysicsSection.html) - The entry point to Unity's physics system.
+* [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html) - The entry point into scripting in Unity.
 * [Scripting Tutorials](https://unity3d.com/learn/tutorials/s/scripting) - An index of beginner, intermediate, and topical scripting tutorials and lessons.
 
 ### C#
@@ -221,14 +217,14 @@ This course has no formal attendance policy. However, regular attendance is grea
 
 ## UC Davis Code of Academic Conduct
 
-The UC Davis Code of Academic Conduct (http://sja.ucdavis.edu/files/cac.pdf) will be strictly enforced in this class. In particular, plagiarism, academic dishonesty, and cheating will be dealt with severely.  Any breach of the Code of Academic conduct can result in failing the assignment, failing the course, and displinary action via the Office of Student Support and Judicial Affairs (http://sja.ucdavis.edu/).
+The UC Davis Code of Academic Conduct (http://sja.ucdavis.edu/files/cac.pdf) will be strictly enforced in this class. In particular, plagiarism, academic dishonesty, and cheating will be dealt with severely.  Any breach of the Code of Academic Conduct can result in failing the assignment, failing the course, and disciplinary action via the Office of Student Support and Judicial Affairs (http://sja.ucdavis.edu/).
 
 ## Technology in the Classroom Policy
-The use of laptops and technology in general are encouraged in this course as long as they are not disruptive to the rest of the class. If you choose to use a device with a screen, please sit in the back of the room to avoid distracting your fellow students. You are required to ask for permission before video or audio recording in the classroom. In general, students will be treated as adults capable of managing their technological lives while being respectful of others in the classroom.
+In general, the use of laptops and technology are encouraged in this course as long as they are not disruptive to the rest of the class. If you choose to use a device with a screen, please sit in the back of the room to avoid distracting your fellow students. You must ask for permission before making a video or audio recording in the classroom. In general, students will be treated as adults capable of managing their technological lives while being respectful of others in the classroom.
 
 ## Social Media Policy
-Students are not permitted to make visual or audio recordings, including live streaming, of classroom lectures or any class related content, using any type of recording devices (e.g., smart phone, computer, digital recorder, etc.) unless prior permission from the instructor is obtained, and there are no objections from any of the students in the class. If permission is granted, personal use and sharing of recordings and any electronic copies of course materials (e.g., PowerPoints, formulas, lecture notes and any classroom discussions online or otherwise) is limited to the personal use of students registered in the course and for educational purposes only, even after the end of the course.
+Students are not permitted to make visual or audio recordings, including live streaming, of classroom lectures or any class-related content using any recording device (e.g., smartphone, computer, digital recorder, etc.) unless prior permission from the instructor is obtained and there are no objections from any of the students in the class. If permission is granted, personal use and sharing of recordings and any electronic copies of course materials (e.g., PowerPoints, formulas, lecture notes and any classroom discussions online or otherwise) is limited to the personal use of students registered in the course and for educational purposes only, even after the end of the course.
 
-To supplement the classroom experience, lectures may be audio or video recorded by faculty and made available to students registered for this class. Faculty may record classroom lectures or discussions for pedagogical use, future student reference, or to meet the accommodation needs of students with a documented disability. These recordings are limited to personal use and may not be distributed (fileshare), sold, or posted on social media outlets without the written permission of faculty.
+To supplement the classroom experience, lectures may be audio or video recorded by faculty and made available to students registered for this class. Faculty may record classroom lectures or discussions for pedagogical use, future student reference, or to meet the accommodation needs of students with a documented disability. These recordings are limited to personal use and may not be distributed (file share), sold, or posted on social media outlets without the written permission of the faculty.
 
-Unauthorized downloading, file sharing, distribution of any part of a recorded lecture or course materials. or using information for purpose other than the student's own learning is prohibited unless prior authorization is given by the instructor.
+Unauthorized downloading, file sharing, distribution of any part of a recorded lecture or course materials. or using information for purposes other than the student's learning is prohibited unless the instructor gives prior authorization.
