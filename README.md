@@ -212,15 +212,14 @@ Mark J. Price](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/c
 * [Game Trailer and Press Kit](http://drive.google.com/open?id=1-cVwNxSJyvt37HPLE-af_c9y9iXNahkaXlVaJzGuToo)
 
 ## Attendance Policy
-This course has no formal attendance policy. However, regular attendance is greatly recommended to be successful in the course as many of the class meetings will involve programming and one-on-one learning. If you expect to be consistently absent, please discussion the situation with your instructor.
-
+This course has no formal attendance policy. However, regular attendance is greatly recommended to succeed in the course, as many class meetings will involve programming and one-on-one learning. If you expect to miss more than three class meetings, please discuss the situation with your instructor. The instruction team reserves the right to penalize grades due to excessive absences. 
 
 ## UC Davis Code of Academic Conduct
 
 The UC Davis Code of Academic Conduct (http://sja.ucdavis.edu/files/cac.pdf) will be strictly enforced in this class. In particular, plagiarism, academic dishonesty, and cheating will be dealt with severely.  Any breach of the Code of Academic Conduct can result in failing the assignment, failing the course, and disciplinary action via the Office of Student Support and Judicial Affairs (http://sja.ucdavis.edu/).
 
 ## Technology in the Classroom Policy
-In general, the use of laptops and technology are encouraged in this course as long as they are not disruptive to the rest of the class. If you choose to use a device with a screen, please sit in the back of the room to avoid distracting your fellow students. You must ask for permission before making a video or audio recording in the classroom. In general, students will be treated as adults capable of managing their technological lives while being respectful of others in the classroom.
+In general, the use of laptops and technology is encouraged in this course as long as they are not disruptive to the rest of the class. If you choose to use a device with a screen, please sit in the back of the room to avoid distracting your fellow students. You must ask for permission before making a video or audio recording in the classroom. In general, students will be treated as adults capable of managing their technological lives while being respectful of others in the classroom.
 
 ## Social Media Policy
 Students are not permitted to make visual or audio recordings, including live streaming, of classroom lectures or any class-related content using any recording device (e.g., smartphone, computer, digital recorder, etc.) unless prior permission from the instructor is obtained and there are no objections from any of the students in the class. If permission is granted, personal use and sharing of recordings and any electronic copies of course materials (e.g., PowerPoints, formulas, lecture notes and any classroom discussions online or otherwise) is limited to the personal use of students registered in the course and for educational purposes only, even after the end of the course.
