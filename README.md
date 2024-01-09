@@ -133,10 +133,10 @@ This is a 5-day regimen of training tutorials to learn the basics of Unity for u
 Day | Material
 ------ | -----
 1 | [Create Unity Student Account](https://unity.com/products/unity-student) - [Start Creating](https://learn.unity.com/project/start-creating-1) - [Exploring the Editor Layout](https://learn.unity.com/tutorial/exploring-the-editor-layout-2019-3?uv=2022.3) - [Microsoft .NET Interactive Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/) (ignore *101 Linq Samples*)
-2 |[Essential Unity Concepts](https://learn.unity.com/tutorial/essential-unity-concepts) - [Roll-a-ball Tutorial](https://learn.unity.com/project/roll-a-ball) - [Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html), 
+2 | [Roll-a-ball Tutorial](https://learn.unity.com/project/roll-a-ball) - [Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html), 
 3 | [Beginner Scripting](https://learn.unity.com/project/beginner-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
 4 | [Intermediate Scripting Tutorial](https://learn.unity.com/project/intermediate-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
-5 | [Project Architecture: Unity Project Folder Structure](https://learn.unity.com/tutorial/project-architecture-unity-project-folder-structure#) - [Unity Tips](https://learn.unity.com/tutorial/unity-tips) (This is long; watch as many as you can or care to.)
+5 | [Unity Tips](https://learn.unity.com/tutorial/unity-tips) (This is long; watch as many as you can or care to.)
 
 ### Unity
 
