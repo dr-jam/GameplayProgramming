@@ -11,8 +11,9 @@ public class InputMap : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.fire1 = new ShootCommand();
-        this.fire2 = new CollectionNovaCommand();
+        // this.fire1 = new ShootCommand();
+        this.fire1 = ScriptableObject.CreateInstance<ShootCommand>();
+        this.fire2 = ScriptableObject.CreateInstance<CollectionNovaCommand>();
     }
 
     // Update is called once per frame

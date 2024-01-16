@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿    using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using CommandPattern;
@@ -14,7 +14,7 @@ namespace CommandPattern
 
             foreach (var projectile in projectileList)
             {
-                projectile.transform.position = new Vector3(Random.value * 3.0f, 1.5f, Random.value * 3.0f);
+                projectile.transform.position = new Vector3(Random.value * 5.0f - 2.5f, 1.5f, Random.value * 5.0f - 2.5f);
                 projectile.GetComponent<Rigidbody>().velocity = new Vector3(Random.value, Random.value, Random.value);
             }
         }

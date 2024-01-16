@@ -7,10 +7,10 @@ namespace CommandPattern
 { 
     public class ShootCommand : ScriptableObject, ICommand
     {
-        private static readonly Object ProjectilePrefab;
-        private static float SpeedFactor = 50.0f;
+        private Object ProjectilePrefab;
+        private float SpeedFactor = 50.0f;
 
-        static ShootCommand()
+        public void OnEnable()
         {
             ProjectilePrefab = Resources.Load("prefabs/Projectile");
         }
