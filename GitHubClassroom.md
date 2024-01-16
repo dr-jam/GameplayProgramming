@@ -3,8 +3,7 @@
 
 ### Perquisites:
 1. You'll need a GitHub account to make use of GitHub Classroom. If you don't have an account, please create one: https://github.com/join 
-2. To make sure we can map your username/email to you, please fill out this google form: https://forms.gle/ERTZhHHXq8PPJ8n97 
-3. Git should be installed and setup locally on your computer. To learn how, check out https://git-scm.com/book/en/v2/Getting-Started-Installing-Git .
+2. Git should be installed and setup locally on your computer. To learn how, check out https://git-scm.com/book/en/v2/Getting-Started-Installing-Git .
 	* If you aren't sure if you have it installed or not, you can check by going to your terminal/command line and typing ```git version```. This will tell you what version you have or, if it's an unknown command, you'll need to install it. 
 
 ### Setting up GitHub Classrooms
