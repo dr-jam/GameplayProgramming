@@ -2,7 +2,7 @@
 
 # Feedback #
 
-What a wonderfully done Code Review. Excellent job at making the code review a personal journey as well as an informative one. I also enjoyed how you gave examples of what you liked. Very geniune. Thank you :) (also look at the examples for properly linking.)
+What a wonderfully done Code Review. You did an excellent job at making the code review a personal journey as well as an informative one. I also enjoyed how you gave examples of what you liked. Very genuine. Thank you :) (also look at the examples for properly linking.)
 ---
 
 ## Solution Assessment ##
