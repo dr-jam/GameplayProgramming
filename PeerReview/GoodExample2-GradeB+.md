@@ -52,7 +52,7 @@ All pirates start as slow workers when the game is started.
 
 Checking the code, the total work time (totalTime) is initialized as a random float in a range depending on the work speed. 
 As the pirate works, deltaTime is added to currentTime. When currentTime is greater than PRODUCTION_TIME and the pirate is not exhausted, the pirate generates an item in a random position next to but not on the pirate.
-PRODUCTION_TIME is then subtracted from currentTime and totalTime and work continues until totalTime is less than PRODUCTION_TIME, in which the pirate becomes exhausted.
+PRODUCTION_TIME is then subtracted from currentTime and totalTime, and work continues until totalTime is less than PRODUCTION_TIME, in which the pirate becomes exhausted.
 
 There are two flaws in this implementation:
 1. Having the pirate create items in only [5 possible locations](https://github.com/ensemble-ai/exercise-1-command-pattern-eavivi4/blob/c1a7874864008b734625a3560c4b0a46f42ddae6/Captain/Assets/Scripts/SlowWorkerPirateCommand.cs#L30) causes loot to be frequently made in the same position and therefore overlap each other perfectly. What might look like one piece of loot might actually be 2 or 3 overlapping each other.
