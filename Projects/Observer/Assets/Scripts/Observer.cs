@@ -14,18 +14,18 @@ namespace ObserverPattern
         //The box gameobject which will do something
         GameObject boxObj;
         //What will happen when this box gets an event
-        BoxEvents boxEvent;
+        BoxEvents boxEventSubscribedTo;
 
-        public Box(GameObject boxObj, BoxEvents boxEvent)
+        public Box(GameObject boxObj, BoxEvents boxEventToSubTo)
         {
             this.boxObj = boxObj;
-            this.boxEvent = boxEvent;
+            this.boxEventSubscribedTo = boxEventToSubTo;
         }
 
         //What the box will do if the event fits it (will always fit but you will probably change that on your own)
         public override void OnNotify()
         {
-            Jump(boxEvent.GetJumpForce());
+            Jump(boxEventSubscribedTo.GetJumpForce());
         }
 
         //The box will always jump in this case
