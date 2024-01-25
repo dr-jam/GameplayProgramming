@@ -11,7 +11,7 @@ Github: REDACTED
 
 ### Description ###
 
-For assessing the solution, you will be choosing ONE choice from: unsatisfactory, satisfactory, good, great, or perfect. Place an x character inside of the square braces next to the appropriate label.
+To assess the solution, you will be choosing ONE choice from unsatisfactory, satisfactory, good, great, or perfect. Place an x character inside of the square braces next to the appropriate label.
 
 The following are the criteria by which you should assess your peer's solution of the exercise's stages.
 
