@@ -25,24 +25,24 @@ If you are in the rare situation where there are two peer-reviewers on a single 
 
 ### Description ###
 
-For assessing the solution, you will be choosing ONE choice from: unsatisfactory, satisfactory, good, great, or perfect. Place an x character inside of the square braces next to the appropriate label.
+To assess the solution, you will be choosing ONE choice from unsatisfactory, satisfactory, good, great, or perfect. Place an x character inside of the square braces next to the appropriate label.
 
 The following are the criteria by which you should assess your peer's solution of the exercise's stages.
 
 #### Perfect #### 
-    Can't find any flaws in relation to the prompt. Perfectly satisfied all stage objectives.
+    Cannot find any flaws concerning the prompt. Perfectly satisfied all stage objectives.
 
 #### Great ####
     Minor flaws in one or two objectives. 
 
 #### Good #####
-    Major flaw and some minor flaws.
+    A major flaw and some minor flaws.
 
 #### Satisfactory ####
-    Couple of major flaws. Heading towards solution, however did not fully realize solution.
+    A couple of major flaws. Heading towards a solution, however, did not fully realize the solution.
 
 #### Unsatisfactory ####
-    Partial work, not really converging to a solution. Pervasive Major flaws. Objective largely unmet.
+    Partial work, but not really converging to a solution. Pervasive major flaws. Objective largely unmet.
 
 
 ### Stage 1 ###
@@ -94,13 +94,13 @@ Write justification here.
 ### Description ###
 Check the scripts to see if the student code follows the .Net style guide.
 
-If there are sections that don't adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has infractions of style guide.
+If sections don't adhere to the style guide, please permalink the line of code from GitHub and justify why the line of code has infractions of the style guide.
 
 It should look something like this:
 
 * [description of infraction](https://github.com/dr-jam/ECS189L) - this is the justification.
 
-Here is an example of the permalink drop down on Github.
+Here is an example of the permalink drop-down on GitHub.
 
 ![Permalink option](../images/permalink_example.png)
 
@@ -118,7 +118,7 @@ Here is another example as well.
 
 ### Description ###
 
-If the student has followed best practices (Unity coding conventions from the StyleGuides document) then feel free to point at these segments of code as examplars. 
+If the student has followed best practices (Unity coding conventions from the StyleGuides document), then feel free to point at these segments of code as examples. 
 
 If the student has breached the best practices and has done something that should be noted, please add the infracture.
 
