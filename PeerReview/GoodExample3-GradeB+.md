@@ -54,7 +54,7 @@ The captain correctly motivates the pirates. Since the student implemented a pay
 - [ ] Unsatisfactory
 
 #### Justifaction ##### 
-The custom fire2 command involved paying the pirates for working. This involved keeping track of their wages to know if they have been paid enough, and collision detection between the captain and the coins and the pirates and the coins. It also involved modifying the booty variable to decrement the total booty when the captain paid his workers. I liked that the captain could not motivate them unless they were paid. I also like the visual queue of the star above their heads to know if they need to be paid or not. I think it was a smart way to make it not seem so bad that these pirates were working for nothing by making them get paid!
+The custom fire2 command involved paying the pirates for working. This involved keeping track of their wages to know if they have been paid enough, and collision detection between the captain and the coins and the pirates and the coins. It also involved modifying the booty variable to decrement the total booty when the captain paid his workers. I liked that the captain could not motivate them unless they were paid. I also like the visual queue of the star above their heads to know if they need to be paid or not. It was a smart way to make it not seem so bad that these pirates were working for nothing by making them get paid!
 
 ## Code Style ##
 
