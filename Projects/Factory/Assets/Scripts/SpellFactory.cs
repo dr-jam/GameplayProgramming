@@ -49,7 +49,8 @@ namespace Arcanum
         {
             if (Input.GetButtonDown("Jump"))
             {
-                this.BuildSpell(Spells.BlackHole);
+                //this.BuildSpell(Spells.BlackHole);
+                this.BuildSpell(Spells.Virus);
             }
             else if(Input.GetButtonDown("Fire1"))
             {
@@ -59,10 +60,6 @@ namespace Arcanum
             {
                 this.BuildSpell(Spells.Humanoid);
                 // this.BuildSpell(Spells.Meteor);
-            }
-            else if (Input.GetButtonDown("Fire3"))
-            {
-                this.BuildSpell(Spells.Virus);
             }
         }
 

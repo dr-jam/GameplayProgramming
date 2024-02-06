@@ -63,12 +63,13 @@ namespace Arcanum
             // Implement explosion effects or destruction logic here
             if (explosionParticles != null)
             {
+                Debug.Log("explosion");
                 explosionParticles.transform.position = transform.position;
                 explosionParticles.Play();
             }
             // Change color and then destroy Humanoid
             ChangeColor(explosionColor);
-            StartCoroutine(DestroyAfterDelay(2f)); // Change 3f to the desired delay in seconds
+            StartCoroutine(DestroyAfterDelay(4.0f)); // Change 3f to the desired delay in seconds
         }
 
         private IEnumerator DestroyAfterDelay(float delay)
