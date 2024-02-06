@@ -10,6 +10,17 @@ namespace Arcanum
         private GameObject humanoidPrefab;
         private float humanoidID;
         private float humanoidSize;
+        [SerializeField] private ParticleSystem explosionParticles;
+
+
+        [SerializeField] private Color explosionColor = Color.green; // Color to change to on explosion
+        private MeshRenderer meshRenderer;
+
+        void Start()
+        {
+            // Get the Mesh Renderer component attached to the GameObject
+            meshRenderer = GetComponent<MeshRenderer>();
+        }
 
         void Awake()
         {
@@ -29,8 +40,6 @@ namespace Arcanum
             }
         }
 
-   
-
         private void destroyAndUpdate(Humanoid otherHumanoid)
         {
             if (this.humanoidID > otherHumanoid.getID())
@@ -46,6 +55,44 @@ namespace Arcanum
                 Destroy(gameObject);
             }
         }
+
+        /* This is the explosion when interacting with the virus */
+        public void TriggerExplosion()
+        {
+            Debug.Log($"Humanoid {humanoidID} exploded!");
+            // Implement explosion effects or destruction logic here
+            if (explosionParticles != null)
+            {
+                explosionParticles.transform.position = transform.position;
+                explosionParticles.Play();
+            }
+            // Change color and then destroy Humanoid
+            ChangeColor(explosionColor);
+            StartCoroutine(DestroyAfterDelay(2f)); // Change 3f to the desired delay in seconds
+        }
+
+        private IEnumerator DestroyAfterDelay(float delay)
+        {
+            // Wait for the specified delay
+            yield return new WaitForSeconds(delay);
+
+            // Destroy the GameObject after the delay
+            Destroy(gameObject);
+        }
+
+        private void ChangeColor(Color newColor)
+        {
+            if (meshRenderer != null)
+            {
+                // Change the color of the Mesh Renderer's material
+                meshRenderer.material.color = newColor;
+            }
+            else
+            {
+                Debug.LogWarning("Mesh Renderer component not found. Color cannot be changed.");
+            }
+        }
+
 
 
         public void destoryHumanoid()

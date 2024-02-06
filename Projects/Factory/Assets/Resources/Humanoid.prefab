@@ -126,6 +126,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   humanoidPrefab: {fileID: 1508377803845121775}
+  explosionParticles: {fileID: 4859072919149478757, guid: eafb5a4ab461d4f0392a1fcc36057575,
+    type: 3}
+  explosionColor: {r: 0, g: 1, b: 0, a: 1}
 --- !u!64 &-6796939596339242858
 MeshCollider:
   m_ObjectHideFlags: 0
