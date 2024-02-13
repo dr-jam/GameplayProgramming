@@ -51,9 +51,6 @@ This role is responsible for implementing movement within your game. You can man
 
 As the team's master of visuals, you are responsible for implementing the basic animation scripts used by objects in your game. You are also tasked with setting the visual style and are the primary person responsible for finding the art assets to use in your game. You will document the animation systems used, a guide to the visual style of your game, and to document the sources and licenses of the art assets used in your game. 
 
-### Input
-
-In this role, 
 
 ### Game Logic
 
