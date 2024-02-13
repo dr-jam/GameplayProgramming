@@ -1,36 +1,46 @@
-# Game Basic Information #
+# The title of your game #
 
 ## Summary ##
 
 **A paragraph-length pitch for your game.**
 
+## Project Resources
+
+[Web-playable version of your game.](https://itch.io/)  
+[Trailor](https://youtube.com)  
+[Press Kit](https://dopresskit.com/)  
+[Proposal: make your own copy of the linked doc.](https://docs.google.com/document/d/1qwWCpMwKJGOLQ-rRJt8G8zisCa2XHFhv6zSWars0eWM/edit?usp=sharing)  
+
 ## Gameplay Explanation ##
 
-**In this section, explain how the game should be played. Treat this as a manual within a game. It is encouraged to explain the button mappings and the most optimal gameplay strategy.**
+**In this section, explain how the game should be played. Treat this as a manual within a game. Explaining the button mappings and the most optimal gameplay strategy is encouraged.**
 
 
-**If you did work that should be factored in to your grade that does not fit easily into the proscribed roles, add it here! Please include links to resources and descriptions of game-related material that does not fit into roles here.**
+**Add it here if you did work that should be factored into your grade but does not fit easily into the proscribed roles! Please include links to resources and descriptions of game-related material that does not fit into roles here.**
 
 # Main Roles #
 
 Your goal is to relate the work of your role and sub-role in terms of the content of the course. Please look at the role sections below for specific instructions for each role.
 
-Below is a template for you to highlight items of your work. These provide the evidence needed for your work to be evaluated. Try to have at least 4 such descriptions. They will be assessed on the quality of the underlying system and how they are linked to course content. 
+Below is a template for you to highlight items of your work. These provide the evidence needed for your work to be evaluated. Try to have at least four such descriptions. They will be assessed on the quality of the underlying system and how they are linked to course content. 
 
 *Short Description* - Long description of your work item that includes how it is relevant to topics discussed in class. [link to evidence in your repository](https://github.com/dr-jam/ECS189L/edit/project-description/ProjectDocumentTemplate.md)
 
 Here is an example:  
-*Procedural Terrain* - The background of the game consists of procedurally-generated terrain that is produced with Perlin noise. This terrain can be modified by the game at run-time via a call to its script methods. The intent is to allow the player to modify the terrain. This system is based on the component design pattern and the procedural content generation portions of the course. [The PCG terrain generation script](https://github.com/dr-jam/CameraControlExercise/blob/513b927e87fc686fe627bf7d4ff6ff841cf34e9f/Obscura/Assets/Scripts/TerrainGenerator.cs#L6).
+*Procedural Terrain* - The game's background consists of procedurally generated terrain produced with Perlin noise. The game can modify this terrain at run-time via a call to its script methods. The intent is to allow the player to modify the terrain. This system is based on the component design pattern and the procedural content generation portions of the course. [The PCG terrain generation script](https://github.com/dr-jam/CameraControlExercise/blob/513b927e87fc686fe627bf7d4ff6ff841cf34e9f/Obscura/Assets/Scripts/TerrainGenerator.cs#L6).
 
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
 ## Producer
 
-**Describe the steps you took in your role as producer. Typical items include group scheduling mechanism, links to meeting notes, descriptions of team logistics problems with their resolution, project organization tools (e.g., timelines, depedency/task tracking, Gantt charts, etc.), and repository management methodology.**
+**Describe the steps you took in your role as producer. Typical items include group scheduling mechanisms, links to meeting notes, descriptions of team logistics problems with their resolution, project organization tools (e.g., timelines, dependency/task tracking, Gantt charts, etc.), and repository management methodology.**
 
-## User Interface
+## User Interface and Input
 
 **Describe your user interface and how it relates to gameplay. This can be done via the template.**
+**Describe the default input configuration.**
+
+**Add an entry for each platform or input style your project supports.**
 
 ## Movement/Physics
 
@@ -38,29 +48,19 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 ## Animation and Visuals
 
-**List your assets including their sources and licenses.**
+**List your assets, including their sources and licenses.**
 
 **Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
 
-## Input
-
-**Describe the default input configuration.**
-
-**Add an entry for each platform or input style your project supports.**
-
 ## Game Logic
 
-**Document what game states and game data you managed and what design patterns you used to complete your task.**
+**Document the game states and game data you managed and the design patterns you used to complete your task.**
 
 # Sub-Roles
 
-## Cross-Platform
-
-**Describe the platforms you targeted for your game release. For each, describe the process and unique actions taken for each platform. What obstacles did you overcome? What was easier than expected?**
-
 ## Audio
 
-**List your assets including their sources and licenses.**
+**List your assets, including their sources and licenses.**
 
 **Describe the implementation of your audio system.**
 
@@ -82,8 +82,6 @@ You should replay any **bold text** with your relevant information. Liberally us
 
 **Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
 
-
-
-## Game Feel
+## Game Feel and Polish
 
 **Document what you added to and how you tweaked your game to improve its game feel.**
