@@ -30,7 +30,7 @@ This course is about the design and development of nuanced and highly contextual
 
 ## Materials
 
-Godot Engnine version 4.3-stable Standard. Down load is [here](https://godotengine.org/download/archive/4.3-stable/).  
+Godot Engine version 4.3-stable Standard. Download [here](https://godotengine.org/download/archive/4.3-stable/).  
 
 ## Grading and Assessment
 
@@ -56,7 +56,7 @@ D- | 60
 F  | 0
 
 ### Exercises
-The programming exercises consist of projects in Unity in which you must implement significant game systems or capabilities. These exercises are to be completed individually and will be worth equal points. Each will have two components, which are described below with a typical amount of grade points they are worth:
+The programming exercises consist of projects in Godot in which you must implement significant game systems or capabilities. These exercises are to be completed individually and will be worth equal points. Each will have two components, which are described below with a typical amount of grade points they are worth:
 1. [70] The individual programming assignment.
 2. [30] Peer-reviewing the work of another pseudo-randomly assigned student.
  
