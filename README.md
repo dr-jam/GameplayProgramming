@@ -30,7 +30,7 @@ This course is about the design and development of nuanced and highly contextual
 
 ## Materials
 
-Godot Engnine version 4.3stable. Down load is [here](https://godotengine.org/download/archive/4.3-stable/).  
+Godot Engnine version 4.3-stable Standard. Down load is [here](https://godotengine.org/download/archive/4.3-stable/).  
 
 ## Grading and Assessment
 
