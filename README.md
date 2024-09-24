@@ -1,7 +1,6 @@
 # ECS179 - Gameplay Programming
-## UPDATES FOR WINTER 2024
-Update from the topic course listing ECS189L to full elective status as ECS179!
-CRNs are no longer required for the course.
+## UPDATES FOR FALL 2024
+The course is moving from Unity to Godot. 
 
 # Syllabus
 ## Basic Information
@@ -16,16 +15,14 @@ http://joshmccoy.com
 https://faculty.engineering.ucdavis.edu/mccoy/  
 ~~https://www.twitter.com/deftjams~~  
 
-### TA
-Kyle Mitchell  
-Email: kdmitch at ucdavis dot edu  
-Office Hours: TBD
+### TA Team
+
 
 ### Course
-Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in YOUNG 184  
-Discussion: Tuesdays at 8:00-8:50 AM ~~in YOUNG184~~  
+Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Cruess 1003
+Discussion: Tuesdays at 6:00-6:50 PM in  
 Holiday:   
-Final Examination Period: Thursday, March 21st at 3:30 PM  
+Final Examination Period:   
 
 ## Course Description
 
@@ -33,9 +30,7 @@ This course is about the design and development of nuanced and highly contextual
 
 ## Materials
 
-Unity version 2022.3.16. Download it directly [here](https://unity.com/releases/editor/whats-new/2022.3.16) or get it with Unity Hub putting the following URI in your browser:  
-unityhub://2022.3.16f1/d2c21f0ef2f1  
-You can download Unity Hub [here](https://unity3d.com/get-unity/download).  
+Godot Engnine version 4.3stable. Down load is [here](https://godotengine.org/download/archive/4.3-stable/).  
 
 ## Grading and Assessment
 
