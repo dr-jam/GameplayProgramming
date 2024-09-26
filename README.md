@@ -149,7 +149,34 @@ Day | Material
 * [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html) - The entry point into scripting in Unity.
 * [Scripting Tutorials](https://unity3d.com/learn/tutorials/s/scripting) - An index of beginner, intermediate, and topical scripting tutorials and lessons.
 
-### C#
+### Additional Texts 
+Vanhove, Sander. Learning GDScript by Developing a Game with Godot 4: A Fun Introduction to Programming in GDScript 2. 0 and Game Development Using the Godot Engine. 1st ed. Birmingham: Packt Publishing, Limited, 2024. Print.  
+https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_proquest_ebookcentral_EBC31290475  
+Entry-level text to basic Godot constructs and GDScript.  
+
+Bradfield, Chris. Godot 4 Game Development Projects : Build Five Cross-Platform 2D and 3D Games Using One of the Most Powerful Open Source Game Engines. Second edition. Birmingham, England: Packt Publishing Ltd, 2023. Print.  
+https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9920761168606531  
+Entry-level text to basic Godot constructs and GDScript.  
+
+Wang, Wally, and Tonnetta Walcott. Programming for Game Design : A Hands-On Guide with Godot. 1st ed. 2024. Berkeley, CA: Apress, 2024. Web.  
+https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9920512123506531  
+Entry-level text focusing on programming and GDScript suitable for those with a programming background in another language.  
+
+Bradfield, Chris. Godot 4 Game Development Projects : Build Five Cross-Platform 2D and 3D Games Using One of the Most Powerful Open Source Game Engines. Second edition. Birmingham, England: Packt Publishing Ltd, 2023. Print.  
+https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9919503225306531  
+Series of small game projects.  
+
+Johnson, Jeff. Godot 4 Game Development Cookbook : Over 50 Solid Recipes for Building High-Quality 2D and 3D Games with Improved Performance. 1st ed. Birmingham, England: Packt Publishing Ltd., 2023. Print.  
+https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9919344194606531  
+More advanced topics like shaders and multiplayer.  
+
+Campos, Henrique. ESSENTIAL GUIDE TO CREATING MULTIPLAYER GAMES WITH GODOT 4.0 : Harness the Power of Godot Engine’s GDScript Network API to Connect Players in Multiplayer Games. 1st edition. Birmingham, UK: Packt Publishing Ltd., 2024. Print.  
+https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9920561598006531  
+A more advanced text for learning Godot's networking libraries.  
+
+Pitt, Christopher. Procedural Generation in Godot : Learn to Generate Enjoyable Content for Your Games. Berkeley, CA: Apress, 2023. Print.  
+https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9918897363706531  
+A collection of entry-level PCG techniques mixed with reconstructions of existing  games.  
 
 #### Learning C#
 * [Getting started with C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
