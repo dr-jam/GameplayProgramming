@@ -219,7 +219,6 @@ A collection of entry-level PCG techniques mixed with reconstructions of existin
 #### Scrum and GitHub
 
 * [Agile Lessons from Ryse and Crysis 3](http://www.gdcvault.com/play/1020790/Agile-Lessons-from-Ryse-and) by Patrick Payne
-* [Beyond Scrum: Lean and Kanban for Game Developers](https://clintonkeith.com/resources/Beyond%20Scrum_%20Lean%20and%20Kanban%20for%20Game%20Developers.pdf) by Clinton Keith
 * [git - the simple guide](http://rogerdudler.github.io/git-guide/) by Roger Dudler
 
 #### Project Versioning and Control
