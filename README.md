@@ -137,23 +137,26 @@ You should be comfortable with the following to begin the first exercise:
 * GDScript's basic syntax, data structures, and use. This includes arrays, classes, and importing libraries.
 * Godot's built-in functions (e.g., `_process` and `_ready`).
 * The ability to add and alter input signals.
+* Simple animation and motion.
 * Git and GitHub. While these systems are expected of you coming in to the class, you can find some tutorials later in the syllabus.
   
 ### Unity
 
-[Unity User Manual](https://docs.unity3d.com/Manual/index.html)  
-[Unity Tutorials](https://unity3d.com/learn/get-started)
+[Godot Engine Documentation](https://docs.godotengine.org/en/stable/index.html)  
+[Godot Gettings Started Tutorials](https://docs.godotengine.org/en/stable/getting_started/introduction/index.html)
 
 #### Learning the Basics
 
-* [Important Classes](https://docs.unity3d.com/Manual/ScriptingImportantClasses.html) - Basic descriptions and links to MonoBehavior, Transform, and RigidBody(2D).
-* [Unity C# class relationship diagram](resources/UnityClassHierarchy.png) (originally from this [Reddit post](https://www.reddit.com/r/Unity3D/comments/70ra7b/after_surprising_response_from_the_first_thread_i/))
-* [Vector Cookbook](https://docs.unity3d.com/Manual/VectorCookbook.html) - A basic introduction to vector operations in Unity.
-* [2D or 3D projects](https://docs.unity3d.com/Manual/2Dor3D.html) - A guide to the differences between 2D and 3D projects in Unity.
-* [Graphics](https://docs.unity3d.com/Manual/Graphics.html) - The entry point to the graphics capabilities of Unity.
-* [Physics](https://docs.unity3d.com/Manual/PhysicsSection.html) - The entry point to Unity's physics system.
-* [Scripting](https://docs.unity3d.com/Manual/ScriptingSection.html) - The entry point into scripting in Unity.
-* [Scripting Tutorials](https://unity3d.com/learn/tutorials/s/scripting) - An index of beginner, intermediate, and topical scripting tutorials and lessons.
+* [Editor Introduction](https://docs.godotengine.org/en/stable/tutorials/editor/index.html)
+* [Troubleshooting the Editor](https://docs.godotengine.org/en/stable/tutorials/troubleshooting.html)
+* [Nodes and Scenes](https://docs.godotengine.org/en/stable/getting_started/step_by_step/nodes_and_scenes.html) 
+* [Instances](https://docs.godotengine.org/en/stable/getting_started/step_by_step/instancing.html) 
+* [GDScript reference](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_basics.html)
+* [Best Practices](https://docs.godotengine.org/en/stable/tutorials/best_practices/index.html)
+* [2D Capabilities](https://docs.godotengine.org/en/stable/tutorials/2d/index.html)
+* [3D Capabilities](https://docs.godotengine.org/en/stable/tutorials/3d/index.html)
+* [Animation Tools](https://docs.godotengine.org/en/stable/tutorials/animation/index.html)
+* [Asset Pipeline](https://docs.godotengine.org/en/stable/tutorials/assets_pipeline/index.html)
 
 ### Additional Texts 
 Vanhove, Sander. Learning GDScript by Developing a Game with Godot 4: A Fun Introduction to Programming in GDScript 2. 0 and Game Development Using the Godot Engine. 1st ed. Birmingham: Packt Publishing, Limited, 2024. Print.  
@@ -183,12 +186,6 @@ A more advanced text for learning Godot's networking libraries.
 Pitt, Christopher. Procedural Generation in Godot : Learn to Generate Enjoyable Content for Your Games. Berkeley, CA: Apress, 2023. Print.  
 https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9918897363706531  
 A collection of entry-level PCG techniques mixed with reconstructions of existing  games.  
-
-#### Learning C#
-* [Getting started with C#](https://docs.microsoft.com/en-us/dotnet/csharp/getting-started/) from Microsoft .NET documentation.
-* [Mastering C# : a beginner's guide](https://search.library.ucdavis.edu/permalink/01UCD_INST/9fle3i/alma9917226567406531)
-* [Simple and Efficient Programming with C#: Skills to Build Applications with Visual Studio And .NET](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_askewsholts_vlebooks_9781484287378)
-* [C# 12 Pocket Reference](https://search.library.ucdavis.edu/permalink/01UCD_INST/1hjlc2p/cdi_safari_books_v2_9781098147532)
 
 ### Game Design
 
