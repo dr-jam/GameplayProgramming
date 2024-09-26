@@ -21,8 +21,8 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 ### Course
 Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Cruess 1003  
 Discussion: Tuesdays at 6:00-6:50 PM in TLC 3215  
-Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calenar](https://registrar.ucdavis.edu/calendar/master)  
-Final Examination Period: Tue. Dec.10 at 8:00am  
+Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
+Final Examination Period: Tue. Dec.10 at 8:00 PM  
 
 ## Course Description
 
@@ -112,27 +112,33 @@ Week | Topic | Reading | Discussion Plan | Assignments and Due Dates
 *You are not prepared!*  
 -- [Illidan Stormrage](https://youtu.be/IBHL_-biMrQ?t=142)
 
-Illidan's words may resonate with you as computer science and game development are both difficult disciplines whose surrounding communities are laced with high expectations and elitism. Below are resources that can cut through assumptions and feeling though self-examination.
+Illidan's words may resonate with you as computer science and game development are both difficult disciplines whose surrounding communities are laced with high expectations and elitism. (Materials for Godot are under development.)
 
-Introductory practice exercises for C# and game systems (you can run these in Unity, .Net, or MonoDevelop):
-1. [Final Fantasy VI Combat System](https://docs.google.com/document/d/144-2AXOJX79Sw03EwPXGYxdZJOk0zqVZRnSgKHiStA0/edit?usp=sharing)
-2. [Crystal Warriors](https://docs.google.com/document/d/1lvsscM-no1C31GW-NSpH_a2u4a2PGHmWhGRHpY7cxyk/edit?usp=sharing)
-3. [Fantasy Fight](https://docs.google.com/document/d/1DX_LwKX4Yg7oCnHDdarZkJdcausVmn9BE9hKh_D-Fac/edit?usp=sharing)
+~~Below are resources that can cut through assumptions and feeling though self-examination.~~
 
-[Unity and C# Practice Exam for New Programmers](https://docs.google.com/document/d/1_GUQKvwa-ZqboAhgp63pToQQvR6WdVvVJ3kcRDQ1qR0/edit?usp=sharing)
+~~Introductory practice exercises for C# and game systems (you can run these in Unity, .Net, or MonoDevelop):~~
+~~1. [Final Fantasy VI Combat System](https://docs.google.com/document/d/144-2AXOJX79Sw03EwPXGYxdZJOk0zqVZRnSgKHiStA0/edit?usp=sharing)~~
+~~2. [Crystal Warriors](https://docs.google.com/document/d/1lvsscM-no1C31GW-NSpH_a2u4a2PGHmWhGRHpY7cxyk/edit?usp=sharing)~~
+~~3. [Fantasy Fight](https://docs.google.com/document/d/1DX_LwKX4Yg7oCnHDdarZkJdcausVmn9BE9hKh_D-Fac/edit?usp=sharing)~~
+
+~~[Unity and C# Practice Exam for New Programmers](https://docs.google.com/document/d/1_GUQKvwa-ZqboAhgp63pToQQvR6WdVvVJ3kcRDQ1qR0/edit?usp=sharing)~~
 
 ### Preparing for Projects
 
-This is a 5-day regimen of training tutorials to learn the basics of Unity for use in this course. Each day consists of between 2 and 3 hours of material per day.
+Below is a set of training tutorials to learn the basics of Godot for use in this course. You should spend bewteen 5 and 10 hours on these tutorials depending on your experience level to prepare for the first exercise.
 
-Day | Material
------- | -----
-1 | [Create Unity Student Account](https://unity.com/products/unity-student) - [Start Creating](https://learn.unity.com/project/start-creating-1) - [Exploring the Editor Layout](https://learn.unity.com/tutorial/exploring-the-editor-layout-2019-3?uv=2022.3) - [Microsoft .NET Interactive Introduction to C#](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/intro-to-csharp/) (ignore *101 Linq Samples*)
-2 | [Roll-a-ball Tutorial](https://learn.unity.com/project/roll-a-ball) - [Scripting Overview](https://docs.unity3d.com/Manual/ScriptingConcepts.html), 
-3 | [Beginner Scripting](https://learn.unity.com/project/beginner-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
-4 | [Intermediate Scripting Tutorial](https://learn.unity.com/project/intermediate-gameplay-scripting) (You can use nearly any 3D project with this tutorial.)
-5 | [Unity Tips](https://learn.unity.com/tutorial/unity-tips) (This is long; watch as many as you can or care to.)
+Here is the [Godot Tutorials for Gameplay Programming playlist](https://www.youtube.com/playlist?list=PLwfiwgNTrxLuE2X2bdBGHdwvJ5ZVF9my1).
 
+You should be comfortable with the following to begin the first exercise:
+* How to create a project
+* How assets are stored on the filesystem.
+* The basic properties of the Godot editor's interface.
+* Node and scene relationships and how to use them to compose basic game elements.
+* GDScript's basic syntax, data structures, and use. This includes arrays, classes, and importing libraries.
+* Godot's built-in functions (e.g., `_process` and `_ready`).
+* The ability to add and alter input signals.
+* Git and GitHub. While these systems are expected of you coming in to the class, you can find some tutorials later in the syllabus.
+  
 ### Unity
 
 [Unity User Manual](https://docs.unity3d.com/Manual/index.html)  
