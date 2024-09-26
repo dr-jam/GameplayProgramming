@@ -6,7 +6,7 @@ The course is moving from Unity to Godot.
 ## Basic Information
 
 ### Instructor
-Dr. Joshua A. McCoy, Assistant Professor  
+Dr. Joshua A. McCoy, Associate Professor  
 Computer Science & Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
