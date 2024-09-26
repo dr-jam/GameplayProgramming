@@ -19,10 +19,10 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 
 ### Course
-Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Cruess 1003
-Discussion: Tuesdays at 6:00-6:50 PM in  
-Holiday:   
-Final Examination Period:   
+Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Cruess 1003  
+Discussion: Tuesdays at 6:00-6:50 PM in TLC 3215  
+Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calenar](https://registrar.ucdavis.edu/calendar/master)  
+Final Examination Period: Tue. Dec.10 at 8:00am  
 
 ## Course Description
 
