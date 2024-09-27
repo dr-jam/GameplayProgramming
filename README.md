@@ -19,7 +19,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 
 ### Course
-Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Cruess 1003  
+Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126  
 Discussion: Tuesdays at 6:00-6:50 PM in TLC 3215  
 Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
 Final Examination Period: Tue. Dec.10 at 8:00 PM  
@@ -125,7 +125,7 @@ Illidan's words may resonate with you as computer science and game development a
 
 ### Preparing for Projects
 
-Below is a set of training tutorials to learn the basics of Godot for use in this course. You should spend bewteen 5 and 10 hours on these tutorials depending on your experience level to prepare for the first exercise.
+Below is a set of training tutorials for this course. To learn the basics of Godot, you should spend between 5 and 10 hours on these tutorials, depending on your experience level, to prepare for the first exercise.
 
 Here is the [Godot Tutorials for Gameplay Programming playlist](https://www.youtube.com/playlist?list=PLwfiwgNTrxLuE2X2bdBGHdwvJ5ZVF9my1).
 
@@ -134,11 +134,11 @@ You should be comfortable with the following to begin the first exercise:
 * How assets are stored on the filesystem.
 * The basic properties of the Godot editor's interface.
 * Node and scene relationships and how to use them to compose basic game elements.
-* GDScript's basic syntax, data structures, and use. This includes arrays, classes, and importing libraries.
+* GDScript's basic syntax, data structures, and use. This includes structured types (e.g., arrays and dictionaries) classes, and importing libraries.
 * Godot's built-in functions (e.g., `_process` and `_ready`).
 * The ability to add and alter input signals.
 * Simple animation and motion.
-* Git and GitHub. While these systems are expected of you coming in to the class, you can find some tutorials later in the syllabus.
+* Git and GitHub. While these systems are expected of you coming into the class, you can find some tutorials later in the syllabus.
   
 ### Unity
 
