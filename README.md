@@ -233,9 +233,6 @@ A collection of entry-level PCG techniques mixed with reconstructions of existin
 #### Game Trailers and Press Kits
 * [Game Trailer and Press Kit](http://drive.google.com/open?id=1-cVwNxSJyvt37HPLE-af_c9y9iXNahkaXlVaJzGuToo)
 
-## Attendance Policy
-This course has no formal attendance policy. However, regular attendance is greatly recommended to succeed in the course, as many class meetings will involve programming and one-on-one learning. If you expect to miss more than three class meetings, please discuss the situation with your instructor. The instruction team reserves the right to penalize grades due to excessive absences. 
-
 ## UC Davis Code of Academic Conduct
 
 The UC Davis Code of Academic Conduct (http://sja.ucdavis.edu/files/cac.pdf) will be strictly enforced in this class. In particular, plagiarism, academic dishonesty, and cheating will be dealt with severely.  Any breach of the Code of Academic Conduct can result in failing the assignment, failing the course, and disciplinary action via the Office of Student Support and Judicial Affairs (http://sja.ucdavis.edu/).
