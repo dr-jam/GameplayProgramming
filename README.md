@@ -20,7 +20,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 ### Course
 Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126  
-Discussion: Tuesdays at 6:00-6:50 PM in TLC 3215  
+Discussion: Tuesdays at 6:10-7:00 PM in TLC 3215  
 Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
 Final Examination Period: Tue. Dec.10 at 8:00 PM  
 
