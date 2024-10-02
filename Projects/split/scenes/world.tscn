@@ -7,7 +7,7 @@
 [node name="World" type="Node2D"]
 
 [node name="Background" type="Sprite2D" parent="."]
-scale = Vector2(100, 100)
+scale = Vector2(200, 200)
 texture = ExtResource("1_p2yq5")
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -16,12 +16,13 @@ position = Vector2(0, 100)
 [node name="Root" parent="." instance=ExtResource("2_k2vro")]
 unique_name_in_owner = true
 position = Vector2(0, 675)
+scale = Vector2(2, 2)
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
-offset_left = -529.0
-offset_top = -461.0
-offset_right = -394.0
-offset_bottom = -421.0
+offset_left = -789.0
+offset_top = -709.0
+offset_right = -654.0
+offset_bottom = -669.0
 script = ExtResource("3_yikaj")
 
 [node name="Label" type="Label" parent="PanelContainer"]

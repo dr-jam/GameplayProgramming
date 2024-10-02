@@ -16,7 +16,8 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 
 [display]
 
-window/size/viewport_height=1200
+window/size/viewport_width=2000
+window/size/viewport_height=2000
 
 [editor]
 
