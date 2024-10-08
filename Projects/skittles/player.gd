@@ -11,8 +11,8 @@ func _ready() -> void:
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	if(Input.is_action_pressed("Fire1")):
-		var return_signal = _fire1_command.execute(self)
+		var _return_signal = _fire1_command.execute(self)
 	if(Input.is_action_pressed("Fire2")):
-		var return_signal = _fire2_command.execute(self)
+		var _return_signal = _fire2_command.execute(self)

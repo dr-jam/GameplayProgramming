@@ -2,7 +2,7 @@ class_name ShootCommand
 extends PlayerCommand
 
 var _projectile_scene = preload("res://projectile.tscn")
- 
+
 
 func execute(player:Player) -> bool:
 	var projectile:Projectile = _projectile_scene.instantiate()
