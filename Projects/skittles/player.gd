@@ -1,6 +1,8 @@
 class_name Player
 extends Node3D
 
+@onready var projectile_spawn:Node3D = $Wand/ProjectileSpawn
+
 var _fire1_command:PlayerCommand
 var _fire2_command:PlayerCommand
 
