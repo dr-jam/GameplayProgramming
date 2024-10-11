@@ -16,7 +16,11 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 ~~https://www.twitter.com/deftjams~~  
 
 ### TA Team
-
+Nicholas S. Treynor
+Computer Science Department
+Email: ntreynor at ucdavis dot edu
+Office Hours: 11:00 AM to 12:00 PM on Friday
+& additional hours TBA on the course discord. 
 
 ### Course
 Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126  
