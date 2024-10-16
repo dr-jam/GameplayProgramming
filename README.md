@@ -20,7 +20,12 @@ Nicholas S. Treynor
 Computer Science Department  
 Email: ntreynor at ucdavis dot edu  
 Office Hours: 11:00 AM to 12:00 PM on Friday  
-& additional hours TBA on the course discord.  
+& additional hours TBA on the course discord. 
+
+Piaopiao Long  
+Computer Science Department  
+Email: pplong at ucdavis dot edu  
+Office Hours: TBA
 
 ### Course
 Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126  
