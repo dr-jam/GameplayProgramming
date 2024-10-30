@@ -118,7 +118,7 @@ Here is another example as well.
 
 ### Description ###
 
-If the student has followed best practices (Unity coding conventions from the StyleGuides document), then feel free to point at these segments of code as examples. 
+If the student has followed best practices as seen in teh style guide lecture, then feel free to point at these segments of code as examples. 
 
 If the student has breached the best practices and has done something that should be noted, please add the infracture.
 
