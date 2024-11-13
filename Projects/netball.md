@@ -215,7 +215,6 @@ In this project, you'll develop a game that simulates a ball bouncing from one p
    - In the **"Ball.gd"** script, enable network synchronization by setting the class to **`[Networked]`** (for Godot 4.x).
      ```gdscript
      @tool
-     @networked
      extends Area2D
      ```
 
