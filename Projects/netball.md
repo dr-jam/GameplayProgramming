@@ -1,6 +1,4 @@
-**Title:** Networking in Godot: Creating a Cross-Instance Ball Bounce Game with Detailed Explanations
 
----
 
 ### **Objective:**
 
@@ -64,7 +62,7 @@ In this project, you'll develop a game that simulates a ball bouncing from one p
 
 1. **Create a New Scene for the Ball:**
    - Go to **Scene → New Scene**.
-   - Add an **`Area2D`** node as the root and rename it to **"Ball"**.
+   - Add an **`RigidBody2D`** node as the root and rename it to **"Ball"**.
    - Save the scene as **"Ball.tscn"**.
 
 2. **Adding a Sprite:**
@@ -107,7 +105,7 @@ In this project, you'll develop a game that simulates a ball bouncing from one p
 2. **Writing the Movement Code:**
 
    ```gdscript
-   extends Area2D
+   extends RigidBody2D
 
    var velocity = Vector2(200, 150)  # Initial velocity
 
