@@ -15,6 +15,13 @@ http://joshmccoy.com
 https://faculty.engineering.ucdavis.edu/mccoy/  
 ~~https://www.twitter.com/deftjams~~  
 
+
+### Course
+Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Cruess 1003  
+Discussion: Tuesdays at 6:00-6:50 PM in TLC 3215  
+Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
+Final Examination Period: Tue. Dec.10 at 8:00 PM  
+
 ### TA Team  
 Nicholas S. Treynor  
 Computer Science Department  
@@ -32,6 +39,7 @@ Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126
 Discussion: Tuesdays at 6:10-7:00 PM in TLC 3215  
 Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
 Final Examination Period: Tue. Dec.10 at 8:00 AM  
+
 
 ## Course Description
 
@@ -123,33 +131,27 @@ Week | Topic | Reading | Discussion Plan | Assignments and Due Dates
 
 Illidan's words may resonate with you as computer science and game development are both difficult disciplines whose surrounding communities are laced with high expectations and elitism. (Materials for Godot are under development.)
 
-~~Below are resources that can cut through assumptions and feeling though self-examination.~~
-
-~~Introductory practice exercises for C# and game systems (you can run these in Unity, .Net, or MonoDevelop):~~
-~~1. [Final Fantasy VI Combat System](https://docs.google.com/document/d/144-2AXOJX79Sw03EwPXGYxdZJOk0zqVZRnSgKHiStA0/edit?usp=sharing)~~
-~~2. [Crystal Warriors](https://docs.google.com/document/d/1lvsscM-no1C31GW-NSpH_a2u4a2PGHmWhGRHpY7cxyk/edit?usp=sharing)~~
-~~3. [Fantasy Fight](https://docs.google.com/document/d/1DX_LwKX4Yg7oCnHDdarZkJdcausVmn9BE9hKh_D-Fac/edit?usp=sharing)~~
-
-~~[Unity and C# Practice Exam for New Programmers](https://docs.google.com/document/d/1_GUQKvwa-ZqboAhgp63pToQQvR6WdVvVJ3kcRDQ1qR0/edit?usp=sharing)~~
-
 ### Preparing for Projects
 
-Below is a set of training tutorials for this course. To learn the basics of Godot, you should spend between 5 and 10 hours on these tutorials, depending on your experience level, to prepare for the first exercise.
+Below is a set of training tutorials to learn the basics of Godot for use in this course. You should spend bewteen 5 and 10 hours on these tutorials depending on your experience level to prepare for the first exercise.
 
-Here is the [Godot Tutorials for Gameplay Programming playlist](https://www.youtube.com/playlist?list=PLwfiwgNTrxLuE2X2bdBGHdwvJ5ZVF9my1).
+Here is the [Godot Tutorials for Gameplay Programming playlist](https://www.youtube.com/playlist?list=PLwfiwgNTrxLuE2X2bdBGHdwvJ5ZVF9my1).  
 
 You should be comfortable with the following to begin the first exercise:
 * How to create a project
 * How assets are stored on the filesystem.
 * The basic properties of the Godot editor's interface.
 * Node and scene relationships and how to use them to compose basic game elements.
-* GDScript's basic syntax, data structures, and use. This includes structured types (e.g., arrays and dictionaries) classes, and importing libraries.
+
+* GDScript's basic syntax, data structures, and use. This includes arrays, classes, and importing libraries.
 * Godot's built-in functions (e.g., `_process` and `_ready`).
 * The ability to add and alter input signals.
 * Simple animation and motion.
-* Git and GitHub. While these systems are expected of you coming into the class, you can find some tutorials later in the syllabus.
+* Git and GitHub. While these systems are expected of you coming in to the class, you can find some tutorials later in the syllabus.
   
+
 ### Godot
+
 
 [Godot Engine Documentation](https://docs.godotengine.org/en/stable/index.html)  
 [Godot Gettings Started Tutorials](https://docs.godotengine.org/en/stable/getting_started/introduction/index.html)
