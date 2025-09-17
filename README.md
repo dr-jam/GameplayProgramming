@@ -10,12 +10,10 @@ Dr. Joshua A. McCoy, Associate Professor
 Computer Science & Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: TBD   
+Office Hours: 11:00 AM Wednesdays. Hybrid in my office and on Discord.   
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 ~~https://www.twitter.com/deftjams~~  
-
-### TA Team
 
 
 ### Course
@@ -23,6 +21,25 @@ Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Cruess 1003
 Discussion: Tuesdays at 6:00-6:50 PM in TLC 3215  
 Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
 Final Examination Period: Tue. Dec.10 at 8:00 PM  
+
+### TA Team  
+Nicholas S. Treynor  
+Computer Science Department  
+Email: ntreynor at ucdavis dot edu  
+Office Hours: 11:00 AM to 12:00 PM on Friday  
+& additional hours TBA on the course discord. 
+
+Piaopiao Long  
+Computer Science Department  
+Email: pplong at ucdavis dot edu  
+Office Hours: TBA
+
+### Course
+Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126  
+Discussion: Tuesdays at 6:10-7:00 PM in TLC 3215  
+Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
+Final Examination Period: Tue. Dec.10 at 8:00 AM  
+
 
 ## Course Description
 
@@ -92,7 +109,7 @@ AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendance
 Week | Topic | Reading | Discussion Plan | Assignments and Due Dates
 ----- | ----- | ----- | ----- | -----
 1 | Overview of the course, game engines, anatomy of game development, command pattern. | Salen and Zimmermen ch. 4 & 5 | Dissecting Godot projects. | [Getting started with Godot materials](https://github.com/dr-jam/GameplayProgramming#preparing-for-projects)
-2 | Unity structures, Code standards, best practices, style guides, camera systems, lerp. | [Command Pattern](https://gameprogrammingpatterns.com/command.html), [Style Guide and Best Practices](), [Scroll Back: The Theory and Practice of Cameras in Side-Scrollers](https://docs.google.com/document/d/1iNSQIyNpVGHeak6isbP6AHdHD50gs8MNXF1GCf08efg/pub) by Itay Karen. | Overview of Programming Exercise 1: Command Pattern |  [Exercise 1]()
+2 | Godot structures, Code standards, best practices, style guides, camera systems, lerp. | [Command Pattern](https://gameprogrammingpatterns.com/command.html), [Style Guide and Best Practices](), [Scroll Back: The Theory and Practice of Cameras in Side-Scrollers](https://docs.google.com/document/d/1iNSQIyNpVGHeak6isbP6AHdHD50gs8MNXF1GCf08efg/pub) by Itay Karen. | Overview of Programming Exercise 1: Command Pattern |  [Exercise 1]()
 3 | Gameplay mechanics, Game Events and the Observer Pattern.Data-driven game systems.| [Defining Game Mechanics](http://gamestudies.org/0802/articles/sicart) by Miguel Sicart, [Pubsub](https://gameprogrammingpatterns.com/event-queue.html) | Overview of Exercise 2: Camera Controllers | [Exercise 2: Cameral Control](),<br />  Exercise 1 Implementation
 4 | Mechanics, rules, gameplay systems, component systems. | Salen and Zimmermen ch. 11, 12, 13, [Component design pattern](https://gameprogrammingpatterns.com/component.html) | Overview of Exercise 3 | [Exercise 3]()<br />  Exercise 2 Peer Review<br /> Exercise 1 Peer Review,<br /> Exercise 2
 5 | Interactivity, factory pattern. | Salen and Zimmermen ch. 6, Crawford [The Art of Game Design, ch. 1, INTERACTION section](https://www.digitpress.com/library/books/book_art_of_computer_game_design.pdf)|  | Exercise 4,<br /> Exercise 3,<br /> Exercise 2 Peer Review
@@ -114,33 +131,27 @@ Week | Topic | Reading | Discussion Plan | Assignments and Due Dates
 
 Illidan's words may resonate with you as computer science and game development are both difficult disciplines whose surrounding communities are laced with high expectations and elitism. (Materials for Godot are under development.)
 
-~~Below are resources that can cut through assumptions and feeling though self-examination.~~
-
-~~Introductory practice exercises for C# and game systems (you can run these in Unity, .Net, or MonoDevelop):~~
-~~1. [Final Fantasy VI Combat System](https://docs.google.com/document/d/144-2AXOJX79Sw03EwPXGYxdZJOk0zqVZRnSgKHiStA0/edit?usp=sharing)~~
-~~2. [Crystal Warriors](https://docs.google.com/document/d/1lvsscM-no1C31GW-NSpH_a2u4a2PGHmWhGRHpY7cxyk/edit?usp=sharing)~~
-~~3. [Fantasy Fight](https://docs.google.com/document/d/1DX_LwKX4Yg7oCnHDdarZkJdcausVmn9BE9hKh_D-Fac/edit?usp=sharing)~~
-
-~~[Unity and C# Practice Exam for New Programmers](https://docs.google.com/document/d/1_GUQKvwa-ZqboAhgp63pToQQvR6WdVvVJ3kcRDQ1qR0/edit?usp=sharing)~~
-
 ### Preparing for Projects
 
 Below is a set of training tutorials to learn the basics of Godot for use in this course. You should spend bewteen 5 and 10 hours on these tutorials depending on your experience level to prepare for the first exercise.
 
-Here is the [Godot Tutorials for Gameplay Programming playlist](https://www.youtube.com/playlist?list=PLwfiwgNTrxLuE2X2bdBGHdwvJ5ZVF9my1).
+Here is the [Godot Tutorials for Gameplay Programming playlist](https://www.youtube.com/playlist?list=PLwfiwgNTrxLuE2X2bdBGHdwvJ5ZVF9my1).  
 
 You should be comfortable with the following to begin the first exercise:
 * How to create a project
 * How assets are stored on the filesystem.
 * The basic properties of the Godot editor's interface.
 * Node and scene relationships and how to use them to compose basic game elements.
+
 * GDScript's basic syntax, data structures, and use. This includes arrays, classes, and importing libraries.
 * Godot's built-in functions (e.g., `_process` and `_ready`).
 * The ability to add and alter input signals.
 * Simple animation and motion.
 * Git and GitHub. While these systems are expected of you coming in to the class, you can find some tutorials later in the syllabus.
   
-### Unity
+
+### Godot
+
 
 [Godot Engine Documentation](https://docs.godotengine.org/en/stable/index.html)  
 [Godot Gettings Started Tutorials](https://docs.godotengine.org/en/stable/getting_started/introduction/index.html)
@@ -219,7 +230,6 @@ A collection of entry-level PCG techniques mixed with reconstructions of existin
 #### Scrum and GitHub
 
 * [Agile Lessons from Ryse and Crysis 3](http://www.gdcvault.com/play/1020790/Agile-Lessons-from-Ryse-and) by Patrick Payne
-* [Beyond Scrum: Lean and Kanban for Game Developers](https://clintonkeith.com/resources/Beyond%20Scrum_%20Lean%20and%20Kanban%20for%20Game%20Developers.pdf) by Clinton Keith
 * [git - the simple guide](http://rogerdudler.github.io/git-guide/) by Roger Dudler
 
 #### Project Versioning and Control
@@ -233,9 +243,6 @@ A collection of entry-level PCG techniques mixed with reconstructions of existin
 
 #### Game Trailers and Press Kits
 * [Game Trailer and Press Kit](http://drive.google.com/open?id=1-cVwNxSJyvt37HPLE-af_c9y9iXNahkaXlVaJzGuToo)
-
-## Attendance Policy
-This course has no formal attendance policy. However, regular attendance is greatly recommended to succeed in the course, as many class meetings will involve programming and one-on-one learning. If you expect to miss more than three class meetings, please discuss the situation with your instructor. The instruction team reserves the right to penalize grades due to excessive absences. 
 
 ## UC Davis Code of Academic Conduct
 

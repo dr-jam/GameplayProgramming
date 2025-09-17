@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://dik5rqh5f6kul"]
+
+[ext_resource type="Texture2D" uid="uid://dvyq6o6ydksev" path="res://assets/16x16black.png" id="1_p2yq5"]
+[ext_resource type="PackedScene" uid="uid://bv5wirk2j375u" path="res://scenes/root.tscn" id="2_k2vro"]
+[ext_resource type="Script" path="res://scripts/treeHUD.gd" id="3_yikaj"]
+
+[node name="World" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+scale = Vector2(200, 200)
+texture = ExtResource("1_p2yq5")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(0, 100)
+
+[node name="Root" parent="." instance=ExtResource("2_k2vro")]
+unique_name_in_owner = true
+position = Vector2(0, 613)
+timer = 0.025
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+offset_left = -868.0
+offset_top = -375.0
+offset_right = -733.0
+offset_bottom = -335.0
+script = ExtResource("3_yikaj")
+
+[node name="Label" type="Label" parent="PanelContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+text = "DefaultText"

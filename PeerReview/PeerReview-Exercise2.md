@@ -118,7 +118,7 @@ ___
 
 
 ### Description ###
-Check the scripts to see if the student code adheres to the dotnet style guide.
+Check the scripts to see if the student code adheres to the GDScript style guide.
 
 If sections do not adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has not followed the style guide.
 
@@ -142,7 +142,7 @@ ___
 
 ### Description ###
 
-If the student has followed best practices (Unity coding conventions from the StyleGuides document) then feel free to point at these code segments as examplars. 
+If the student has followed best practices then feel free to point at these code segments as examplars. 
 
 If the student has breached the best practices and has done something that should be noted, please add the infraction.
 
