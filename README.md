@@ -1,6 +1,6 @@
 # ECS179 - Gameplay Programming
-## UPDATES FOR FALL 2024
-The course is moving from Unity to Godot. 
+## UPDATES FOR FALL 2025
+Restructing to make better use of and build skills with code synthesis.  
 
 # Syllabus
 ## Basic Information
@@ -10,28 +10,19 @@ Dr. Joshua A. McCoy, Associate Professor
 Computer Science & Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: 11:00 AM Wednesdays. Hybrid in my office and on Discord.   
+Office Hours:    
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 ~~https://www.twitter.com/deftjams~~  
 
-### TA Team  
-Nicholas S. Treynor  
-Computer Science Department  
-Email: ntreynor at ucdavis dot edu  
-Office Hours: 11:00 AM to 12:00 PM on Friday  
-& additional hours TBA on the course discord. 
+### Teaching Assistant
 
-Piaopiao Long  
-Computer Science Department  
-Email: pplong at ucdavis dot edu  
-Office Hours: TBA
 
 ### Course
-Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126  
-Discussion: Tuesdays at 6:10-7:00 PM in TLC 3215  
-Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
-Final Examination Period: Tue. Dec.10 at 8:00 AM  
+Lecture Meeting Time: Mondays, Wendesdays, and Fridays at 1:10 to 2:00 PM in Olson 206.  
+Discussion: Wednesdays at 6:10 to 7:00 PM in TLC 2215.  
+Holidays:  Thursday, November 27th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
+Final Examination Period: Monday, December 8th at 1:00 PM  
 
 ## Course Description
 
