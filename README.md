@@ -21,7 +21,7 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 ### Course
 Lecture Meeting Time: Mondays, Wendesdays, and Fridays at 1:10 to 2:00 PM in Olson 206.  
 Discussion: Wednesdays at 6:10 to 7:00 PM in TLC 2215.  
-Holidays:  Thursday, November 27th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
+Holidays:  Thursday, November 27th (Thanksgiving Day) ([Academic Calendar](https://registrar.ucdavis.edu/calendar/master))  
 Final Examination Period: Monday, December 8th at 1:00 PM  
 
 ## Course Description
