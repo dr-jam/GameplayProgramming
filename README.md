@@ -17,8 +17,8 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 ### Teaching Assistant
 
-Teresa Chen
-Email: xacchen@ucdavis.edu
+Teresa Chen  
+Email: xacchen@ucdavis.edu  
 Office Hour: Tuesday 3pm - 4pm @Kemper Hall Room 47
 
 ### Course
