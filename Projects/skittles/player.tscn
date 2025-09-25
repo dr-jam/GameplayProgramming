@@ -1,8 +1,17 @@
-[gd_scene load_steps=2 format=3 uid="uid://b28k2688kt75o"]
+[gd_scene load_steps=3 format=3 uid="uid://b28k2688kt75o"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_e0aj2"]
 
+[sub_resource type="BoxMesh" id="BoxMesh_d722u"]
+
 [node name="Player" type="Node3D"]
 
-[node name="Mesh" type="MeshInstance3D" parent="."]
+[node name="Body" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_e0aj2")
+
+[node name="Wand" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.630541, 0, 0, 0, 0.218841, 0, 0, 0, 0.187745, 0.644163, 0.166898, -0.380066)
+mesh = SubResource("BoxMesh_d722u")
+
+[node name="ProjectileSpawn" type="Node3D" parent="Wand"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.999999, 1.23763, -0.00430244, 0.0411781)

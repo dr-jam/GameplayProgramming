@@ -1,6 +1,6 @@
 # ECS179 - Gameplay Programming
-## UPDATES FOR FALL 2024
-The course is moving from Unity to Godot. 
+## UPDATES FOR FALL 2025
+Restructing to make better use of and build skills with code synthesis.  
 
 # Syllabus
 ## Basic Information
@@ -10,19 +10,22 @@ Dr. Joshua A. McCoy, Associate Professor
 Computer Science & Cinema and Digital Media Departments  
 Email: jamccoy at ucdavis dot edu  
 Office: 3033 Kemper Hall  
-Office Hours: TBD   
+Office Hours:    
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
 ~~https://www.twitter.com/deftjams~~  
 
-### TA Team
+### Teaching Assistant
 
+Teresa Chen  
+Email: xacchen@ucdavis.edu  
+Office Hour: Tuesday 3pm - 4pm @Kemper Hall Room 47
 
 ### Course
-Lecture Meeting Time: Tuesdays and Thursdays at 1:40-3:00 PM in Wellman 126  
-Discussion: Tuesdays at 6:10-7:00 PM in TLC 3215  
-Holidays:  Thursday, November 28th (Thanksgiving Day) [Academic Calendar](https://registrar.ucdavis.edu/calendar/master)  
-Final Examination Period: Tue. Dec.10 at 8:00 PM  
+Lecture Meeting Time: Mondays, Wendesdays, and Fridays at 1:10 to 2:00 PM in Olson 206.  
+Discussion: Wednesdays at 6:10 to 7:00 PM in TLC 2215.  
+Holidays:  Thursday, November 27th (Thanksgiving Day) ([Academic Calendar](https://registrar.ucdavis.edu/calendar/master))  
+Final Examination Period: Monday, December 8th at 1:00 PM  
 
 ## Course Description
 
@@ -30,7 +33,7 @@ This course is about the design and development of nuanced and highly contextual
 
 ## Materials
 
-Godot Engine version 4.3-stable Standard. Download [here](https://godotengine.org/download/archive/4.3-stable/).  
+Godot Engine version 4.5-stable. Download [here](https://godotengine.org/download/archive/4.5-stable/).  
 
 ## Grading and Assessment
 

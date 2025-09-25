@@ -92,7 +92,7 @@ Write justification here.
 ## Code Style ##
 
 ### Description ###
-Check the scripts to see if the student code follows the .Net style guide.
+Check the scripts to see if the student code follows the Godot style guide.
 
 If sections don't adhere to the style guide, please permalink the line of code from GitHub and justify why the line of code has infractions of the style guide.
 
@@ -118,7 +118,7 @@ Here is another example as well.
 
 ### Description ###
 
-If the student has followed best practices (Unity coding conventions from the StyleGuides document), then feel free to point at these segments of code as examples. 
+If the student has followed best practices as seen in the style guide lecture, then feel free to point at these segments of code as examples. 
 
 If the student has breached the best practices and has done something that should be noted, please add the infracture.
 
