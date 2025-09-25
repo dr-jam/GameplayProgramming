@@ -9,5 +9,7 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(_delta: float) -> void:
+	label.text = "nodes: " + str(get_tree().get_node_count())
 	if 0 == %Root.leaders.size():
 		label.text = "the tree is dead"
+	

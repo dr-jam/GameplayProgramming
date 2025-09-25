@@ -33,7 +33,6 @@ func _process(delta: float) -> void:
 	
 	roundCount += 1
 	#print("%s" % roundCount)
-	
 	var removeList = []
 	var addList = []
 	
