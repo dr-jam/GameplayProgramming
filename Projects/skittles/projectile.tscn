@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://ctc60tnbax72r"]
 
-[ext_resource type="Script" path="res://projectile.gd" id="1_uhbrx"]
+[ext_resource type="Script" uid="uid://8ykevin7j2f0" path="res://projectile.gd" id="1_uhbrx"]
 
 [sub_resource type="SphereMesh" id="SphereMesh_t8hf2"]
 

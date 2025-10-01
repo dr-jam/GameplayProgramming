@@ -1,5 +1,4 @@
-class_name PlayerCommand
+@abstract class_name PlayerCommand
 
 
-func execute(_player:Player)->bool:
-	return false
+@abstract func execute(_player:Player)->bool
