@@ -6,8 +6,11 @@
 
 [sub_resource type="BoxMesh" id="BoxMesh_d722u"]
 
-[node name="Player" type="Node3D"]
+
+[node name="Player" type="Node3D" node_paths=PackedStringArray("projectile_spawn")]
 script = ExtResource("1_4flbx")
+projectile_spawn = NodePath("Wand/ProjectileSpawn")
+
 
 [node name="Body" type="MeshInstance3D" parent="."]
 mesh = SubResource("CapsuleMesh_e0aj2")
