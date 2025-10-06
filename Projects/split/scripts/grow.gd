@@ -1,9 +1,11 @@
 extends Node2D
 
 @export var tree_seed:int
-@export var grow_chance = 0.94
-@export var split_chance = 0.05
-@export var timer = 0.25
+@export_range(0.0, 1.0, 0.01) var grow_chance : float = 0.94
+@export_range(0.0, 1.0, 0.01) var split_chance = 0.05
+@export_range(0.0, 1.0, 0.01) var death_chance = 0.01
+@export_range(0.0, 2.0, 0.1) var timer : float = 0.2
+
 @export var manual:bool = false
 
 var leaders = []
@@ -66,7 +68,7 @@ func _process(delta: float) -> void:
 			removeList.append(leader)
 			addList.append(growth)
 			
-		else:
+		if randomValue < split_chance + grow_chance + death_chance:
 			removeList.append(leader)
 		
 	for oldLeader in removeList:

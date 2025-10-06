@@ -16,7 +16,6 @@ zoom = Vector2(0.49, 0.49)
 
 [node name="Root" parent="." instance=ExtResource("2_k2vro")]
 unique_name_in_owner = true
-
 position = Vector2(0, 633)
 scale = Vector2(2, 2)
 
@@ -25,7 +24,6 @@ offset_left = -1112.0
 offset_top = -606.0
 offset_right = -977.0
 offset_bottom = -566.0
-
 script = ExtResource("3_yikaj")
 
 [node name="Label" type="Label" parent="PanelContainer"]
