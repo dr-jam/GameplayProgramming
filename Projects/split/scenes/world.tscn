@@ -20,6 +20,7 @@ position = Vector2(0, 633)
 scale = Vector2(2, 2)
 
 [node name="PanelContainer" type="PanelContainer" parent="."]
+visible = false
 offset_left = -1112.0
 offset_top = -606.0
 offset_right = -977.0

@@ -1,4 +1,7 @@
+class_name Grow
 extends Node2D
+
+signal new_growth(growth : Node2D)
 
 @export var tree_seed:int
 @export_range(0.0, 1.0, 0.01) var grow_chance : float = 0.94
@@ -51,28 +54,43 @@ func _process(delta: float) -> void:
 			leftGrowth.rotate(-0.01)
 			leftGrowth.translate(Vector2(0,-1))
 			
+			
 			leader.add_child(rightGrowth)
 			rightGrowth.transform = leader.transform
 			rightGrowth.rotate(0.01)
 			rightGrowth.translate(Vector2(0,-1))
 			
+			var leader_sprite = leader.get_child(0)
+			if leader_sprite is Sprite2D:
+				(leader_sprite as Sprite2D).modulate = Color.FIREBRICK
+			
 			removeList.append(leader)
 			addList.append(leftGrowth)
 			addList.append(rightGrowth)
 	
-		if randomValue < split_chance + grow_chance:
+		elif randomValue < split_chance + grow_chance:
 			var growth = growth_scene.instantiate()
 			leader.add_child(growth)
 			growth.transform = leader.transform
 			growth.transform.origin = Vector2(0, -5)
+			
+			var leader_sprite = leader.get_child(0)
+			if leader_sprite is Sprite2D:
+				(leader_sprite as Sprite2D).modulate = Color.PLUM
+			
 			removeList.append(leader)
 			addList.append(growth)
 			
-		if randomValue < split_chance + grow_chance + death_chance:
+		elif randomValue < split_chance + grow_chance + death_chance:
+			print("death")
+			var leader_sprite = leader.get_child(0)
+			if leader_sprite is Sprite2D:
+				(leader_sprite as Sprite2D).modulate = Color.LIGHT_STEEL_BLUE
 			removeList.append(leader)
 		
 	for oldLeader in removeList:
 		leaders.erase(oldLeader)
 		
 	for newLeader:Node2D in addList:
+		new_growth.emit(newLeader)
 		leaders.append(newLeader)

@@ -12,13 +12,9 @@ config_version=5
 
 config/name="Split"
 run/main_scene="res://scenes/world.tscn"
-
 config/features=PackedStringArray("4.5", "GL Compatibility")
-
-
 window/size/viewport_width=1900
 window/size/viewport_height=1080
-
 
 [editor]
 
