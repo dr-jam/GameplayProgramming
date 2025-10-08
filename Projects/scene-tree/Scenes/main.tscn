@@ -1,0 +1,65 @@
+[gd_scene load_steps=8 format=3 uid="uid://cqm476m0ndgad"]
+
+[ext_resource type="Script" uid="uid://dss8poj26d27" path="res://Scripts/petal_manager.gd" id="1_8gbba"]
+[ext_resource type="Texture2D" uid="uid://dcltlkjltkvi7" path="res://Assets/cherry_blossum_tree.png" id="1_jjgbg"]
+[ext_resource type="PackedScene" uid="uid://b16n4fljgbqq2" path="res://Scenes/petal.tscn" id="2_bo1nx"]
+[ext_resource type="Theme" uid="uid://dnjg7hcp1tvpi" path="res://Assets/cherry_blossum_theme.tres" id="4_jjvhh"]
+[ext_resource type="Script" uid="uid://dpub85yu0om4p" path="res://Scripts/pause_button.gd" id="5_kry3j"]
+[ext_resource type="Script" uid="uid://cqmj80vki0h8h" path="res://Scenes/wind_button.gd" id="6_21xkr"]
+[ext_resource type="Script" uid="uid://by6ttgnsmccp4" path="res://Scripts/reload_scene.gd" id="7_6bp64"]
+
+[node name="World" type="Node2D"]
+
+[node name="CherryBlossumTree" type="Sprite2D" parent="."]
+position = Vector2(573, 334)
+texture = ExtResource("1_jjgbg")
+script = ExtResource("1_8gbba")
+
+[node name="Petal1" parent="CherryBlossumTree" groups=["petals"] instance=ExtResource("2_bo1nx")]
+position = Vector2(-65, -224)
+
+[node name="Petal2" parent="CherryBlossumTree" groups=["petals"] instance=ExtResource("2_bo1nx")]
+position = Vector2(153, -208)
+
+[node name="Petal3" parent="CherryBlossumTree" groups=["petals"] instance=ExtResource("2_bo1nx")]
+position = Vector2(-258, 42)
+
+[node name="PetalSpawn" type="Node2D" parent="CherryBlossumTree"]
+position = Vector2(59, -156)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(577, 327)
+
+[node name="UI" type="Control" parent="."]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="UI"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 12.0
+offset_right = 56.0
+offset_bottom = 52.0
+
+[node name="PauseButton" type="Button" parent="UI/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_jjvhh")
+toggle_mode = true
+text = "Pause"
+script = ExtResource("5_kry3j")
+
+[node name="WindButton" type="Button" parent="UI/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_jjvhh")
+toggle_mode = true
+text = "Wind"
+script = ExtResource("6_21xkr")
+
+[node name="ReloadScene" type="Button" parent="UI/VBoxContainer"]
+layout_mode = 2
+theme = ExtResource("4_jjvhh")
+text = "Reload Scene"
+script = ExtResource("7_6bp64")

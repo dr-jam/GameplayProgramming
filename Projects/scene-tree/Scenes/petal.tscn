@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://b16n4fljgbqq2"]
+
+[ext_resource type="Script" uid="uid://dy2dmdaur7i11" path="res://Scripts/petal.gd" id="1_4tucl"]
+
+[sub_resource type="Gradient" id="Gradient_wycyn"]
+offsets = PackedFloat32Array(0)
+colors = PackedColorArray(1, 0.7921569, 0.8980392, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_4tucl"]
+gradient = SubResource("Gradient_wycyn")
+width = 8
+height = 8
+
+[node name="Petal" type="Node2D"]
+script = ExtResource("1_4tucl")
+
+[node name="PetalSprite" type="Sprite2D" parent="."]
+texture = SubResource("GradientTexture2D_4tucl")
