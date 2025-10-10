@@ -3,6 +3,7 @@ extends Node2D
 
 signal new_growth(growth : Node2D)
 
+
 @export var tree_seed:int
 @export_range(0.0, 1.0, 0.01) var grow_chance : float = 0.94
 @export_range(0.0, 1.0, 0.01) var split_chance = 0.05
@@ -16,7 +17,10 @@ var growth_scene = preload("res://scenes/growth.tscn")
 var growths = 0
 
 var cur_time = 0
-var roundCount = 0;
+var roundCount = 0
+
+#for camera info
+
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -60,6 +64,8 @@ func _process(delta: float) -> void:
 			rightGrowth.rotate(0.01)
 			rightGrowth.translate(Vector2(0,-1))
 			
+			
+			
 			var leader_sprite = leader.get_child(0)
 			if leader_sprite is Sprite2D:
 				(leader_sprite as Sprite2D).modulate = Color.FIREBRICK
@@ -94,3 +100,6 @@ func _process(delta: float) -> void:
 	for newLeader:Node2D in addList:
 		new_growth.emit(newLeader)
 		leaders.append(newLeader)
+		
+
+	
