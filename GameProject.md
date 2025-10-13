@@ -74,6 +74,10 @@ As the AI and Behavior Designer, you are responsible for creating the artificial
 
 As the Data and Analytics Engineer, you are responsible for instrumenting your game to collect and analyze gameplay data. This includes building systems that record metrics such as completion times, player deaths, resource usage, and score distributions. You will analyze this data to identify balance issues or design insights that can improve the gameplay experience. You will document your data collection methods, analytical results, and how those results informed subsequent design decisions. This role supports iterative development through evidence-based refinement and data-driven insight.
 
+### Procedural Content Design
+
+You are responsible for implementing or prototyping a system that procedurally generates some element of your game—such as levels, enemies, puzzles, or visual patterns. You will document the algorithms or randomization methods used, describe how the generated content varies across playthroughs, and show how it integrates into the existing game systems. This role highlights creative computation and demonstrates how generative design can expand replayability and variety.
+
 ## Sub-Roles
 
 
@@ -98,4 +102,22 @@ You are responsible for creating a press kit for your game that includes screens
 
 In this role, you are responsible for using what we learned in class about game feel to ensure your game's playability. You will document what you added to and how you tweaked your game to improve its game feel.
 
+### Accessibility and Usability Design
 
+You are responsible for ensuring that your game can be played and understood by the widest possible audience. This includes evaluating input schemes, color contrast, text readability, and overall user comprehension. You will document the accessibility features implemented in your game—such as scalable UI elements, clear tutorials, or color-blind–safe palettes—and describe how they improve usability. Your report should include before-and-after examples or screenshots showing design changes made to support a broader range of players.
+
+### Performance Optimization
+
+You are responsible for ensuring that your game runs smoothly and efficiently. You will analyze frame rates, memory usage, and object counts across builds, and identify sources of performance bottlenecks. You will document the profiling tools you used (such as Unity Profiler or Frame Debugger), the optimizations you implemented, and the resulting performance improvements. This subrole emphasizes engineering discipline and teaches how to balance artistic fidelity with technical constraints.
+
+### Visual Cohesion and Style Guide
+
+You are responsible for maintaining a consistent visual identity across your game. You will define the game’s palette, typography, and visual tone, and ensure that all visual elements—from menus to levels—adhere to this cohesive style. You will create a short visual style guide that references your sources and explains your artistic decisions. This subrole supports the Animation and Visuals main role by ensuring that all assets, regardless of origin, appear unified in presentation.
+
+### Build and Release Management
+
+You are responsible for creating and maintaining stable builds of your game throughout development. This includes managing the version control workflow, resolving merge conflicts, and preparing playable builds for milestones and the final presentation. You will document the release process—how assets and scripts are integrated, how branches are merged, and how the final build is packaged for distribution. This subrole ensures that the team’s work is consistently deliverable and technically stable.
+
+### Player Onboarding and Tutorial Design
+
+You are responsible for helping new players understand how to play your game effectively. This includes designing and implementing tutorial sequences, hint systems, or onboarding UI elements that teach core mechanics in an intuitive way. You will document your tutorial structure and describe how it gradually introduces game systems to players. Screenshots or diagrams showing the player learning curve will strengthen your report. This subrole emphasizes clarity, communication, and player empathy.
