@@ -30,7 +30,6 @@ Each team member must take on one main role and one sub-role. You will create th
 
 The following are the main roles and their basic descriptions.
 
-
 ### Producer
 
 The producer coordinates the technical dependencies and basic team logistics. Responsibilities include, but are not limited to, creating a dependency chart for the significant development tasks for the game, coordinating team meetings, working with the other roles to integrate their work into the main project, deciding on the Git-based workflow (i.e., how everyone's work gets combined into release branches without breaking the project), and organizing the final presentation.
@@ -53,6 +52,27 @@ As the team's master of visuals, you are responsible for implementing the basic 
 ### Game Logic
 
 This will be the most complicated role in most projects as it is a point of integration for nearly all gameplay systems. Traditionally, most of the game logic is placed in a game manager singleton and is referenced as needed by other scripts. It is the job of your team's game logician to manage the various game states (i.e., current level, main menu, main gameplay mode) and data (i.e., time remaining, quest completion status, references to all active enemies and items).  You will document the game states and game data you managed and the design patterns you used to complete your task. Charts are a great way to visually explain how parts of your game logic interact with the other gameplay systems.
+
+
+### Systems and Tools Engineer
+
+As the Systems and Tools Engineer, you are responsible for developing reusable systems, custom Unity tools, and workflow scripts that improve your team’s development efficiency. This includes creating procedural content generators, editor extensions, data serialization pipelines, debugging overlays, or asset-management tools. You will document the tools and systems you create, their purpose, and how they are used by other team members. When performed well, this role amplifies the productivity of the entire team, ensuring that technical systems are modular, efficient, and maintainable.
+
+### Level and World Designer
+
+As the Level and World Designer, you are responsible for defining the spatial layout and player flow of your game. This includes building levels, placing objects and obstacles, shaping the rhythm of exploration and challenge, and incorporating environmental storytelling. You will use the conventions established by the other roles—movement physics, visual style, and game logic—to create coherent gameplay spaces. Your documentation should include annotated maps, flow diagrams, and a discussion of how level design supports player experience, pacing, and difficulty progression.
+
+### Technical Artist
+
+As the Technical Artist, you are responsible for bridging art and engineering. You will ensure that all visual assets integrate smoothly into the project while maintaining real-time performance. This includes implementing shaders, materials, lighting setups, and post-processing effects, as well as optimizing textures and meshes. You may also develop custom visual tools to support other roles. You will document your visual pipeline, performance optimizations, and the aesthetic principles guiding your work. When done effectively, this role connects artistic direction with technical stability.
+
+### AI and Behavior Designer
+
+As the AI and Behavior Designer, you are responsible for creating the artificial intelligence systems that give life to the game’s world. You will design and implement the logic for enemies, allies, or other autonomous agents using techniques such as finite-state machines, behavior trees, or utility systems. You will collaborate with the Game Logic and Animation roles to integrate these behaviors into the larger gameplay structure. Documentation should include diagrams or pseudocode showing the architecture of your AI systems and explanations of how they shape player experience and game difficulty.
+
+### Data and Analytics Engineer
+
+As the Data and Analytics Engineer, you are responsible for instrumenting your game to collect and analyze gameplay data. This includes building systems that record metrics such as completion times, player deaths, resource usage, and score distributions. You will analyze this data to identify balance issues or design insights that can improve the gameplay experience. You will document your data collection methods, analytical results, and how those results informed subsequent design decisions. This role supports iterative development through evidence-based refinement and data-driven insight.
 
 ## Sub-Roles
 
