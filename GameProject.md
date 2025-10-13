@@ -36,6 +36,10 @@ The producer coordinates the technical dependencies and basic team logistics. Re
 
 While this role has fewer direct programming responsibilities, it requires understanding all parts of the development process. When performed well, the producer amplifies the team's effort, leading to a better game project.
 
+
+
+
+
 ### User Interface and Input
 
 In this role, you are responsible for the user interface elements of the game. This typically includes the contents of the heads-up display or HUD. This traditionally comprises gameplay status information such as player character health, score, resources like magic points or gold,  and timekeepers. This is also responsible for the menu and credit screens. You will be responsible for managing the input methods for your game. You should design your game to be used with either keyboard and mouse or a game controller. If you would like to excel in this role, you can add additional input control schemes for mobile devices. You will document the inputs and how they affect each game mode (e.g., menu, main gameplay, inventory screens, credits, etc.) and how they interact with the game work and UI/HUD. You are responsible for documenting the various UI elements you implement and how they interact with the changing state of the game.
@@ -77,6 +81,23 @@ As the Data and Analytics Engineer, you are responsible for instrumenting your g
 ### Procedural Content Design
 
 You are responsible for implementing or prototyping a system that procedurally generates some element of your game—such as levels, enemies, puzzles, or visual patterns. You will document the algorithms or randomization methods used, describe how the generated content varies across playthroughs, and show how it integrates into the existing game systems. This role highlights creative computation and demonstrates how generative design can expand replayability and variety.
+
+### Main Role Deliverables
+
+| **Main Role**                   | **Design Deliverables (🎮)**                      | **Technical Deliverables (⚙️)**                      | **Documentation Deliverables (📄)**                    | **Integration Deliverables (🔗)**                          |
+| ------------------------------- | ------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
+| **Producer**                    | Project roadmap and milestone plan                | Git workflow setup, build pipeline                   | Dependency chart, meeting summaries, workflow guide    | Final presentation coordination, release build integration |
+| **UI and Input**                | HUD, menus, control scheme layouts                | Input scripts, UI prefabs/scenes, interface code     | UI map, input mapping chart, interaction documentation | Integrated UI connected to Game Logic systems              |
+| **Movement / Physics**          | Movement conventions, physics feel tuning         | Physics scripts, rigidbody configurations            | Motion system flowchart, parameter tables              | Verified consistent behavior across game objects           |
+| **Animation and Visuals**       | Visual style guide, animation plan                | Animator controllers, shader/material setups         | Asset licensing list, system overview                  | Integrated visuals aligned with movement and game states   |
+| **Game Logic**                  | Game flow and rule definitions                    | Game manager or modular logic scripts                | System diagrams, design pattern rationale              | Coordinated interaction among all gameplay systems         |
+| **Systems and Tools Engineer**  | Workflow enhancements, reusable templates         | Editor extensions, utility scripts, automation tools | Tool documentation and usage instructions              | Tools implemented and used by other team members           |
+| **Level and World Designer**    | Level layouts, pacing, worldbuilding plan         | Scene construction, prefab/scene arrangement         | Annotated maps, level flow diagrams                    | Levels integrated with physics, logic, and visuals         |
+| **Technical Artist**            | Visual cohesion and fidelity goals                | Lighting, materials, post-processing effects         | Pipeline documentation, optimization records           | Performance testing in integrated builds                   |
+| **AI and Behavior Designer**    | Enemy/NPC design and behavioral tuning            | AI logic (FSMs, behavior trees, utility systems)     | Architecture diagrams, tuning tables                   | Verified AI behavior integrated into game loop             |
+| **Data and Analytics Engineer** | Gameplay balance insights, metric definitions     | Logging and data collection scripts                  | Data tables, analysis report                           | Feedback applied to improve later builds                   |
+| **Procedural Content Design**   | Procedural variation plan (levels, puzzles, etc.) | Generation algorithms and randomization systems      | Algorithm documentation, system diagrams               | Integration of procedural content into main game loop      |
+
 
 ## Sub-Roles
 
