@@ -4,7 +4,6 @@ In this project, you will be designing and creating a game in teams. While you w
 * Each team member will have a role and a sub-role.
 * Each team member will be responsible for creating at least one gameplay system.
 * Each team member will be responsible for describing their work in your team's design document. 
-* All roles and sub-roles must be assigned across your team's members.
 * Your game, assets, source code, and project files will be placed in a publicly-accessible GitHub repository.
 
 # Grading
