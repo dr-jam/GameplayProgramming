@@ -64,7 +64,7 @@ As the Systems and Tools Engineer, you are responsible for developing reusable s
 
 ### Level and World Designer
 
-As the Level and World Designer, you are responsible for defining the spatial layout and player flow of your game. This includes building levels, placing objects and obstacles, shaping the rhythm of exploration and challenge, and incorporating environmental storytelling. You will use the conventions established by the other roles—movement physics, visual style, and game logic—to create coherent gameplay spaces. Your documentation should include annotated maps, flow diagrams, and a discussion of how level design supports player experience, pacing, and difficulty progression.
+As the Level and World Designer, you are responsible for defining the spatial layout and player flow of your game. This includes building levels, placing objects and obstacles, shaping the rhythm of exploration and challenge, and incorporating environmental storytelling. You will use the conventions established by the other roles like movement physics, visual style, and game logic to create coherent gameplay spaces. Your documentation should include annotated maps, flow diagrams, and a discussion of how level design supports player experience, pacing, and difficulty progression.
 
 ### Technical Artist
 
@@ -80,7 +80,7 @@ As the Data and Analytics Engineer, you are responsible for instrumenting your g
 
 ### Procedural Content Design
 
-You are responsible for implementing or prototyping a system that procedurally generates some element of your game—such as levels, enemies, puzzles, or visual patterns. You will document the algorithms or randomization methods used, describe how the generated content varies across playthroughs, and show how it integrates into the existing game systems. This role highlights creative computation and demonstrates how generative design can expand replayability and variety.
+You are responsible for implementing or prototyping a system that procedurally generates some element of your game including levels, enemies, puzzles, or visual patterns. You will document the algorithms or randomization methods used, describe how the generated content varies across playthroughs, and show how it integrates into the existing game systems. This role highlights creative computation and demonstrates how generative design can expand replayability and variety.
 
 ### Main Role Deliverables
 
@@ -125,7 +125,7 @@ In this role, you are responsible for using what we learned in class about game 
 
 ### Accessibility and Usability Design
 
-You are responsible for ensuring that your game can be played and understood by the widest possible audience. This includes evaluating input schemes, color contrast, text readability, and overall user comprehension. You will document the accessibility features implemented in your game—such as scalable UI elements, clear tutorials, or color-blind–safe palettes—and describe how they improve usability. Your report should include before-and-after examples or screenshots showing design changes made to support a broader range of players.
+You are responsible for ensuring that your game can be played and understood by the widest possible audience. This includes evaluating input schemes, color contrast, text readability, and overall user comprehension. You will document the accessibility features implemented in your game (e.g., scalable UI elements, clear tutorials, or color-blind–safe palettes) and describe how they improve usability. Your report should include before-and-after examples or screenshots showing design changes made to support a broader range of players.
 
 ### Performance Optimization
 
@@ -133,11 +133,11 @@ You are responsible for ensuring that your game runs smoothly and efficiently. Y
 
 ### Visual Cohesion and Style Guide
 
-You are responsible for maintaining a consistent visual identity across your game. You will define the game’s palette, typography, and visual tone, and ensure that all visual elements—from menus to levels—adhere to this cohesive style. You will create a short visual style guide that references your sources and explains your artistic decisions. This subrole supports the Animation and Visuals main role by ensuring that all assets, regardless of origin, appear unified in presentation.
+You are responsible for maintaining a consistent visual identity across your game. You will define the game’s palette, typography, and visual tone, and ensure that all visual elements adhere to this cohesive style. You will create a short visual style guide that references your sources and explains your artistic decisions. This subrole supports the Animation and Visuals main role by ensuring that all assets, regardless of origin, appear unified in presentation.
 
 ### Build and Release Management
 
-You are responsible for creating and maintaining stable builds of your game throughout development. This includes managing the version control workflow, resolving merge conflicts, and preparing playable builds for milestones and the final presentation. You will document the release process—how assets and scripts are integrated, how branches are merged, and how the final build is packaged for distribution. This subrole ensures that the team’s work is consistently deliverable and technically stable.
+You are responsible for creating and maintaining stable builds of your game throughout development. This includes managing the version control workflow, resolving merge conflicts, and preparing playable builds for milestones and the final presentation. You will document the release process: how assets and scripts are integrated, how branches are merged, and how the final build is packaged for distribution. This subrole ensures that the team’s work is consistently deliverable and technically stable.
 
 ### Player Onboarding and Tutorial Design
 
