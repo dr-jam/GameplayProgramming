@@ -1,6 +1,6 @@
 # Description of Game Project
 
-In this project, you will be designing and creating a game in Unity in teams of 5. While you will be responsible for designing the overall direction of your game, you will be given the following constraints:
+In this project, you will be designing and creating a game in teams. While you will be responsible for designing the overall direction of your game, you will be given the following constraints:
 * Each team member will have a role and a sub-role.
 * Each team member will be responsible for creating at least one gameplay system.
 * Each team member will be responsible for describing their work in your team's design document. 
@@ -142,3 +142,18 @@ You are responsible for creating and maintaining stable builds of your game thro
 ### Player Onboarding and Tutorial Design
 
 You are responsible for helping new players understand how to play your game effectively. This includes designing and implementing tutorial sequences, hint systems, or onboarding UI elements that teach core mechanics in an intuitive way. You will document your tutorial structure and describe how it gradually introduces game systems to players. Screenshots or diagrams showing the player learning curve will strengthen your report. This subrole emphasizes clarity, communication, and player empathy.
+
+### Subrole Deliverables
+| **Subrole**                               | **Design Deliverables (🎨)**                             | **Technical Deliverables (⚙️)**                                         | **Documentation Deliverables (📄)**                                          | **Integration Deliverables (🔗)**                               |
+| ----------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Audio**                                 | Defined audio style and sound identity                   | Audio scripts and in-game implementation                                | Asset source list, licensing documentation, sound system overview            | Integrated and balanced audio feedback across gameplay systems  |
+| **Gameplay Testing**                      | Playtesting plan and test scenarios                      | Test builds prepared for external testers                               | Ten completed Observation and Playtester Comments forms, analysis summary    | Feedback synthesized and shared with team for iteration         |
+| **Narrative Design**                      | Embedded narrative moments, dialogue, and story flow     | Implementation of narrative logic, triggers, or text systems            | Documentation of how narrative is expressed through gameplay and assets      | Narrative systems connected to game state and UI                |
+| **Press Kit and Trailer**                 | Visual identity and trailer composition                  | Capture tools and editing workflow                                      | Press kit package (screenshots, trailer, game summary) with rationale        | Promotional materials aligned with final build presentation     |
+| **Game Feel**                             | Adjustments improving responsiveness and tactile quality | Tweaked scripts for feedback (camera shake, timing, animation blending) | Notes describing feel adjustments and their effects                          | Verified improvements through playtesting and iteration         |
+| **Accessibility and Usability Design**    | Inclusive interface and control layouts                  | Accessibility features (scalable UI, color-blind modes, etc.)           | Before-and-after comparisons, annotated screenshots, accessibility checklist | Accessibility improvements applied to live build and UI         |
+| **Performance Optimization**              | Balanced performance-to-visual quality decisions         | Profiling, optimization of code, assets, or physics                     | Profiling reports and comparison charts (pre/post optimization)              | Performance improvements verified in integrated builds          |
+| **Visual Cohesion and Style Guide**       | Unified aesthetic across menus, levels, and assets       | Shader or color-palette adjustments for consistency                     | Visual style guide referencing color, typography, and layout                 | Applied cohesive style across all in-game assets                |
+| **Build and Release Management**          | Stable milestone and final build releases                | Automated build pipeline or release scripts                             | Release documentation, version control logs, merge records                   | Verified working build at each milestone and final presentation |
+| **Player Onboarding and Tutorial Design** | Tutorial levels, hint systems, or onboarding screens     | Scripted tutorial flow and triggers                                     | Documentation of tutorial structure and learning curve                       | Integrated onboarding experience accessible in final game       |
+
