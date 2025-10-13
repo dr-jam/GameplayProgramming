@@ -9,7 +9,7 @@ In this project, you will be designing and creating a game in Unity in teams of 
 
 # Grading
 
-The project will be graded on a 100 point scale with the following weights:
+The project will be graded on a 100-point scale with the following weights:
 * Main Role
   * 30 Implementation
   * 10 Documentation
@@ -20,9 +20,7 @@ The project will be graded on a 100 point scale with the following weights:
 
 # Submission Information
 
-Submissions will be taken from the team registration spreadsheet via your teams GitHub repository link. Your project code
-
-Your repository should include the following .gitignore file in the root directory of the project: https://gitignore.io/api/osx,unity,linux,windows,vscode
+Submissions will be taken from the team registration spreadsheet via your team's GitHub repository link. Your project code
 
 # Team Member Roles
 
@@ -30,18 +28,18 @@ Each team member must take on one main role and one sub-role. You will create th
 
 ## Main Roles
 
-The following are the main roles and their basic descriptions
+The following are the main roles and their basic descriptions.
 
 
 ### Producer
 
-The producer coordinates the technical dependencies and basic team logistics. Responsibilities include but are not limited to creating a dependency chart for the significant development tasks for the game, coordinating team meetings, working with the other roles to integrate their work into the main project, deciding on the Git-based workflow (i.e. how everyone's work gets combined into release branches without breaking the project), and organizing the final presentation.
+The producer coordinates the technical dependencies and basic team logistics. Responsibilities include, but are not limited to, creating a dependency chart for the significant development tasks for the game, coordinating team meetings, working with the other roles to integrate their work into the main project, deciding on the Git-based workflow (i.e., how everyone's work gets combined into release branches without breaking the project), and organizing the final presentation.
 
-While this role has fewer direct programming responsibilities, it requires understanding all parts of the development process. When performed well, the producer multiplies the effort of the entire team, which results in a better game project.
+While this role has fewer direct programming responsibilities, it requires understanding all parts of the development process. When performed well, the producer amplifies the team's effort, leading to a better game project.
 
 ### User Interface and Input
 
-In this role, you are responsible for the user interface elements of the game. This typically includes the contents of the heads-up display or HUD. This traditionally comprises gameplay status information such as player character health, score, resources like magic points or gold,  and time-keepers. This is also responsible for the menu and credit screens. You will be responsible for managing the input methods for your game. You should design your game to be used with either keyboard and mouse or a game controller. If you would like to excel in this role, you can add additional input control schemes for mobile devices. You will document the inputs and how they affect each game mode (e.g., menu, main gameplay, inventory screens, credits, etc.) and how they interact with the game work and UI/HUD. You are responsible for documenting the various UI elements you implement and how they interact with the changing state of the game.
+In this role, you are responsible for the user interface elements of the game. This typically includes the contents of the heads-up display or HUD. This traditionally comprises gameplay status information such as player character health, score, resources like magic points or gold,  and timekeepers. This is also responsible for the menu and credit screens. You will be responsible for managing the input methods for your game. You should design your game to be used with either keyboard and mouse or a game controller. If you would like to excel in this role, you can add additional input control schemes for mobile devices. You will document the inputs and how they affect each game mode (e.g., menu, main gameplay, inventory screens, credits, etc.) and how they interact with the game work and UI/HUD. You are responsible for documenting the various UI elements you implement and how they interact with the changing state of the game.
 
 ### Movement/Physics
 
