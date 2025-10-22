@@ -18,4 +18,4 @@ func _ready() -> void:
 	
 	# Groups (tree-wide tagging)
 	petal.add_to_group("petals")
-	get_tree().get_nodes_in_group("enemies")
+	get_tree().get_nodes_in_group("petals")
