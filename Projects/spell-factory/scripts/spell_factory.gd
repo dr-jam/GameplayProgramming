@@ -3,6 +3,7 @@ extends Node3D
 enum Spells {
 	FIREBALL,
 	METEOR,
+	ULTIMA,
 }
 
 @export var tome: Dictionary[Spells, PackedScene]
@@ -21,6 +22,8 @@ func _process(delta: float) -> void:
 		_create(Spells.FIREBALL)
 	elif Input.is_action_just_pressed("ui_down"):
 		_create(Spells.METEOR)
+	elif Input.is_action_just_pressed("ui_right"):
+		_create(Spells.ULTIMA)
 		
 		
 func _create(spell:Spells) -> void:

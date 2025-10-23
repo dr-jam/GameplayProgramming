@@ -1,7 +1,8 @@
-[gd_scene load_steps=10 format=3 uid="uid://02dqc2h02b71"]
+[gd_scene load_steps=11 format=3 uid="uid://02dqc2h02b71"]
 
 [ext_resource type="Script" uid="uid://7fsycmrdww1v" path="res://scripts/spell_factory.gd" id="1_2tsk8"]
 [ext_resource type="PackedScene" uid="uid://dqhjljefvdpy6" path="res://scenes/fireball.tscn" id="2_u0x2w"]
+[ext_resource type="PackedScene" uid="uid://cd34bb34krund" path="res://scenes/ultima.tscn" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://0isk0k7rm551" path="res://scenes/meteor.tscn" id="3_ras4o"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u0x2w"]
@@ -31,7 +32,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.1630445, 0)
 script = ExtResource("1_2tsk8")
 tome = Dictionary[int, PackedScene]({
 0: ExtResource("2_u0x2w"),
-1: ExtResource("3_ras4o")
+1: ExtResource("3_ras4o"),
+2: ExtResource("3_4wyf3")
 })
 
 [node name="Building" type="MeshInstance3D" parent="SpellFactory"]

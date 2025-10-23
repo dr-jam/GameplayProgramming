@@ -5,7 +5,9 @@
 
 [node name="Meteor" type="Node3D"]
 script = ExtResource("1_ip3ep")
+speed = 10.0
 
 [node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
 billboard = 1
 texture = ExtResource("2_sutx5")
