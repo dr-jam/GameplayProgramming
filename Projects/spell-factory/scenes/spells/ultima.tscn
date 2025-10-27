@@ -1,6 +1,7 @@
-[gd_scene load_steps=4 format=3 uid="uid://cd34bb34krund"]
+[gd_scene load_steps=5 format=3 uid="uid://cd34bb34krund"]
 
 [ext_resource type="Script" uid="uid://c6r4tdvpvqjd3" path="res://scripts/ultima.gd" id="1_vh7io"]
+[ext_resource type="Script" uid="uid://c7unljwab3sff" path="res://scripts/pool_factory/pool_tag.gd" id="2_6iax7"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_71j4m"]
 albedo_color = Color(1, 0.4862745, 0.92941177, 1)
@@ -13,3 +14,6 @@ script = ExtResource("1_vh7io")
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
 mesh = SubResource("TorusMesh_qfnet")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("2_6iax7")

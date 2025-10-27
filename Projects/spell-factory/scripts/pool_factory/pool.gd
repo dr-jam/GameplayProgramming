@@ -42,8 +42,7 @@ func _instantiate() -> Node:
 func _mark_active(n: Node) -> Node:
 	# visible/ready to use; parent is set by the factory caller
 	n.set_process(true)
-	if n.has_property("visible"):
-		n.visible = true
+	n.visible = true
 	_active.append(n)
 	return n
 
@@ -54,6 +53,5 @@ func _idle(n: Node) -> void:
 		n.get_parent().remove_child(n)
 	_pool_root.add_child(n)
 	n.set_process(false)
-	if n.has_property("visible"):
-		n.visible = false
+	n.visible = false
 	_inactive.append(n)

@@ -1,18 +1,24 @@
-extends Node
 class_name PooledFactory
+extends Node3D
 
+
+enum Spells {
+	FIREBALL,
+	METEOR,
+	ULTIMA,
+}
 # Register your spawnable types here (or expose as exported dictionary).
-var _registry: Dictionary = {
-	"bullet": preload("res://scenes/fireball.tscn"),
-	"slime":  preload("res://scenes/meteor.tscn"),
-	#"vfx":    preload("res://scenes/ultima.tscn"),
+var _registry: Dictionary[Spells, PackedScene] = {
+	Spells.FIREBALL: preload("res://scenes/spells/fireball.tscn"),
+	Spells.METEOR: preload("res://scenes/spells/meteor.tscn"),
+	Spells.ULTIMA: preload("res://scenes/spells/ultima.tscn"),
 }
 
 # Per-ID pool settings (optional; defaults used if missing)
-var _settings: Dictionary = {
-	"bullet": {"prewarm": 64},
-	"slime":  {"prewarm": 8},
-	"vfx":    {"prewarm": 16},
+var _settings: Dictionary[Spells, Variant] = {
+	Spells.FIREBALL: {"prewarm": 64},
+	Spells.METEOR: {"prewarm": 16},
+	Spells.ULTIMA: {"prewarm": 8},
 }
 
 var _pools: Dictionary = {} # id -> Pool
@@ -25,8 +31,17 @@ func _ready() -> void:
 	add_child(_pool_root)
 	_build_pools()
 
+
+func _process(_delta: float) -> void:
+	if Input.is_action_just_pressed("ui_up"):
+		spawn(Spells.FIREBALL).reparent(owner)
+	elif Input.is_action_just_pressed("ui_down"):
+		spawn(Spells.METEOR).reparent(owner)
+	elif Input.is_action_just_pressed("ui_right"):
+		spawn(Spells.ULTIMA).reparent(owner)
+
 func _build_pools() -> void:
-	for id: StringName in _registry.keys():
+	for id: Spells in _registry.keys():
 		var prefab: PackedScene = _registry[id]
 		var prewarm := int(_settings.get(id, {}).get("prewarm", 0))
 		_pools[id] = Pool.new(prefab, prewarm, _pool_root)
@@ -34,7 +49,7 @@ func _build_pools() -> void:
 # --- PUBLIC API (pool use is transparent) ---
 
 ## Spawn an instance by id. Optionally parent it and pass a config dictionary.
-func spawn(id: StringName, parent: Node = null, config := {}) -> Node:
+func spawn(id: Spells, _config := {}) -> Node:
 	var pool: Pool = _pools.get(id)
 	if pool == null:
 		push_error("PooledFactory: unknown id: %s" % id)
@@ -51,24 +66,13 @@ func spawn(id: StringName, parent: Node = null, config := {}) -> Node:
 	tag.factory = self
 	tag.id = id
 
-	# Optional product configuration contract
-	if "configure" in n:
-		n.configure(config)
-
-	# Caller decides parenting; if none provided, keep under factory for convenience
-	if parent:
-		parent.add_child(n)
-	else:
-		add_child(n)
-
 	return n
 
 ## Optional: let external scripts explicitly recycle (they don’t have to).
-func recycle(id: StringName, node: Node) -> void:
+func recycle(id: Spells, node: Node) -> void:
 	var pool: Pool = _pools.get(id)
 	if pool == null or node == null:
 		return
-	# Allow products to clean up before recycling
-	if "on_recycled" in node:
-		node.on_recycled()
+
+	#node.on_recycled()
 	pool.recycle(node)
