@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dqhjljefvdpy6"]
+
+[ext_resource type="Script" uid="uid://blbj10vmd6mcm" path="res://scripts/fireball.gd" id="1_1et5s"]
+[ext_resource type="Texture2D" uid="uid://c4lmeb53ph5jp" path="res://Assests/fireball.png" id="2_pjw2a"]
+[ext_resource type="Script" uid="uid://c7unljwab3sff" path="res://scripts/pool_factory/pool_tag.gd" id="3_fnao3"]
+
+[node name="Fireball" type="Node3D"]
+script = ExtResource("1_1et5s")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+billboard = 1
+texture = ExtResource("2_pjw2a")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("3_fnao3")

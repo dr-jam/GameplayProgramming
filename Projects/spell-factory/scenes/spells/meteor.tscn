@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://0isk0k7rm551"]
+
+[ext_resource type="Script" uid="uid://w5lgpb8b4603" path="res://scripts/meteor.gd" id="1_ip3ep"]
+[ext_resource type="Texture2D" uid="uid://8fiqisihf0w7" path="res://Assests/meteor.png" id="2_sutx5"]
+[ext_resource type="Script" uid="uid://c7unljwab3sff" path="res://scripts/pool_factory/pool_tag.gd" id="3_nmdok"]
+
+[node name="Meteor" type="Node3D"]
+script = ExtResource("1_ip3ep")
+speed = 10.0
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
+billboard = 1
+texture = ExtResource("2_sutx5")
+
+[node name="Node" type="Node" parent="."]
+script = ExtResource("3_nmdok")
