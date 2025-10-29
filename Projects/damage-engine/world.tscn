@@ -1,0 +1,49 @@
+[gd_scene load_steps=11 format=3 uid="uid://dq6qe51f47vw"]
+
+[ext_resource type="Script" uid="uid://dtxn06g6elov2" path="res://scripts/damage_test.gd" id="1_f3sb7"]
+[ext_resource type="Script" uid="uid://ca7gd72aggdqc" path="res://scripts/combatant.gd" id="2_aqk2v"]
+[ext_resource type="Script" uid="uid://dsgxdas3ycyt2" path="res://scripts/stats.gd" id="3_036b0"]
+[ext_resource type="Script" uid="uid://brom4ab5r2yev" path="res://scripts/equipment.gd" id="4_dwbse"]
+
+[sub_resource type="Resource" id="Resource_pkg7o"]
+script = ExtResource("3_036b0")
+metadata/_custom_type_script = "uid://dsgxdas3ycyt2"
+
+[sub_resource type="Resource" id="Resource_gbfbk"]
+script = ExtResource("4_dwbse")
+metadata/_custom_type_script = "uid://brom4ab5r2yev"
+
+[sub_resource type="Resource" id="Resource_ioo17"]
+script = ExtResource("4_dwbse")
+metadata/_custom_type_script = "uid://brom4ab5r2yev"
+
+[sub_resource type="Resource" id="Resource_aqk2v"]
+script = ExtResource("3_036b0")
+level = 4
+max_hp = 300
+metadata/_custom_type_script = "uid://dsgxdas3ycyt2"
+
+[sub_resource type="Resource" id="Resource_036b0"]
+script = ExtResource("4_dwbse")
+metadata/_custom_type_script = "uid://brom4ab5r2yev"
+
+[sub_resource type="Resource" id="Resource_dwbse"]
+script = ExtResource("4_dwbse")
+metadata/_custom_type_script = "uid://brom4ab5r2yev"
+
+[node name="Node2D" type="Node2D"]
+
+[node name="DamageTest" type="Node2D" parent="."]
+script = ExtResource("1_f3sb7")
+
+[node name="Hero" type="Node2D" parent="."]
+script = ExtResource("2_aqk2v")
+base_stats = SubResource("Resource_pkg7o")
+weapon = SubResource("Resource_gbfbk")
+armor = SubResource("Resource_ioo17")
+
+[node name="Enemy" type="Node2D" parent="."]
+script = ExtResource("2_aqk2v")
+base_stats = SubResource("Resource_aqk2v")
+weapon = SubResource("Resource_036b0")
+armor = SubResource("Resource_dwbse")
