@@ -1,0 +1,88 @@
+# Peer-Review for Programming Exercise 2 #
+
+## Peer-reviewer Information
+
+* *name:* Aarav Jain  
+* *email:* apjain@ucdavis.edu  
+
+---
+
+## Solution Assessment ##
+
+### Stage 1 – Position Lock ###
+- [ ] Perfect  
+- [ ] Great  
+- [x] Good  
+#### Justification  
+The camera does appear to follow the player object (pink dot), but it feels static and lacks proper centering behavior. There’s no visible cross or debug lines showing camera logic, making it unclear whether visualization works as required.
+
+---
+
+### Stage 2 – Framing with Horizontal Auto-Scroll ###
+- [ ] Perfect  
+- [ ] Great  
+- [x] Satisfactory  
+#### Justification  
+Camera auto-scroll is present but limited. The view moves to the right but struggles to adjust when the vessel moves left. The framing box doesn’t seem to constrain or push the player correctly, and visualization is missing.
+
+---
+
+### Stage 3 – Position Lock with Lerp Smoothing ###
+- [ ] Perfect  
+- [ ] Great  
+- [ ] Good  
+- [x] Satisfactory  
+#### Justification  
+Smooth following behavior was not clearly implemented. Camera movement feels abrupt and one-directional. Could use interpolation (lerp) to create more natural smoothing and dynamic centering.
+
+---
+
+### Stage 4 – Lerp Smoothing with Target Focus ###
+- [ ] Perfect  
+- [ ] Great  
+- [ ] Good  
+- [x] Unsatisfactory  
+#### Justification  
+Camera doesn’t seem to anticipate player movement or lead the target. No visible indication of leading logic or delay when stopping. Functionality appears incomplete.
+
+---
+
+### Stage 5 – 4-Way Speedup Push Zone ###
+- [ ] Perfect  
+- [ ] Great  
+- [ ] Good  
+- [ ] Satisfactory  
+- [x] Unsatisfactory  
+#### Justification  
+There’s no visible 4-directional push zone or responsive behavior when approaching screen edges. The camera remains largely static, without distinct zones or push ratios implemented.
+
+---
+
+# Code Style #
+
+#### Style Guide Infractions ####
+- Hard to tell overall code structure since the logic seems incomplete.  
+- Possible missing exports for tuning parameters.  
+
+#### Style Guide Exemplars ####
+- Variable naming conventions appear consistent and readable where visible.  
+- Used basic structure extending `CameraControllerBase`, which is correct.
+
+---
+
+# Best Practices #
+
+#### Best Practices Infractions ####
+- Missing visualization logic (`draw_camera_logic` should be true by default).  
+- Lacked proper exported tuning parameters for designers.  
+- Camera behavior not differentiated between stages.  
+
+#### Best Practices Exemplars ####
+- At least created multiple camera scripts extending the base class, showing understanding of project structure.
+
+---
+
+### Overall Assessment ###
+**Rating: Satisfactory (✓)** — Some functionality exists, but camera logic is incomplete or underdeveloped.  
+The implementation runs but doesn’t match assignment specifications (no smoothness, limited movement, missing visuals).  
+Recommend reviewing the PushBox and PositionLock examples and enabling draw logic for testing.
