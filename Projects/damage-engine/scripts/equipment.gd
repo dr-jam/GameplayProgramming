@@ -4,7 +4,14 @@ class_name Equipment
 @export var name: String = "Equipment"
 @export var long_range: bool = false                  # bows/whips ignore back-row penalty on attacker
 @export var elements: Array[Element.Type] = []        # applied on physical only (typical JRPG convention)
-@export var stat_bonus := {                           # flat bonuses
-	"str": 0, "vit": 0, "agi": 0, "wis": 0, "wil": 0, 
-	"atk": 0, "def": 0, "mag": 0, "mdef": 0
+@export var stat_bonus: Dictionary = {
+	Stats.Stat.STR: 0,
+	Stats.Stat.VIT: 0,
+	Stats.Stat.AGI: 0,
+	Stats.Stat.WIS: 0,
+	Stats.Stat.WIL: 0,
+	Stats.Stat.ATK: 0,
+	Stats.Stat.DEF: 0,
+	Stats.Stat.MAG: 0,
+	Stats.Stat.MDEF: 0
 }

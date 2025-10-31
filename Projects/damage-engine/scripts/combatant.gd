@@ -27,16 +27,19 @@ func total_stats() -> Stats:
 	var s := base_stats.copy()
 	if weapon:
 		for k in weapon.stat_bonus.keys():
-			var key = (k == "def") if "def" else k
-			s.set_stat(key, s.get_stat(key) + int(weapon.stat_bonus[k]))
+			# k is a Stats.Stat enum value
+			s.set_stat(k, s.get_stat(k) + int(weapon.stat_bonus[k]))
 	if armor:
 		for k in armor.stat_bonus.keys():
-			var key = (k == "def") if "def" else k
-			s.set_stat(key, s.get_stat(key) + int(armor.stat_bonus[k]))
+			# k is a Stats.Stat enum value
+			s.set_stat(k, s.get_stat(k) + int(armor.stat_bonus[k]))
 	return s
 
 func weapon_elements() -> Array:
-	return Element.combine(weapon.elements) if weapon and weapon.elements.size() > 0 else []
+	if weapon and weapon.elements.size() > 0:
+		return Element.combine(weapon.elements)
+	else:
+		return []
 
 func is_long_range_weapon() -> bool:
 	return weapon != null and weapon.long_range
