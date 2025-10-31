@@ -17,14 +17,14 @@ const MULT := {
 	"absorb": -1.0
 }
 
-static func combine(elems: Array) -> Array:
-	var out: Array = []
+static func combine(elems: Array[Element.Type]) -> Array[Element.Type]:
+	var out: Array[Element.Type] = []
 	for e in elems:
 		if e != Type.NONE and not out.has(e):
 			out.append(e)
 	return out
 
-static func vs_defender(attacker_elems: Array, defender_resist: Dictionary) -> float:
+static func vs_defender(attacker_elems: Array[Element.Type], defender_resist: Dictionary[Element.Type, String]) -> float:
 	if attacker_elems.is_empty(): return 1.0
 	var m := 1.0
 	for e in attacker_elems:

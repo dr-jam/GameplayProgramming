@@ -34,18 +34,18 @@ const CRIT_AGI_SCALE := 0.0015   # +0.15% crit per AGI
 const CRIT_MULT := 1.5
 const VARIANCE_LOW := 0.93
 const VARIANCE_HIGH := 1.07
-const DAMAGE_CAP := 9999       # maximum non-absorbed damage dealt
+const DAMAGE_CAP := 9999       
 
 # Hit/Evasion (physical only)
-const HIT_BASE := 0.90                 # base 90% hit chance
-const HIT_AGI_DIFF_SCALE := 0.003      # ±0.3% per AGI difference (attacker - defender)
-const HIT_MIN := 0.05                  # never below 5%
-const HIT_MAX := 0.99                  # never above 99%
+const HIT_BASE := 0.90                 
+const HIT_AGI_DIFF_SCALE := 0.003      
+const HIT_MIN := 0.05                  
+const HIT_MAX := 0.99                  
 const BLIND_HIT_MULT := 0.5            # blind halves hit chance
 
 # Rows (physical only)
-const BACKROW_OUT := 0.5   # attacker in back (non long-range) halves output
-const BACKROW_IN  := 0.5   # defender in back halves incoming
+const BACKROW_OUT := 0.5   
+const BACKROW_IN  := 0.5   
 
 # ---------- Helpers ----------
 static func _rand_range(a: float, b: float) -> float:
@@ -54,7 +54,7 @@ static func _rand_range(a: float, b: float) -> float:
 static func _roll_crit(agi: int) -> bool:
 	return randf() < (CRIT_BASE + float(agi) * CRIT_AGI_SCALE)
 
-static func _element_mult(attacker_elems: Array, defender_resist: Dictionary) -> float:
+static func _element_mult(attacker_elems: Array[Element.Type], defender_resist: Dictionary[Element.Type, String]) -> float:
 	return Element.vs_defender(attacker_elems, defender_resist)
 
 static func _row_mult(attacker: Combatant, defender: Combatant) -> float:
@@ -69,7 +69,7 @@ static func _roll_phys_hit(attacker: Combatant, defender: Combatant) -> bool:
 	var A := attacker.total_stats()
 	var D := defender.total_stats()
 	var chance := HIT_BASE + float(A.agi - D.agi) * HIT_AGI_DIFF_SCALE
-	if StatusEffects.has(attacker.status, "blind"):
+	if StatusEffects.has(attacker.status, StatusEffects.Status.BLIND):
 		chance *= BLIND_HIT_MULT
 	chance = clamp(chance, HIT_MIN, HIT_MAX)
 	return randf() < chance

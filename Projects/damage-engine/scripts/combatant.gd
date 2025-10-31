@@ -12,10 +12,10 @@ const BACK := 1
 @export var armor: Equipment
 
 # Defender’s per-element tags: { Element.Type.FIRE: "weak"/"resist"/"immune"/"absorb"/"normal" }
-@export var element_resist: Dictionary = {}
+@export var element_resist: Dictionary[Element.Type, String] = {}
 
 # Active status flags
-var status: Dictionary = {}
+var status: Dictionary[StatusEffects.Status, bool] = {}
 
 func _ready():
 	if base_stats == null:
@@ -35,7 +35,7 @@ func total_stats() -> Stats:
 			s.set_stat(k, s.get_stat(k) + int(armor.stat_bonus[k]))
 	return s
 
-func weapon_elements() -> Array:
+func weapon_elements() -> Array[Element.Type]:
 	if weapon and weapon.elements.size() > 0:
 		return Element.combine(weapon.elements)
 	else:
@@ -53,5 +53,5 @@ func take_damage(n: int) -> void:
 func heal(n: int) -> void:
 	base_stats.hp = min(base_stats.max_hp, base_stats.hp + n)
 
-func set_status_flag(k: String, v: bool) -> void:
+func set_status_flag(k: StatusEffects.Status, v: bool) -> void:
 	status[k] = v
