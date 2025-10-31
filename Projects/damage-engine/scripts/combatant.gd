@@ -11,8 +11,9 @@ const BACK := 1
 @export var weapon: Equipment
 @export var armor: Equipment
 
-# Defender’s per-element tags: { Element.Type.FIRE: "weak"/"resist"/"immune"/"absorb"/"normal" }
-@export var element_resist: Dictionary[Element.Type, String] = {}
+# Defender’s per-element tags using Element.ResistTag
+# Example: { Element.Type.FIRE: Element.ResistTag.WEAK }
+@export var element_resist: Dictionary[Element.Type, Element.ResistTag] = {}
 
 # Active status flags
 var status: Dictionary[StatusEffects.Status, bool] = {}

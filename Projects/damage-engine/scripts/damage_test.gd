@@ -26,10 +26,10 @@ func _ready():
 	randomize()
 	# Example enemy resistances
 	foe.element_resist = {
-		Element.Type.FIRE: "weak",
-		Element.Type.ICE: "resist",
-		Element.Type.HOLY: "immune",
-		Element.Type.DARK: "absorb"
+		Element.Type.FIRE: Element.ResistTag.WEAK,
+		Element.Type.ICE: Element.ResistTag.RESIST,
+		Element.Type.HOLY: Element.ResistTag.IMMUNE,
+		Element.Type.DARK: Element.ResistTag.ABSORB
 	}
 
 	# Baseline (no statuses)

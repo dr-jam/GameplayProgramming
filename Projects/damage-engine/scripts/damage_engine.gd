@@ -1,8 +1,8 @@
-# res://scripts/DamageEngine.gd
+# res://scripts/damage_engine.gd
 extends Node
 class_name FF4DamageEngine
 
-# ---------- Inner result type ----------
+# Result type for combat resolution
 class CombatResult:
 	var amount: int
 	var crit: bool
@@ -28,7 +28,7 @@ class CombatResult:
 	func pretty_str() -> String:
 		return "{amount:%d, hit:%s, crit:%s, absorbed:%s, elements:%s}" % [amount, str(hit), str(crit), str(absorbed), str(elements)]
 
-# ---------- Tunables ----------
+# Tunables
 const CRIT_BASE := 0.03          # base crit chance (no LUK)
 const CRIT_AGI_SCALE := 0.0015   # +0.15% crit per AGI
 const CRIT_MULT := 1.5
@@ -47,14 +47,14 @@ const BLIND_HIT_MULT := 0.5            # blind halves hit chance
 const BACKROW_OUT := 0.5   
 const BACKROW_IN  := 0.5   
 
-# ---------- Helpers ----------
+# Helpers
 static func _rand_range(a: float, b: float) -> float:
 	return a + randf() * (b - a)
 
 static func _roll_crit(agi: int) -> bool:
 	return randf() < (CRIT_BASE + float(agi) * CRIT_AGI_SCALE)
 
-static func _element_mult(attacker_elems: Array[Element.Type], defender_resist: Dictionary[Element.Type, String]) -> float:
+static func _element_mult(attacker_elems: Array[Element.Type], defender_resist: Dictionary[Element.Type, Element.ResistTag]) -> float:
 	return Element.vs_defender(attacker_elems, defender_resist)
 
 static func _row_mult(attacker: Combatant, defender: Combatant) -> float:
@@ -81,13 +81,13 @@ static func physical_damage(attacker: Combatant, defender: Combatant) -> CombatR
 		var elems_miss := attacker.weapon_elements()
 		return CombatResult.new(0, false, false, elems_miss, false)
 
-	var A := attacker.total_stats()
-	var D := defender.total_stats()
+	var att_stats := attacker.total_stats()
+	var def_stats := defender.total_stats()
 
-	var atk_term := A.atk + int(floor(A.strn / 2.0))
-	var def_term := D.def_ + int(floor(D.vit / 2.0))
+	var atk_term := att_stats.atk + int(floor(att_stats.strn / 2.0))
+	var def_term := def_stats.def_ + int(floor(def_stats.vit / 2.0))
 
-	var crit := _roll_crit(A.agi)
+	var crit := _roll_crit(att_stats.agi)
 	var def_factor : float
 	if crit:
 		def_factor = 0.25
@@ -118,11 +118,11 @@ static func physical_damage(attacker: Combatant, defender: Combatant) -> CombatR
 # ---------- Magical damage (single-element) ----------
 # Uses WIS for offense, WIL for resistance.
 static func magical_damage(attacker: Combatant, defender: Combatant, power: int, elem: Element.Type) -> CombatResult:
-	var A := attacker.total_stats()
-	var D := defender.total_stats()
+	var att_stats := attacker.total_stats()
+	var def_stats := defender.total_stats()
 
-	var mag_term := power + int(floor(A.wis / 2.0)) + int(floor(A.mag / 2.0))
-	var mres := int(floor(D.mdef / 2.0) + floor(D.wil / 2.0))
+	var mag_term := power + int(floor(att_stats.wis / 2.0)) + int(floor(att_stats.mag / 2.0))
+	var mres := int(floor(def_stats.mdef / 2.0) + floor(def_stats.wil / 2.0))
 
 	var base : int = max(1, mag_term - mres)
 	base = int(round(base * _rand_range(VARIANCE_LOW, VARIANCE_HIGH)))
