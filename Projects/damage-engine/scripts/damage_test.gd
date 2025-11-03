@@ -4,9 +4,11 @@ extends Node2D
 @onready var hero: Combatant = $"../Hero"
 @onready var foe: Combatant  = $"../Enemy"
 
+
 func clear_status(u: Combatant) -> void:
 	for k in StatusEffects.KEYS.keys():
 		u.set_status_flag(k, false)
+
 
 func demo_phys(label: String) -> void:
 	var hp0 := foe.base_stats.hp
@@ -15,12 +17,14 @@ func demo_phys(label: String) -> void:
 	print(label, " -> ", r.pretty_str(), " (Enemy HP ", hp0, " -> ", foe.base_stats.hp, ")")
 	foe.base_stats.hp = hp0
 
+
 func demo_mag(label: String, power: int, elem: Element.Type) -> void:
 	var hp0 := foe.base_stats.hp
 	var r := FF4DamageEngine.magical_damage(hero, foe, power, elem)
 	r.apply_to(foe)
 	print(label, " -> ", r.pretty_str(), " (Enemy HP ", hp0, " -> ", foe.base_stats.hp, ")")
 	foe.base_stats.hp = hp0
+
 
 func _ready():
 	randomize()
@@ -56,7 +60,7 @@ func _ready():
 	hero.set_status_flag(StatusEffects.Status.BERSERK, true)
 	demo_phys("Phys with BERSERK")
 
-	# Attacker is Blind (physical output down and lower hit chance; may miss)
+	# Attacker is Blind (physical output down and lower hit chance)
 	clear_status(hero)
 	clear_status(foe)
 	hero.set_status_flag(StatusEffects.Status.BLIND, true)
@@ -69,7 +73,7 @@ func _ready():
 	foe.set_status_flag(StatusEffects.Status.SHELL, true)
 	demo_mag("Fire vs SHELL", 30, Element.Type.FIRE)
 
-	# Magical absorb example (Dark is absorbed per resist table above)
+	# Magical absorb example
 	clear_status(hero)
 	clear_status(foe)
 	demo_mag("Dark absorb", 30, Element.Type.DARK)

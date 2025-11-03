@@ -75,6 +75,6 @@ func set_stat(stat: Stat, value: int) -> void:
 # Clone
 func copy() -> Stats:
 	var s := Stats.new()
-	for i in Stat.values():
-		s.set_stat(i, get_stat(i))
+	for stat : Stats.Stat in Stat.values():
+		s.set_stat(stat, get_stat(stat))
 	return s
