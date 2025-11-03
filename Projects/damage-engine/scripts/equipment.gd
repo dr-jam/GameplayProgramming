@@ -2,8 +2,8 @@ extends Resource
 class_name Equipment
 
 @export var name: String = "Equipment"
-@export var long_range: bool = false                  # bows/whips ignore back-row penalty on attacker
-@export var elements: Array[Element.Type] = []        # applied on physical only (typical JRPG convention)
+@export var long_range: bool = false
+@export var elements: Array[Element.Type] = []
 @export var stat_bonus: Dictionary[Stats.Stat, int] = {
 	Stats.Stat.STR: 0,
 	Stats.Stat.VIT: 0,

@@ -3,7 +3,6 @@ extends Resource
 
 enum Type { NONE, FIRE, ICE, LIGHTNING, HOLY, DARK, POISON }
 
-# Enumerated defender resistance tag
 enum ResistTag { NORMAL, WEAK, RESIST, IMMUNE, ABSORB }
 
 # Defender resist multipliers by tag

@@ -5,9 +5,9 @@ extends Node2D
 @onready var foe: Combatant  = $"../Enemy"
 
 
-func clear_status(u: Combatant) -> void:
+func clear_status(unit: Combatant) -> void:
 	for k in StatusEffects.KEYS.keys():
-		u.set_status_flag(k, false)
+		unit.set_status_flag(k, false)
 
 
 func demo_phys(label: String) -> void:

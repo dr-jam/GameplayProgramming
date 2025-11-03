@@ -52,13 +52,13 @@ func is_alive() -> bool:
 	return base_stats.hp > 0
 
 
-func take_damage(n: int) -> void:
-	base_stats.hp = max(0, base_stats.hp - n)
+func take_damage(amount: int) -> void:
+	base_stats.hp = max(0, base_stats.hp - amount)
 
 
-func heal(n: int) -> void:
-	base_stats.hp = min(base_stats.max_hp, base_stats.hp + n)
+func heal(amount: int) -> void:
+	base_stats.hp = min(base_stats.max_hp, base_stats.hp + amount)
 
 
-func set_status_flag(k: StatusEffects.Status, v: bool) -> void:
-	status[k] = v
+func set_status_flag(status_key: StatusEffects.Status, active: bool) -> void:
+	status[status_key] = active

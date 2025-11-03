@@ -19,11 +19,11 @@ enum Stat {
 @export var strn: int = 10
 @export var vit: int = 10
 @export var agi: int = 10
-@export var wis: int = 10   # replaces int_
-@export var wil: int = 10   # replaces spi
+@export var wis: int = 10   
+@export var wil: int = 10  
 
 @export var atk: int = 10
-@export var def_: int = 5
+@export var def: int = 5
 @export var mag: int = 10
 @export var mdef: int = 5
 
@@ -42,7 +42,7 @@ func get_stat(stat: Stat) -> int:
 		Stat.WIS: return wis
 		Stat.WIL: return wil
 		Stat.ATK: return atk
-		Stat.DEF: return def_
+		Stat.DEF: return def
 		Stat.MAG: return mag
 		Stat.MDEF: return mdef
 		_:
@@ -64,7 +64,7 @@ func set_stat(stat: Stat, value: int) -> void:
 		Stat.WIS: wis = value
 		Stat.WIL: wil = value
 		Stat.ATK: atk = value
-		Stat.DEF: def_ = value
+		Stat.DEF: def = value
 		Stat.MAG: mag = value
 		Stat.MDEF: mdef = value
 		_:
