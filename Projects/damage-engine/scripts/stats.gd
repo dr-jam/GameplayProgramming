@@ -1,4 +1,3 @@
-# res://scripts/Stats.gd
 extends Resource
 class_name Stats
 

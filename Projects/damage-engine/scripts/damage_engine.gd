@@ -1,4 +1,3 @@
-# res://scripts/damage_engine.gd
 extends Node
 class_name FF4DamageEngine
 
