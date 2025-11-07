@@ -3,67 +3,74 @@
 
 #include <algorithm>
 #include <iostream>
-#include <cassert>
+#include <stdexcept>
 
-Node::Node(const std::string &p_name) : name(p_name) {}
+Node::Node(std::string name) : name_(std::move(name)) {}
 
-Node::~Node() {
-    for (Node *c : children) {
-        delete c;
+Node::~Node() = default;
+
+void Node::add_child(std::unique_ptr<Node> child) {
+    if (!child) {
+        throw std::invalid_argument("Cannot add null child to node '" + name_ + "'");
     }
-    children.clear();
+
+    if (child->parent_ != nullptr) {
+        throw std::runtime_error("Node '" + child->name_ + 
+                               "' already has a parent, cannot add to '" + name_ + "'");
+    }
+
+    child->parent_ = this;
+    
+    if (tree_) {
+        child->set_tree(tree_);
+        child->notification(Notification::EnterTree);
+        child->notification(Notification::Ready);
+    }
+
+    children_.push_back(std::move(child));
 }
 
-void Node::add_child(Node *child) {
-    assert(child != nullptr);
-
-    if (child->parent != nullptr) {
-        std::cerr << "Node '" << child->name
-                  << "' already has a parent, cannot add to '" << name << "'\n";
-        return;
+std::unique_ptr<Node> Node::remove_child(Node* child) {
+    auto it = std::find_if(children_.begin(), children_.end(),
+                          [child](const std::unique_ptr<Node>& node) {
+                              return node.get() == child;
+                          });
+    
+    if (it == children_.end()) {
+        return nullptr;
     }
 
-    child->parent = this;
-    children.push_back(child);
+    std::unique_ptr<Node> removed = std::move(*it);
+    children_.erase(it);
 
-    if (tree) {
-        child->_set_tree(tree);
-        child->notification(NOTIFICATION_ENTER_TREE);
-        child->notification(NOTIFICATION_READY);
+    if (removed->tree_) {
+        removed->notification(Notification::ExitTree);
+        removed->set_tree(nullptr);
+    }
+
+    removed->parent_ = nullptr;
+    return removed;
+}
+
+void Node::set_tree(SceneTree* tree) {
+    tree_ = tree;
+    for (const auto& child : children_) {
+        child->set_tree(tree);
     }
 }
 
-void Node::remove_child(Node *child) {
-    auto it = std::find(children.begin(), children.end(), child);
-    if (it == children.end())
-        return;
-
-    if (child->tree) {
-        child->notification(NOTIFICATION_EXIT_TREE);
-        child->_set_tree(nullptr);
-    }
-
-    child->parent = nullptr;
-    children.erase(it);
-}
-
-void Node::_set_tree(SceneTree *p_tree) {
-    tree = p_tree;
-    for (Node *c : children) {
-        c->_set_tree(p_tree);
-    }
-}
-
-void Node::notification(int what) {
+void Node::notification(Notification what) {
     switch (what) {
-        case NOTIFICATION_ENTER_TREE:
+        case Notification::EnterTree:
             break;
-        case NOTIFICATION_READY:
+        case Notification::Ready:
             break;
-        case NOTIFICATION_EXIT_TREE:
+        case Notification::ExitTree:
+            break;
+        case Notification::Process:
             break;
     }
 }
 
-void Node::_process(float) {
+void Node::process(float /* delta_time */) {
 }

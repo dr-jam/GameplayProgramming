@@ -1,30 +1,27 @@
 #include "scene_tree.h"
 #include "node.h"
 
-SceneTree::~SceneTree() {
-    delete root;
-    root = nullptr;
-}
-
-void SceneTree::set_root(Node *p_root) {
-    root = p_root;
-    if (root) {
-        root->_set_tree(this);
-        root->notification(Node::NOTIFICATION_ENTER_TREE);
-        root->notification(Node::NOTIFICATION_READY);
+void SceneTree::set_root(std::unique_ptr<Node> root) {
+    root_ = std::move(root);
+    if (root_) {
+        root_->set_tree(this);
+        root_->notification(Node::Notification::EnterTree);
+        root_->notification(Node::Notification::Ready);
     }
 }
 
-void SceneTree::process(float dt) {
-    if (!root) return;
-    process_node(root, dt);
+void SceneTree::process(const float delta_time) {
+    if (!root_) {
+        return;
+    }
+    process_node(root_.get(), delta_time);
 }
 
-void SceneTree::process_node(Node *n, float dt) {
-    n->notification(Node::NOTIFICATION_PROCESS);
-    n->_process(dt);
+void SceneTree::process_node(Node* node, const float delta_time) {
+    node->notification(Node::Notification::Process);
+    node->process(delta_time);
 
-    for (Node *c : n->get_children()) {
-        process_node(c, dt);
+    for (const auto& child : node->get_children()) {
+        process_node(child.get(), delta_time);
     }
 }

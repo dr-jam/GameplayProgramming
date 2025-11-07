@@ -1,40 +1,52 @@
-#pragma once
+#ifndef NODE_H
+#define NODE_H
+
 #include <string>
 #include <vector>
+#include <memory>
 
 class SceneTree;
 
 class Node {
 public:
-    enum Notification {
-        NOTIFICATION_ENTER_TREE = 10,
-        NOTIFICATION_READY      = 11,
-        NOTIFICATION_PROCESS    = 12,
-        NOTIFICATION_EXIT_TREE  = 13,
+    enum class Notification {
+        EnterTree = 10,
+        Ready = 11,
+        Process = 12,
+        ExitTree = 13,
     };
 
-    explicit Node(const std::string &p_name = "Node");
+    explicit Node(std::string name = "Node");
     virtual ~Node();
 
-    void add_child(Node *child);
-    void remove_child(Node *child);
+    // Delete copy operations
+    Node(const Node&) = delete;
+    Node& operator=(const Node&) = delete;
 
-    Node *get_parent() const { return parent; }
-    const std::vector<Node*> &get_children() const { return children; }
-    const std::string &get_name() const { return name; }
+    // Move operations
+    Node(Node&&) noexcept = default;
+    Node& operator=(Node&&) noexcept = default;
 
-    SceneTree *get_tree() const { return tree; }
+    void add_child(std::unique_ptr<Node> child);
+    std::unique_ptr<Node> remove_child(Node* child);
 
-    virtual void notification(int what);
-    virtual void _process(float dt);
+    [[nodiscard]] Node* get_parent() const noexcept { return parent_; }
+    [[nodiscard]] const std::vector<std::unique_ptr<Node>>& get_children() const noexcept { return children_; }
+    [[nodiscard]] const std::string& get_name() const noexcept { return name_; }
+    [[nodiscard]] SceneTree* get_tree() const noexcept { return tree_; }
 
-    void _set_tree(SceneTree *p_tree);
+    virtual void notification(Notification what);
+    virtual void process(float delta_time);
+
+    void set_tree(SceneTree* tree);
 
 protected:
-    std::string name;
+    std::string name_;
 
 private:
-    Node *parent = nullptr;
-    std::vector<Node*> children;
-    SceneTree *tree = nullptr;
+    Node* parent_ = nullptr;
+    std::vector<std::unique_ptr<Node>> children_;
+    SceneTree* tree_ = nullptr;
 };
+
+#endif // NODE_H

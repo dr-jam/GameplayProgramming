@@ -1,17 +1,24 @@
 #include "enemy.h"
 #include <iostream>
 
-void Enemy::notification(int what) {
-    if (what == NOTIFICATION_ENTER_TREE) {
-        std::cout << get_name() << " entered tree\n";
-    } else if (what == NOTIFICATION_READY) {
-        std::cout << get_name() << " ready\n";
-    } else if (what == NOTIFICATION_EXIT_TREE) {
-        std::cout << get_name() << " exited tree\n";
+void Enemy::notification(const Notification what) {
+    switch (what) {
+        case Notification::EnterTree:
+            std::cout << get_name() << " entered tree\n";
+            break;
+        case Notification::Ready:
+            std::cout << get_name() << " ready\n";
+            break;
+        case Notification::ExitTree:
+            std::cout << get_name() << " exited tree\n";
+            break;
+        case Notification::Process:
+            // Process notification handled by process() method
+            break;
     }
 }
 
-void Enemy::_process(float dt) {
-    time_alive += dt;
-    // we could print or animate here if desired
+void Enemy::process(const float delta_time) {
+    time_alive_ += delta_time;
+    // Could add animation or other per-frame logic here if desired
 }

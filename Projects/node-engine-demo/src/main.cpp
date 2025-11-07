@@ -5,37 +5,62 @@
 #include <iostream>
 #include <thread>
 #include <chrono>
+#include <memory>
+
+namespace {
+    constexpr float kFramesPerSecond = 30.0f;
+    constexpr float kDeltaTime = 1.0f / kFramesPerSecond;
+    constexpr int kTotalFrames = 90;
+    constexpr int kRemovalFrame = 30;
+    constexpr int kMillisecondsPerFrame = 33;
+}
 
 int main() {
-    SceneTree tree;
+    try {
+        SceneTree tree;
 
-    Node *root = new Node("Root");
-    tree.set_root(root);
+        // Create root node
+        auto root = std::make_unique<Node>("Root");
+        Node* root_ptr = root.get();
+        tree.set_root(std::move(root));
 
-    Enemy *e1 = new Enemy("EnemyA");
-    Enemy *e2 = new Enemy("EnemyB");
-    root->add_child(e1);
-    root->add_child(e2);
+        // Create enemies and add to tree
+        auto enemy_a = std::make_unique<Enemy>("EnemyA");
+        auto enemy_b = std::make_unique<Enemy>("EnemyB");
+        
+        // Keep pointer to enemy_a for adding child later
+        Node* enemy_a_ptr = enemy_a.get();
+        
+        // Keep pointer to enemy_b for removal later
+        Node* enemy_b_ptr = enemy_b.get();
+        
+        root_ptr->add_child(std::move(enemy_a));
+        root_ptr->add_child(std::move(enemy_b));
 
-    Enemy *e1_child = new Enemy("EnemyA_Minion");
-    e1->add_child(e1_child);
+        // Add child to enemy_a
+        auto enemy_a_minion = std::make_unique<Enemy>("EnemyA_Minion");
+        enemy_a_ptr->add_child(std::move(enemy_a_minion));
 
-    std::cout << "Starting main loop...\n";
+        std::cout << "Starting main loop...\n";
 
-    const float dt = 1.0f / 30.0f;
-    for (int frame = 0; frame < 90; ++frame) {
-        tree.process(dt);
+        // Main game loop
+        for (int frame = 0; frame < kTotalFrames; ++frame) {
+            tree.process(kDeltaTime);
 
-        if (frame == 30) {
-            std::cout << "Removing EnemyB from tree...\n";
-            root->remove_child(e2);
-            delete e2;
-            e2 = nullptr;
+            if (frame == kRemovalFrame) {
+                std::cout << "Removing EnemyB from tree...\n";
+                auto removed = root_ptr->remove_child(enemy_b_ptr);
+                // removed goes out of scope here and is automatically deleted
+            }
+
+            std::this_thread::sleep_for(std::chrono::milliseconds(kMillisecondsPerFrame));
         }
 
-        std::this_thread::sleep_for(std::chrono::milliseconds(33));
+        std::cout << "Exiting.\n";
+        return 0;
+        
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << '\n';
+        return 1;
     }
-
-    std::cout << "Exiting.\n";
-    return 0;
 }
