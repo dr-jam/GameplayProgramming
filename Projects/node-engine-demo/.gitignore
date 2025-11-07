@@ -1,0 +1,31 @@
+# build artifacts
+/build/
+/build*/ 
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# CMake generated files (if someone builds in-source)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# Executables
+inscryption-node-demo
+inscryption-node-demo.exe
