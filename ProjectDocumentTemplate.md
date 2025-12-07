@@ -24,9 +24,31 @@ If your project contains code that: 1) your team did not write, and 2) does not 
 
 If you used tutorials or other intellectual guidance to create aspects of your project, include reference to that information as well.
 
-# Main Roles #
+# Team Member Contributions
 
-Your goal is to relate the work of your role and sub-role in terms of the content of the course. Please look at the role sections below for specific instructions for each role.
+This section be repeated once for each team member. Each team member should provide their name and GitHub user information.
+
+The general structures is 
+```
+Team Member 1
+  Main Role
+    Documentation for main role.
+  Sub-Role
+    Documentation for Sub-Role
+  Other contribtions
+    Documentation for contributions to the project outside of the main and sub roles.
+
+Team Member 2
+  Main Role
+    Documentation for main role.
+  Sub-Role
+    Documentation for Sub-Role
+  Other contribtions
+    Documentation for contributions to the project outside of the main and sub roles.
+...
+```
+
+For each team member, you shoudl work of your role and sub-role in terms of the content of the course. Please look at the role sections below for specific instructions for each role.
 
 Below is a template for you to highlight items of your work. These provide the evidence needed for your work to be evaluated. Try to have at least four such descriptions. They will be assessed on the quality of the underlying system and how they are linked to course content. 
 
@@ -37,57 +59,10 @@ Here is an example:
 
 You should replay any **bold text** with your relevant information. Liberally use the template when necessary and appropriate.
 
-## Producer
+Add addition contributions int he Other Contributions section.
 
-**Describe the steps you took in your role as producer. Typical items include group scheduling mechanisms, links to meeting notes, descriptions of team logistics problems with their resolution, project organization tools (e.g., timelines, dependency/task tracking, Gantt charts, etc.), and repository management methodology.**
+## Main Roles ##
 
-## User Interface and Input
+## Sub-Roles ##
 
-**Describe your user interface and how it relates to gameplay. This can be done via the template.**
-**Describe the default input configuration.**
-
-**Add an entry for each platform or input style your project supports.**
-
-## Movement/Physics
-
-**Describe the basics of movement and physics in your game. Is it the standard physics model? What did you change or modify? Did you make your movement scripts that do not use the physics system?**
-
-## Animation and Visuals
-
-**List your assets, including their sources and licenses.**
-
-**Describe how your work intersects with game feel, graphic design, and world-building. Include your visual style guide if one exists.**
-
-## Game Logic
-
-**Document the game states and game data you managed and the design patterns you used to complete your task.**
-
-# Sub-Roles
-
-## Audio
-
-**List your assets, including their sources and licenses.**
-
-**Describe the implementation of your audio system.**
-
-**Document the sound style.** 
-
-## Gameplay Testing
-
-**Add a link to the full results of your gameplay tests.**
-
-**Summarize the key findings from your gameplay tests.**
-
-## Narrative Design
-
-**Document how the narrative is present in the game via assets, gameplay systems, and gameplay.** 
-
-## Press Kit and Trailer
-
-**Include links to your presskit materials and trailer.**
-
-**Describe how you showcased your work. How did you choose what to show in the trailer? Why did you choose your screenshots?**
-
-## Game Feel and Polish
-
-**Document what you added to and how you tweaked your game to improve its game feel.**
+## Other Contributions ##
