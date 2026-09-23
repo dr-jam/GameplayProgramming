@@ -1,6 +1,7 @@
 # ECS179 - Gameplay Programming
-## UPDATES FOR FALL 2025
-Restructing to make better use of and build skills with code synthesis.  
+## UPDATES FOR FALL 2026
+Alternative course path via game game-based curriculum design.
+Some proofing against and support for code synthesis.
 
 # Syllabus
 ## Basic Information
@@ -13,19 +14,18 @@ Office: 3033 Kemper Hall
 Office Hours:    
 http://joshmccoy.com  
 https://faculty.engineering.ucdavis.edu/mccoy/  
-~~https://www.twitter.com/deftjams~~  
+
 
 ### Teaching Assistant
 
-Teresa Chen  
-Email: xacchen@ucdavis.edu  
-Office Hour: Tuesday 3pm - 4pm @Kemper Hall Room 47
+Email: 
+Office Hour: 
 
 ### Course
-Lecture Meeting Time: Mondays, Wendesdays, and Fridays at 1:10 to 2:00 PM in Olson 206.  
-Discussion: Wednesdays at 6:10 to 7:00 PM in TLC 2215.  
+Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 4:10 to 5:00 PM in Storer 1322.  
+Discussion: Fridays at 5:10 to 6:00 PM in Storer 1322.  
 Holidays:  Thursday, November 27th (Thanksgiving Day) ([Academic Calendar](https://registrar.ucdavis.edu/calendar/master))  
-Final Examination Period: Monday, December 8th at 1:00 PM  
+Final Examination Period: Thursday, December 10th at 8:00 AM  
 
 ## Course Description
 
