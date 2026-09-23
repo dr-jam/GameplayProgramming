@@ -63,7 +63,7 @@ F  | 0
 
 ## Individual Competency Assessment
 
-The purpose of this competency assessment is that your grade should reflect what you can do as a gameplay programmer, not merely whether you or your group submitted working code. A working submission is necessary, but it does not tell us everything we need to know. You must also show that you understand the work you claim and can apply the relevant ideas yourself.
+The purpose of this competency assessment is that your grade should reflect what you can do as a gameplay programmer and not whether you or your group submitted working code. A working submission is necessary, but it does not tell us everything we need to know. You must also show that you understand the work you claim and can apply the relevant ideas yourself.
 
 Gameplay programming sits at the intersection of software engineering, design, and user experience. Everyone in the course needs a foundation in all three areas. After that, you can go deeper in the areas connected to your interests and your role on the final project.
 
@@ -71,7 +71,7 @@ This guide explains the system used across the three programming exercises, the 
 
 ### How the Skill Tree Works
 
-The full skill tree maps the territory of gameplay programming. It has three layers:
+The full skill tree maps the territory of gameplay programming. It has three domains:
 
 | Domain | Place in the course | Example |
 |---|---|---|
@@ -120,7 +120,7 @@ These levels describe different kinds of performance. Completing several guided 
 | **Interaction Loops** | Implement and reason about repeated cycles of player action and system response. | Core loops, loop interaction |
 | **Evaluation and Iteration** | Observe play, identify an interaction problem, and revise the game in response. | Evaluation |
 
-**Technical Art** and **Procedural Content Generation** can serve as specializations when an exercise or project provides substantial evidence. They can add depth to your profile, but they do not replace the common foundation.
+Technical Art and Procedural Content Generation can serve as specializations when an exercise or project provides substantial evidence. They can add depth to your profile, but they do not replace the common foundation.
 
 ### Competency Claims
 
@@ -190,25 +190,25 @@ The final project is the main opportunity to demonstrate independent and integra
 
 The shared project score considers the game's:
 
-- functional completeness and stability;
-- integration of gameplay systems and assets;
-- playability and legibility;
-- technical scope; and
-- final build and presentation.
+- functional completeness and stability
+- integration of gameplay systems and assets
+- playability and legibility
+- technical scope
+- final build and presentation
 
 #### Individual Evidence
 
 Each student submits up to four claims. Useful evidence includes focused commits, pull requests, tests, debugging records, system specifications, integration work, playtest revisions, code review, and technical demonstrations.
 
-A team role, task card, or self-reported list of responsibilities does not prove competence on its own. The evidence must show what you produced, changed, investigated, evaluated, or explained.
+A team role, task list, or self-reported set of responsibilities does not prove competence on its own. The evidence must show what you produced, changed, investigated, evaluated, or explained.
 
-Project evidence will be collected during development as well as at the end of the quarter. The project schedule will give the exact milestones. This keeps the final submission manageable and makes your development process visible.
+Project evidence will be collected during development as well as at the end of the quarter. The project schedule will give the exact milestones to keeps the final submission manageable and to illuminate your development process.
 
 ### Generative AI and Other Assistance
 
 The syllabus and individual assignments state when generative AI and other forms of assistance are permitted. You remain responsible for the correctness and integration of everything you submit.
 
-Disclose material assistance in the competency claim. Be prepared to distinguish suggested material from your own decisions, explain what you verified, and work with the cited code during a checkoff.
+Disclose material assistance in the competency claim. Be prepared to distinguish suggested material from your own decisions, explain what you verified, and work with the cited code.
 
 Disclosed AI use does not lower a competency result by itself. The question is whether your evidence demonstrates the level you claimed. Undisclosed assistance may become an academic-integrity matter.
 
@@ -216,13 +216,13 @@ Disclosed AI use does not lower a competency result by itself. The question is w
 
 Five competencies form the essential foundation of the course:
 
-- Engine Usage;
-- Debugging and Testing;
-- Versioning and Team Development;
-- Game Systems; and
-- Interaction Design.
+- Engine Usage
+- Debugging and Testing
+- Versioning and Team Development
+- Game Systems
+- Interaction Design
 
-These are the **gateway competencies**. Higher grades also require work across all three domains and advanced depth in selected areas.
+These are the gateway competencies. Higher grades also require work across all three domains and advanced depth in selected areas.
 
 | Profile grade | Minimum competency profile |
 |---|---|
@@ -234,14 +234,11 @@ These are the **gateway competencies**. Higher grades also require work across a
 | **C range** | Every domain represented and the essential competencies substantially established at Unlocked or Developed |
 | **D or F** | One or more domains lack sufficient individual evidence, or the technical foundation remains substantially unverified |
 
-The competency profile supplies 75 percent of the course grade. The profile band converts to the midpoint of its letter-grade range, then combines with the final group game and professional-practice scores. The grading scale in the syllabus converts the result back to a final letter grade. A missing gateway competency may limit the final grade even when the numerical total would otherwise be higher.
+The competency profile supplies 75 percent of the course grade. The profile converts to the midpoint of its letter-grade range, then combines with the final group game and professional practice scores. The grading scale in the syllabus converts the result back to a final letter grade. A missing gateway competency may limit the final grade even when the numerical total would otherwise be higher.
 
 The gradebook will show your highest verified level for each competency. Check it after each grading cycle. If a claim or level was recorded incorrectly, report the error during the correction period listed on the assignment. A request for reconsideration should identify the competency, the relevant criterion, and the evidence that meets it.
 
 Plan for the tree while you work. Make focused commits, preserve debugging and playtesting records, and use exercise feedback to decide what you need to demonstrate in the final project.
-
-
-
 
 ## Schedule
 
