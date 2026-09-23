@@ -37,9 +37,12 @@ Godot Engine version 4.7.2-stable. Download [here](https://godotengine.org/downl
 
 ## Grading and Assessment
 
-* [45] Group Game Project
-* [45] Exercises
-* [10] Participation and Attendance
+| Course component | Weight | What it covers |
+|---|---:|---|
+| Individual competency profile | 75% | Your verified levels across the skill tree |
+| Final group game | 15% | The quality of the finished team artifact |
+| Professional practice | 10% | Participation, preparation, peer review, communication, and responsible development practice |
+
 
 ### Grade Scale
 
@@ -58,37 +61,187 @@ D  | 64
 D- | 60
 F  | 0
 
-### Exercises
-The programming exercises consist of projects in Godot in which you must implement significant game systems or capabilities. These exercises are to be completed individually and will be worth equal points. Each will have two components, which are described below with a typical amount of grade points they are worth:
-1. [70] The individual programming assignment.
-2. [30] Peer-reviewing the work of another pseudo-randomly assigned student.
- 
-*Individual Programming Assignment* - The exercise repositories, with project descriptions and work specifics, will be distributed via GitHub Classroom. You will be responsible for completing the exercise objectives, code quality, and following the best practices described in class. Final submissions will be made via GitHub Classroom.
+## Individual Competency Assessment
 
-*Peer review* - For each programming exercise, each student will peer review another student's work. The reviewing student will be given access to the repository of another student's submission for review. The peer reviewer will be responsible for a code review based on C# style guides, an assessment of how well the submission achieved the objectives of the assignment and notes for improvement. This review should be done in the master branch and in the root directory of the repo (the same folder that contains the assignment's README). 
+The purpose of this competency assessment is that your grade should reflect what you can do as a gameplay programmer, not merely whether you or your group submitted working code. A working submission is necessary, but it does not tell us everything we need to know. You must also show that you understand the work you claim and can apply the relevant ideas yourself.
 
-### Group Game Project
+Gameplay programming sits at the intersection of software engineering, design, and user experience. Everyone in the course needs a foundation in all three areas. After that, you can go deeper in the areas connected to your interests and your role on the final project.
 
-You will design and develop your own game given a set of themes and constraints in teams. Each team member will have a main role and a sub-role in the game.
+This guide explains the system used across the three programming exercises, the final group project, and other approved course work. Individual assignment pages will give the relevant deadlines and identify which competencies are available.
 
-### Quizzes
+### How the Skill Tree Works
 
-Light quizzes may be given during class meetings. Their contents will be based on recent lectures and readings.
+The full skill tree maps the territory of gameplay programming. It has three layers:
 
-### Participation and Attendance
+| Domain | Place in the course | Example |
+|---|---|---|
+| Domain | One of the three broad areas required of everyone | Software Engineering |
+| Competency | A skill that receives an official level in the gradebook | Debugging and Testing |
+| Concept | A particular technique, concept, or specialization | Logging, exposure, or unit tests |
 
-Students are required to attend and participate in class, labs, and team meetings. Attendance will be taken during lectures and discussion sections.
 
-#### Participation
+#### Competency Levels
 
-Each submitted participation code is worth 1 grade point. You need at least five codes to max out your participation grade.
+| Competency State | Meaning |
+|---|---|
+| **Locked** | I do not yet have enough evidence to verify this competency. |
+| **Unlocked** | You can complete a guided application and explain its basic operation. |
+| **Developed** | You can apply the competency to a changed problem and diagnose ordinary difficulties. |
+| **Mastered** | You can apply the competency independently, evaluate the result, and justify your decisions. |
 
-#### Attendance
+These levels describe different kinds of performance. Completing several guided tasks does not automatically produce Mastered work. To move up the tree, you need evidence that meets the higher standard. Later project work can replace weaker evidence from an earlier exercise.
 
-The attendance rules are suspended while the course is offered remotely.  
+### Assessed Competencies
 
-The attendance algorithm is as follows:  
-AttendanceGrade = Min(5, 5 * (SubmittedAttendanceCodes / (ClassesWhereAttendanceWasTaken - 1)))
+#### Software Engineering
+
+| Competency | What it means in this course | Concepts |
+|---|---|---|
+| **Engine Usage** | Use Godot's architecture and services appropriately when implementing gameplay. | Game engines, libraries, tools, wizards |
+| **Design Patterns** | Implement, adapt, and evaluate recurring software structures used in games. | Command, Publish-Subscribe, Observer, Factories |
+| **Debugging and Testing** | Investigate failures systematically and establish repeatable evidence about behavior. | Logging, exposure, unit tests |
+| **Code Standards and Review** | Write understandable code and give or use technically specific review feedback. | Style guide, review, analysis |
+| **Versioning and Team Development** | Use Git and an explicit team process to coordinate reliable development. | Git, communication, Agile methodology |
+
+#### Design
+
+| Competency | What it means in this course | Concepts |
+|---|---|---|
+| **Game Systems** | Implement rules, state, relationships, and processes that create gameplay. | Game systems |
+| **System Interrelations** | Reason about dependencies and consequences when gameplay systems interact. | System interactions, genres |
+| **Game Design Reasoning** | Use design theory to explain or revise an implementation. | Game design theory, MDA |
+| **Design Context** | Place implementation decisions in historical, platform, genre, and human contexts. | Game history, design frames, platform studies and adaptation, human-centered interactions |
+
+#### User Experience
+
+| Competency | What it means in this course | Concepts |
+|---|---|---|
+| **Interaction Design** | Create legible and responsive interactions through controls, timing, visual information, and feedback. | Juice, graphic design |
+| **Interaction Loops** | Implement and reason about repeated cycles of player action and system response. | Core loops, loop interaction |
+| **Evaluation and Iteration** | Observe play, identify an interaction problem, and revise the game in response. | Evaluation |
+
+**Technical Art** and **Procedural Content Generation** can serve as specializations when an exercise or project provides substantial evidence. They can add depth to your profile, but they do not replace the common foundation.
+
+### Competency Claims
+
+A competency claim points the grader to a small and specific piece of your work. You are not expected to document everything you did. Choose the evidence that most clearly shows the competency and level you are claiming.
+
+| Course activity | Maximum claims per student |
+|---|---:|
+| Each programming exercise | 2 |
+| Final group project | 4 |
+| Other approved course work | 1 wildcard claim |
+
+For the final project, your claims should normally include one from each major domain and one specialization.
+
+#### What to Include
+
+Each claim must:
+
+1. name the competency and level
+2. link directly to the relevant commit, pull request, test, file, demonstration, or project record
+3. identify your contribution if the work was collaborative
+4. explain why the evidence meets the claimed level
+5. disclose material assistance, including generative AI, and state what you personally verified or changed.
+
+#### Example
+
+> **Competency and level:** Design Patterns at Developed  
+> **Evidence:** Commit `8f04c2` and the replay test in the submitted repository (with a link to the appropriate GitHub permalink).
+> **Explanation:** I adapted the supplied Command implementation by storing command objects in a replay queue. The same sequence can now run without generating new keyboard events. I also added a test that confirms execution order. The implementation still stores direct node references, so a recording cannot yet be replayed in a different scene instance.  
+> **Assistance:** I used an AI assistant to suggest test cases. I selected the cases, wrote the fixture, and diagnosed the failed ordering test.
+
+### How Claims Are Graded
+
+| Result | Meaning |
+|---|---|
+| **Verified at the claimed level** | The evidence meets the standard. |
+| **Verified at a lower level** | The evidence demonstrates the competency, but not at the level claimed. |
+| **Revision needed** | The work may qualify, but the explanation, link, or attribution is incomplete. |
+| **Unverified** | The submitted evidence does not establish the competency. |
+
+The grader looks at the cited evidence rather than the apparent amount of labor in the surrounding project. A large feature does not necessarily demonstrate a high level, and a small but well-chosen piece of work sometimes does.
+
+#### Individual Checkoffs
+
+The instructional team may request a short checkoff for a Mastered claim, an unclear contribution, a grade-boundary case, or a random sample. You may be asked to locate the relevant code, trace what it does, predict the effect of a change, diagnose a small problem, or explain a design decision.
+
+If a checkoff does not support the claimed level, the claim returns to the highest level established by the remaining evidence. There is no separate penalty for the unsuccessful checkoff.
+
+### Programming Exercises
+
+Each exercise identifies a limited set of eligible competencies. Exercises develop the common foundation and normally include:
+
+1. a required implementation;
+2. automated or instructor-provided tests;
+3. a transfer, debugging, or analysis task;
+4. peer code review; and
+5. no more than two individual competency claims.
+
+Automated tests confirm that required behavior works. Passing the tests may support Unlocked status for an eligible technical competency. Developed and Mastered require stronger evidence, such as adapting the system, diagnosing a failure, evaluating the result, or defending a design decision.
+
+Each exercise has one revision opportunity. A revision must respond to the grader's stated concern and point to new or corrected evidence. Submitting the same material again will not trigger another evaluation.
+
+### Final Group Project Assessment
+
+The final project is the main opportunity to demonstrate independent and integrated gameplay programming. The team receives one score for the finished game. Each student receives separate competency results.
+
+#### Team Score
+
+The shared project score considers the game's:
+
+- functional completeness and stability;
+- integration of gameplay systems and assets;
+- playability and legibility;
+- technical scope; and
+- final build and presentation.
+
+#### Individual Evidence
+
+Each student submits up to four claims. Useful evidence includes focused commits, pull requests, tests, debugging records, system specifications, integration work, playtest revisions, code review, and technical demonstrations.
+
+A team role, task card, or self-reported list of responsibilities does not prove competence on its own. The evidence must show what you produced, changed, investigated, evaluated, or explained.
+
+Project evidence will be collected during development as well as at the end of the quarter. The project schedule will give the exact milestones. This keeps the final submission manageable and makes your development process visible.
+
+### Generative AI and Other Assistance
+
+The syllabus and individual assignments state when generative AI and other forms of assistance are permitted. You remain responsible for the correctness and integration of everything you submit.
+
+Disclose material assistance in the competency claim. Be prepared to distinguish suggested material from your own decisions, explain what you verified, and work with the cited code during a checkoff.
+
+Disclosed AI use does not lower a competency result by itself. The question is whether your evidence demonstrates the level you claimed. Undisclosed assistance may become an academic-integrity matter.
+
+### Determining the Course Grade
+
+Five competencies form the essential foundation of the course:
+
+- Engine Usage;
+- Debugging and Testing;
+- Versioning and Team Development;
+- Game Systems; and
+- Interaction Design.
+
+These are the **gateway competencies**. Higher grades also require work across all three domains and advanced depth in selected areas.
+
+| Profile grade | Minimum competency profile |
+|---|---|
+| **A** | All twelve competencies Developed; at least four Mastered, including one in each major domain |
+| **A-** | All five gateways and at least ten total competencies Developed; at least three Mastered across two domains |
+| **B+** | All five gateways and at least nine total competencies Developed; at least two Mastered |
+| **B** | At least four gateways and eight total competencies Developed; all remaining competencies Unlocked; at least one Mastered |
+| **B-** | At least three gateways and seven total competencies Developed; all three domains represented |
+| **C range** | Every domain represented and the essential competencies substantially established at Unlocked or Developed |
+| **D or F** | One or more domains lack sufficient individual evidence, or the technical foundation remains substantially unverified |
+
+The competency profile supplies 75 percent of the course grade. The profile band converts to the midpoint of its letter-grade range, then combines with the final group game and professional-practice scores. The grading scale in the syllabus converts the result back to a final letter grade. A missing gateway competency may limit the final grade even when the numerical total would otherwise be higher.
+
+The gradebook will show your highest verified level for each competency. Check it after each grading cycle. If a claim or level was recorded incorrectly, report the error during the correction period listed on the assignment. A request for reconsideration should identify the competency, the relevant criterion, and the evidence that meets it.
+
+Plan for the tree while you work. Make focused commits, preserve debugging and playtesting records, and use exercise feedback to decide what you need to demonstrate in the final project.
+
+
+
 
 ## Schedule
 
