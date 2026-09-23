@@ -226,11 +226,11 @@ These are the gateway competencies. Higher grades also require work across all t
 
 | Profile grade | Minimum competency profile |
 |---|---|
-| **A** | All twelve competencies Developed; at least four Mastered, including one in each major domain |
-| **A-** | All five gateways and at least ten total competencies Developed; at least three Mastered across two domains |
-| **B+** | All five gateways and at least nine total competencies Developed; at least two Mastered |
-| **B** | At least four gateways and eight total competencies Developed; all remaining competencies Unlocked; at least one Mastered |
-| **B-** | At least three gateways and seven total competencies Developed; all three domains represented |
+| **A** | All twelve competencies Developed and at least four Mastered, including one in each major domain |
+| **A-** | All five gateways and at least ten total competencies Developed and at least three Mastered across two domains |
+| **B+** | All five gateways and at least nine total competencies Developed and at least two Mastered |
+| **B** | At least four gateways and eight total competencies Developed and all remaining competencies Unlocked; at least one Mastered |
+| **B-** | At least three gateways and seven total competencies Developed and all three domains represented |
 | **C range** | Every domain represented and the essential competencies substantially established at Unlocked or Developed |
 | **D or F** | One or more domains lack sufficient individual evidence, or the technical foundation remains substantially unverified |
 
