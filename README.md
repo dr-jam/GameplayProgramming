@@ -33,7 +33,7 @@ This course is about the design and development of nuanced and highly contextual
 
 ## Materials
 
-Godot Engine version 4.5-stable. Download [here](https://godotengine.org/download/archive/4.5-stable/).  
+Godot Engine version 4.7.2-stable. Download [here](https://godotengine.org/download/archive/4.7.2-stable/).  
 
 ## Grading and Assessment
 
