@@ -18,14 +18,14 @@ https://faculty.engineering.ucdavis.edu/mccoy/
 
 ### Teaching Assistant
 
-Email: 
-Office Hour: 
+Email:  
+Office Hour:  
 
 ### Course
-Lecture Meeting Time: Mondays, Wednesdays, and Fridays at 4:10 to 5:00 PM in Storer 1322.  
-Discussion: Fridays at 5:10 to 6:00 PM in Storer 1322.  
-Holidays:  Thursday, November 27th (Thanksgiving Day) ([Academic Calendar](https://registrar.ucdavis.edu/calendar/master))  
-Final Examination Period: Thursday, December 10th at 8:00 AM  
+**Lecture Meeting Time:** Mondays, Wednesdays, and Fridays at 4:10 to 5:00 PM in Storer 1322.  
+**Discussion:** Fridays at 5:10 to 6:00 PM in Storer 1322.  
+**Holidays:**  Wednesday, November 11th (Veterans Day) and Friday, November 27th (Thanksgiving Day) ([Academic Calendar](https://registrar.ucdavis.edu/calendar/master))  
+**Final Examination Period:** Thursday, December 10th at 8:00 AM  
 
 ## Course Description
 
@@ -77,7 +77,7 @@ The full skill tree maps the territory of gameplay programming. It has three dom
 |---|---|---|
 | Domain | One of the three broad areas required of everyone | Software Engineering |
 | Competency | A skill that receives an official level in the gradebook | Debugging and Testing |
-| Concept | A particular technique, concept, or specialization | Logging, exposure, or unit tests |
+| Concept | A particular technique, concept, or specialization | Logging, design crit, or unit tests |
 
 
 #### Competency Levels
