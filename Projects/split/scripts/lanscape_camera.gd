@@ -8,11 +8,6 @@ func _ready() -> void:
 	grow.new_growth.connect(_new_growth)
 	pass
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
-
 #look at the incoming growth locations and zoom the camera if they are not visible
 func _new_growth(growth:Node2D) -> void:
 	# percent_top indicates how much above the top is viewed

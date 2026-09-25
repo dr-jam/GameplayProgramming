@@ -9,14 +9,18 @@ signal new_growth(growth : Node2D)
 @export_range(0.0, 1.0, 0.01) var death_chance = 0.01
 @export_range(0.0, 2.0, 0.1) var timer : float = 0.2
 
-@export var manual:bool = false
+
+@export var pause:bool = false
+var step:bool = false
 
 var leaders = []
 var growth_scene = preload("res://scenes/growth.tscn")
 var growths = 0
+var splits = 0
+var deaths = 0
 
 var cur_time = 0
-var roundCount = 0;
+var roundCount = 0
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -28,13 +32,25 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	if manual:
-		if !Input.is_action_just_pressed("jump"):
+	
+	if Input.is_action_just_pressed("pause"):
+		pause = !pause
+	
+	if Input.is_action_just_pressed("step"):
+		step = true
+		pause = true 
+	
+	if step:
+		step = !step
+	elif !pause:
+		if cur_time < timer:
+			cur_time += delta
 			return
-	elif cur_time < timer:
-		cur_time += delta
+		cur_time = 0
+	else:
 		return
-	cur_time = 0
+	
+
 	
 	roundCount += 1
 	#print("%s" % roundCount)
@@ -47,6 +63,7 @@ func _process(delta: float) -> void:
 	for leader:Node2D in leaders:
 		var randomValue = randf()
 		if randomValue < split_chance:
+			splits += 1
 			var leftGrowth:Node2D = growth_scene.instantiate()
 			var rightGrowth = growth_scene.instantiate()
 			leader.add_child(leftGrowth)
@@ -83,6 +100,7 @@ func _process(delta: float) -> void:
 			
 		elif randomValue < split_chance + grow_chance + death_chance:
 			print("death")
+			deaths += 1
 			var leader_sprite = leader.get_child(0)
 			if leader_sprite is Sprite2D:
 				(leader_sprite as Sprite2D).modulate = Color.LIGHT_STEEL_BLUE
