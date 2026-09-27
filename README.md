@@ -35,6 +35,16 @@ This course is about the design and development of nuanced and highly contextual
 
 Godot Engine version 4.7.2-stable. Download [here](https://godotengine.org/download/archive/4.7.2-stable/).  
 
+### Optional: an open-source path from Unity C# to C
+
+*Added in this fork; not part of the course requirements. The course engine is Godot, above.*
+
+Unity's built-in 2D physics is the Box2D engine. [crust](https://github.com/brentharts/crust) and [Box2D-Packed](https://github.com/crustos/box2d), a fork of Box2D, are open-source tools that turn a Unity-style C# project into a small C program you can read, change, and rebuild, down to the physics engine. They are an early research project with known gaps, and they are a way to see what a game engine does with your code.
+
+* [From Unity C# to C](CSharpSubset.md): the C# subset, what your scripts become, and what is supported today.
+* [Box2D-Packed](Box2DPacked.md): 2D physics for Unity-style projects, and how Unity's physics components map onto it.
+* [examples/BouncingBall](examples/BouncingBall): a minimal project to try both.
+
 ## Grading and Assessment
 
 | Course component | Weight | What it covers |
