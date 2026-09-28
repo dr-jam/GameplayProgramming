@@ -62,6 +62,8 @@ Godot's own .NET runtime also compiles C#, just in time, at run time. That is fa
 - **Understanding can be checked at every level.** This course grades whether you can show that you understand the work you claim. A packed project gives that question concrete forms: where does this field live in memory? What does this handler become in C? Which instruction adds one to it? A student who wrote the code can answer; the answers are in files anyone can open.
 - **The subset can grow.** Supporting a new engine call is adding a row to a binding table in crust. A teacher who needs something for a course can read how the existing rows work, and add one.
 
+The argument, the pipeline and the comparison with real Godot are written up as a paper, in [`paper/`](paper/): *A Language You Keep, a Pipeline You Can See*.
+
 ## Try it
 
 You need Python 3, gcc, and three repositories side by side:

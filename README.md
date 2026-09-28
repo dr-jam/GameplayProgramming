@@ -47,6 +47,7 @@ Why C# rather than GDScript for this: GDScript is used only inside Godot, while 
 * [examples/GodotBounce](examples/GodotBounce) and [examples/GodotBounceGDScript](examples/GodotBounceGDScript): the same scene, in C# (packed) and in GDScript (for the Godot editor).
 * [Box2D-Packed](Box2DPacked.md): 2D physics, and how it follows Godot's rules — or Unity's.
 * The same path for Unity-style projects: [From Unity C# to C](CSharpSubset.md) and [examples/BouncingBall](examples/BouncingBall).
+* [The paper](paper/): *A Language You Keep, a Pipeline You Can See: Godot C# Compiled to Readable C for Gameplay Programming Education*, the argument for this path, its validation against Godot 4.7.2, and a proposed study. Build it with `make` in `paper/`.
 
 ## Grading and Assessment
 
