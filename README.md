@@ -128,11 +128,16 @@ A competency claim points the grader to a small and specific piece of your work.
 
 | Course activity | Maximum claims per student |
 |---|---:|
-| Each programming exercise | 2 |
+| Each programming exercise | 3 |
 | Final group project | 4 |
 | Other approved course work | 1 wildcard claim |
+| Self-directed work | 1-3 claims |
 
-For the final project, your claims should normally include one from each major domain and one specialization.
+Note that there are more potential claims than necessary. This is to allow for claims to be accrued and leveled up (e.g., from Unlocked to Developed) over time.  
+
+For the final project, your claims should normally include one from each major domain and one specialization.  
+
+Self-directed work is absolutely acceptable for this class. I care that you learn the material and can show direct evidence of what you learned. For self-directed projects, please check in with the instructional team before you begin so we can determine if it is appropriate or within scope -- time is valuable to us all!  
 
 #### What to Include
 
