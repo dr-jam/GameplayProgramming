@@ -20,6 +20,10 @@ config/features=PackedStringArray("4.7", "GL Compatibility")
 window/size/viewport_width=1900
 window/size/viewport_height=1080
 
+[display]
+
+window/stretch/mode="canvas_items"
+
 [editor]
 
 movie_writer/movie_file="/Users/josh/Documents/Godot/split/split_vid.png"
