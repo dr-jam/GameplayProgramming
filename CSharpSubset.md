@@ -1,6 +1,6 @@
 # From Unity C# to C: the crust C# subset
 
-*Optional material, added in this fork. It is not part of the course requirements, and the course engine is still Godot (see the [README](README.md)). It applies to Unity-style projects: C# scripts and `.unity` scenes.*
+*Optional material, added in this fork. It is not part of the course requirements, and the course engine is still Godot (see the [README](README.md)). It applies to Unity-style projects: C# scripts and `.unity` scenes. For the course engine itself, read [From Godot C# to C](GodotCSharp.md): the same pipeline, starting from Godot scenes and C# node scripts.*
 
 ## What this is
 

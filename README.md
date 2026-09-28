@@ -35,15 +35,18 @@ This course is about the design and development of nuanced and highly contextual
 
 Godot Engine version 4.7.2-stable. Download [here](https://godotengine.org/download/archive/4.7.2-stable/).  
 
-### Optional: an open-source path from Unity C# to C
+### Optional: an open-source path from Godot C# to C
 
-*Added in this fork; not part of the course requirements. The course engine is Godot, above.*
+*Added in this fork; not part of the course requirements. The course engine is Godot, above, and the course language is GDScript.*
 
-Unity's built-in 2D physics is the Box2D engine. [crust](https://github.com/brentharts/crust) and [Box2D-Packed](https://github.com/crustos/box2d), a fork of Box2D, are open-source tools that turn a Unity-style C# project into a small C program you can read, change, and rebuild, down to the physics engine. They are an early research project with known gaps, and they are a way to see what a game engine does with your code.
+[crust](https://github.com/brentharts/crust) and [Box2D-Packed](https://github.com/crustos/box2d), a fork of the Box2D physics engine, are open-source tools that turn a Godot 4 project — your scenes, and C# node scripts — into a small C program you can read, change, and rebuild, down to the physics engine. They are an early research project with known gaps, and a way to see what a game engine does with your code.
 
-* [From Unity C# to C](CSharpSubset.md): the C# subset, what your scripts become, and what is supported today.
-* [Box2D-Packed](Box2DPacked.md): 2D physics for Unity-style projects, and how Unity's physics components map onto it.
-* [examples/BouncingBall](examples/BouncingBall): a minimal project to try both.
+Why C# rather than GDScript for this: GDScript is used only inside Godot, while C# is used across games (Unity, Godot's .NET edition) and far beyond them. And a GDScript script disappears into Godot's virtual machine, while a C# script packed by crust becomes files you can open at every step — a C++ subset, then C, then assembly — with nothing hidden from the student or the teacher.
+
+* [From Godot C# to C](GodotCSharp.md): why C#, what your node scripts and signals become, how the results compare with real Godot 4.7.2, and what is supported today.
+* [examples/GodotBounce](examples/GodotBounce) and [examples/GodotBounceGDScript](examples/GodotBounceGDScript): the same scene, in C# (packed) and in GDScript (for the Godot editor).
+* [Box2D-Packed](Box2DPacked.md): 2D physics, and how it follows Godot's rules — or Unity's.
+* The same path for Unity-style projects: [From Unity C# to C](CSharpSubset.md) and [examples/BouncingBall](examples/BouncingBall).
 
 ## Grading and Assessment
 
