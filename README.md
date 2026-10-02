@@ -35,6 +35,20 @@ This course is about the design and development of nuanced and highly contextual
 
 Godot Engine version 4.7.2-stable. Download [here](https://godotengine.org/download/archive/4.7.2-stable/).  
 
+### Optional: an open-source path from Godot C# to C
+
+*Added in this fork; not part of the course requirements. The course engine is Godot, above, and the course language is GDScript.*
+
+[crust](https://github.com/brentharts/crust) and [Box2D-Packed](https://github.com/crustos/box2d), a fork of the Box2D physics engine, are open-source tools that turn a Godot 4 project — your scenes, and C# node scripts — into a small C program you can read, change, and rebuild, down to the physics engine. They are an early research project with known gaps, and a way to see what a game engine does with your code.
+
+Why C# rather than GDScript for this: GDScript is used only inside Godot, while C# is used across games (Unity, Godot's .NET edition) and far beyond them. And a GDScript script disappears into Godot's virtual machine, while a C# script packed by crust becomes files you can open at every step — a C++ subset, then C, then assembly — with nothing hidden from the student or the teacher.
+
+* [From Godot C# to C](GodotCSharp.md): why C#, what your node scripts and signals become, how the results compare with real Godot 4.7.2, and what is supported today.
+* [examples/GodotBounce](examples/GodotBounce) and [examples/GodotBounceGDScript](examples/GodotBounceGDScript): the same scene, in C# (packed) and in GDScript (for the Godot editor).
+* [Box2D-Packed](Box2DPacked.md): 2D physics, and how it follows Godot's rules — or Unity's.
+* The same path for Unity-style projects: [From Unity C# to C](CSharpSubset.md) and [examples/BouncingBall](examples/BouncingBall).
+* https://doi.org/10.5281/zenodo.23021479: *A Language You Keep, a Pipeline You Can See: Godot C# Compiled to Readable C for Gameplay Programming Education*, the argument for this path, its validation against Godot 4.7.2, and a proposed study.
+
 ## Grading and Assessment
 
 | Course component | Weight | What it covers |
