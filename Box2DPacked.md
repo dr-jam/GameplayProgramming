@@ -1,6 +1,6 @@
 # Box2D-Packed: 2D physics for Godot and Unity-style projects
 
-*Optional material, added in this fork. It is not part of the course requirements. Read [From Godot C# to C](GodotCSharp.md) or [From Unity C# to C](CSharpSubset.md) first.*
+*Optional material, added in this fork. It is not part of the course requirements. Read [From Godot C# to C](GodotCSharp.md) or [From Unity C# to C](CSharpSubset.md) first. [Prowl2D](Prowl2D.md), a whole 2D engine built on Box2D-Packed, is a third place to see it at work.*
 
 ## Unity's 2D physics is Box2D
 

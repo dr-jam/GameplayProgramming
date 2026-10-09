@@ -47,6 +47,7 @@ Why C# rather than GDScript for this: GDScript is used only inside Godot, while 
 * [examples/GodotBounce](examples/GodotBounce) and [examples/GodotBounceGDScript](examples/GodotBounceGDScript): the same scene, in C# (packed) and in GDScript (for the Godot editor).
 * [Box2D-Packed](Box2DPacked.md): 2D physics, and how it follows Godot's rules — or Unity's.
 * The same path for Unity-style projects: [From Unity C# to C](CSharpSubset.md) and [examples/BouncingBall](examples/BouncingBall).
+* [Prowl2D](Prowl2D.md): a second engine on the same idea, a Unity-style 2D engine on Box2D-Packed whose core translates from C# to C. It links to the engine's own [Samples](https://github.com/crustos/Prowl2D/tree/main/Samples), from a 40-line headless ball to a destructible, sand-and-water platformer with a [web demo](https://crustos.github.io/Prowl2D/).
 * https://doi.org/10.5281/zenodo.23021479: *A Language You Keep, a Pipeline You Can See: Godot C# Compiled to Readable C for Gameplay Programming Education*, the argument for this path, its validation against Godot 4.7.2, and a proposed study.
 
 ## Grading and Assessment
