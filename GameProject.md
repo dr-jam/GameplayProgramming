@@ -2,8 +2,6 @@
 
 In this project, your team will design and create a game in Godot. You decide what to make, subject to the requirements below.
 
-Keep it small enough to finish. I'd much rather see a short game with interesting, well-built systems than a sprawling game that barely works. Get the main gameplay loop running first. Add content and polish once people can actually play it.
-
 The basic rules:
 
 - Each student takes one main role and one sub-role.
