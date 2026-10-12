@@ -1,158 +1,199 @@
 # Description of Game Project
 
-In this project, you will be designing and creating a game in teams. While you will be responsible for designing the overall direction of your game, you will be given the following constraints:
-* Each team member will have a role and a sub-role.
-* Each team member will be responsible for creating at least one gameplay system.
-* Each team member will be responsible for describing their work in your team's design document. 
-* Your game, assets, source code, and project files will be placed in a publicly-accessible GitHub repository.
+In this project, your team will design and create a game in Godot. You decide what to make, subject to the requirements below.
+
+Keep it small enough to finish. I'd much rather see a short game with interesting, well-built systems than a sprawling game that barely works. Get the main gameplay loop running first. Add content and polish once people can actually play it.
+
+The basic rules:
+
+- Each student takes one main role and one sub-role.
+- Everyone must be the primary author of a substantial programming contribution. Asset placement, writing, and managing a task board do not satisfy this requirement by themselves.
+- Your work has to connect to the team's work. Systems should be used in the game, and production tools should be used by your teammates on the game.
+- Team members record their own contribution in the team's documentation.
+- The game and Godot project live in a public GitHub repository. Include source and credits for outside assets, check redistribution rights, and don't commit secrets or private information.
+
+You can have two Gameplay Systems Programmers, two Level and World Designers, or other repeated roles, as long as each person owns different work. Your chosen roles should suit your game. **Every team should have a Technical Producer**, who takes the lead on keeping the project integrated and releasable.
+
+If a role doesn't describe the technical work your game needs, propose an equivalent when you submit your project plan.
+
+## Development
+
+In keeping with our conversations on iterative design, prototype early in the process. As a team, agree on how systems will exchange information, and merge working features into the main project regularly. Waiting until the last week is bad policy.
+
+Change your plans when you need to. Cutting a feature is often the right decision. Keep a record of important design changes so the instruction team can understand your decisions. Use scenes, signals, Resources, autoloads, and design patterns when they're useful. 
+
+## Team Responsibilities
+
+Some work belongs to the entire team even if one student takes the lead:
+
+- **A working game:** A fresh checkout should open in the documented Godot version and run without missing files or mysterious setup steps.
+- **Integration:** Agree on interfaces and dependencies, review one another's changes, and fix problems that cross system boundaries.
+- **Testing:** Have ten people who aren't on the team playtest the game. Use the [Observations and Playtester Comments form](https://docs.google.com/document/d/1oW7AulzjpEocDmMikRL0S0PKxlRrOxsEEP7KB-nGg-A/edit?usp=sharing) for each tester. Summarize what you learned and show at least one change made because of the results. Don't put testers' private information in the public repository.
+- **A release:** Keep the repository usable throughout development. Before submission, test the actual build or project from a fresh checkout, not just the copy on someone's laptop.
+- **A press kit and trailer:** Include a short description of the game, screenshots, and a **one-minute trailer** showing the real game. These are team deliverables, not somebody's sub-role. You can divide up the work however you like.
+
+The Technical Producer coordinates the build and release, and a student taking User Experience leads the playtesting. Neither role excuses everyone else from helping.
 
 # Grading
 
-The project will be graded on a 100-point scale with the following weights:
-* Main Role
-  * 30 Implementation
-  * 10 Documentation
-* Sub-Role
-  * 20 Implementation
-  * 10 Documentation
-* 30 Team score of completed game.
+The project is worth **100 points**:
 
-# Submission Information
+| Category | Points |
+| --- | ---: |
+| Main role: implementation | 40 |
+| Main role: documentation | 10 |
+| Sub-role: implementation | 15 |
+| Sub-role: documentation | 5 |
+| Completed team game | 30 |
+| **Total** | **100** |
 
-Submissions will be taken from the team registration spreadsheet via your team's GitHub repository link. Your project code
+**Individual work (70 points):** I'll look at whether your work functions, how well it's programmed or executed, the difficulty of the problem, and how it fits into the team's game. Your main role needs to demonstrate programming competence. Your sub-role can involve code, design, testing, art, sound, or other production work. Documentation should make it possible to find and understand what you did; it doesn't have to be long.
+
+**Completed game (30 points):** This is a shared team score. Is it playable, understandable, and reasonably stable? Are the major systems integrated? Did the team finish a sensible amount of work? The final game, README, playtesting results, and press materials should all be present. A simple, complete game can earn full marks. I'm not grading how many levels you made or whether it looks like a commercial release.
+
+Your system is not finished if it only works in isolation. On the other hand, a great finished game doesn't automatically give everyone great individual scores.
+
+## Individual Technical Record
+
+Each student adds a short section to the team's design document. About a page is fine. Include:
+
+1. **What you built.** Name your main role, sub-role, and main programming contribution.
+2. **Where to find it.** Link a few relevant commits or pull requests and name the important scripts, scenes, or tools. Commit counts and lines of code are not grades.
+3. **How it works.** A short explanation, diagram, or pseudocode. Include an engineering choice worth discussing.
+4. **Where it connects.** Name another team member's system your work uses, changes, or supports. Explain the connection.
+5. **What changed.** Describe a bug, test result, change in design, or integration problem and what you did about it.
+
+Be prepared to demonstrate your work and answer a technical question about it in the final presentation or project review. Programming assistants are subject to the course policy. You're still responsible for understanding and testing what you submit.
+
+# Project Plan and Submission
+
+In your project plan, include a short description of the game and its main gameplay loop. Add a table showing each student's main role, sub-role, main technical contribution, and important dependencies. Name the Technical Producer and the person coordinating playtesting. This should help you discover missing responsibilities before you've spent weeks building the wrong things.
+
+We'll use the GitHub repository link from the team registration spreadsheet. Have the final Godot project, code, documentation, and redistributable assets in that repository by the deadline.
+
+Your `README.md` should explain the Godot version, how to run the game, its controls, known problems, credits and licenses, and where to find the design document. Identify the final commit or release to be graded and provide a build link if you have one. Also link the press kit (description and screenshots) and one-minute trailer. Please test the instructions on a fresh checkout.
 
 # Team Member Roles
 
-Each team member must take on one main role and one sub-role. You will create the gameplay systems or complete the design tasks for your roles as well as provide the requested per-role documentation. Each team member must document the gameplay systems and software design patterns they used for their portion of the project.
+Each person chooses a main role and a sub-role. The lists below are options, not a checklist of jobs that must appear on every team. The deliverable tables are a guide to what we expect; adapt them to your game and be specific in the project plan about what you'll make.
 
 ## Main Roles
 
-The following are the main roles and their basic descriptions.
+### Technical Producer
 
-### Producer
+You keep the development process moving and the game in one piece. Work with the team on milestones, dependencies, code integration, and Git conventions. You're also responsible for coordinating builds, exports, and the final release.
 
-The producer coordinates the technical dependencies and basic team logistics. Responsibilities include, but are not limited to, creating a dependency chart for the significant development tasks for the game, coordinating team meetings, working with the other roles to integrate their work into the main project, deciding on the Git-based workflow (i.e., how everyone's work gets combined into release branches without breaking the project), and organizing the final presentation.
-
-While this role has fewer direct programming responsibilities, it requires understanding all parts of the development process. When performed well, the producer amplifies the team's effort, leading to a better game project.
-
-
-
-
+This is a technical job, not just meeting notes and a Trello board. Implement something the team actually uses: build or export automation, a test or validation tool, a debugging utility, an editor extension, a tool to check assets, or another appropriate system. Keep the workflow simple enough that your teammates will use it. You coordinate the release; you don't have to fix every other student's merge conflict.
 
 ### User Interface and Input
 
-In this role, you are responsible for the user interface elements of the game. This typically includes the contents of the heads-up display or HUD. This traditionally comprises gameplay status information such as player character health, score, resources like magic points or gold,  and timekeepers. This is also responsible for the menu and credit screens. You will be responsible for managing the input methods for your game. You should design your game to be used with either keyboard and mouse or a game controller. If you would like to excel in this role, you can add additional input control schemes for mobile devices. You will document the inputs and how they affect each game mode (e.g., menu, main gameplay, inventory screens, credits, etc.) and how they interact with the game work and UI/HUD. You are responsible for documenting the various UI elements you implement and how they interact with the changing state of the game.
+You handle controls and the parts of the game through which players give commands and read information: menus, HUDs, settings, inventory screens, dialogue controls, and so forth.
 
-### Movement/Physics
+Think about changes in context. The same button may mean different things in a menu, during play, or while interacting with an object. Make the UI read actual game state rather than displaying placeholder numbers.
 
-This role is responsible for implementing movement within your game. You can manage movement by directly translating objects in your game or leveraging Unity's physics system. It is your task to establish and document the basic movement conventions in your game world (e.g., how gravity works, friction coefficients, animation curve value conventions, etc.). While you are responsible for documentation and ensuring all objects in the game observe your conventions, other team members can implement objects and conventions that use your conventions.
+### Movement and Interaction Systems
 
-### Animation and Visuals
+You handle character or object movement and the way things physically or spatially interact. Depending on the game, this could involve a platformer controller, top-down movement, steering, a camera-relative control scheme, dragging objects, or grid-based movement. It doesn't have to mean rigid-body physics.
 
-As the team's master of visuals, you are responsible for implementing the basic animation scripts used by objects in your game. You are also tasked with setting the visual style and are the primary person responsible for finding the art assets to use in your game. You will document the animation systems used, a guide to the visual style of your game, and to document the sources and licenses of the art assets used in your game. 
+Establish useful conventions for speeds, collision behavior, timing, and controls. Give other programmers something dependable to build on. A good movement system has as much to do with how it *feels* as whether the math works.
 
+### Gameplay Systems Programmer
 
-### Game Logic
+You implement the rules and mechanics that make the game work: combat, puzzles, inventories, abilities, crafting, dialogue mechanics, turn handling, resources, win/loss conditions, or any other substantial system. This is a broad role, and **more than one person can take it**. Divide up the systems clearly.
 
-This will be the most complicated role in most projects as it is a point of integration for nearly all gameplay systems. Traditionally, most of the game logic is placed in a game manager singleton and is referenced as needed by other scripts. It is the job of your team's game logician to manage the various game states (i.e., current level, main menu, main gameplay mode) and data (i.e., time remaining, quest completion status, references to all active enemies and items).  You will document the game states and game data you managed and the design patterns you used to complete your task. Charts are a great way to visually explain how parts of your game logic interact with the other gameplay systems.
-
-
-### Systems and Tools Engineer
-
-As the Systems and Tools Engineer, you are responsible for developing reusable systems, custom Unity tools, and workflow scripts that improve your team’s development efficiency. This includes creating procedural content generators, editor extensions, data serialization pipelines, debugging overlays, or asset-management tools. You will document the tools and systems you create, their purpose, and how they are used by other team members. When performed well, this role amplifies the productivity of the entire team, ensuring that technical systems are modular, efficient, and maintainable.
+Don't pile everything into one `GameManager`. Figure out who owns the state, which systems can change it, and how other code learns about those changes. The architecture can be simple; it should at least be understandable.
 
 ### Level and World Designer
 
-As the Level and World Designer, you are responsible for defining the spatial layout and player flow of your game. This includes building levels, placing objects and obstacles, shaping the rhythm of exploration and challenge, and incorporating environmental storytelling. You will use the conventions established by the other roles like movement physics, visual style, and game logic to create coherent gameplay spaces. Your documentation should include annotated maps, flow diagrams, and a discussion of how level design supports player experience, pacing, and difficulty progression.
+You make the places and situations in which the game is played. Think about layout, pacing, encounters, obstacles, and how players discover the mechanics. Maps and diagrams will help you explain your design.
+
+This is still a programming main role. Write encounter logic, puzzle systems, interactive environments, level progression, reusable triggers, or other code that supports the levels. Dropping assets into a scene isn't enough. Your level should also make good use of systems other students are writing.
 
 ### Technical Artist
 
-As the Technical Artist, you are responsible for bridging art and engineering. You will ensure that all visual assets integrate smoothly into the project while maintaining real-time performance. This includes implementing shaders, materials, lighting setups, and post-processing effects, as well as optimizing textures and meshes. You may also develop custom visual tools to support other roles. You will document your visual pipeline, performance optimizations, and the aesthetic principles guiding your work. When done effectively, this role connects artistic direction with technical stability.
+You make the visual and animated parts of the game work through code and Godot's runtime systems. This combines animation, effects, and technical art. You might work with `AnimationPlayer`, `AnimationTree`, shaders, procedural effects, particles, materials, rigs, sprite systems, or tools for preparing and importing art.
+
+The programming matters. For example, build an animation controller driven by game state, a shader that communicates damage or danger, a configurable effect system, or a tool that turns artists' assets into something the game can use. Choosing sprites and tuning a few editor settings won't be sufficient on their own. Work with the game's art direction, and record where outside assets came from.
 
 ### AI and Behavior Designer
 
-As the AI and Behavior Designer, you are responsible for creating the artificial intelligence systems that give life to the game’s world. You will design and implement the logic for enemies, allies, or other autonomous agents using techniques such as finite-state machines, behavior trees, or utility systems. You will collaborate with the Game Logic and Animation roles to integrate these behaviors into the larger gameplay structure. Documentation should include diagrams or pseudocode showing the architecture of your AI systems and explanations of how they shape player experience and game difficulty.
+You create behavior for enemies, allies, or other agents. Finite-state machines, behavior trees, decision trees, utility systems, navigation, planning, and simpler custom approaches are all fair game. Use whatever solves the problem.
 
-### Data and Analytics Engineer
+Coordinate with the other programmers so the agents can sense relevant state, move or act, and communicate what they're doing to the player. Clever AI isn't especially useful if the player can't tell it's there.
 
-As the Data and Analytics Engineer, you are responsible for instrumenting your game to collect and analyze gameplay data. This includes building systems that record metrics such as completion times, player deaths, resource usage, and score distributions. You will analyze this data to identify balance issues or design insights that can improve the gameplay experience. You will document your data collection methods, analytical results, and how those results informed subsequent design decisions. This role supports iterative development through evidence-based refinement and data-driven insight.
+### Procedural Content Designer
 
-### Procedural Content Design
+You create an algorithm that produces something the game needs: levels, puzzles, encounters, enemy variations, layouts, animations, or other content. Describe its inputs, constraints, and the range of results it can produce.
 
-You are responsible for implementing or prototyping a system that procedurally generates some element of your game including levels, enemies, puzzles, or visual patterns. You will document the algorithms or randomization methods used, describe how the generated content varies across playthroughs, and show how it integrates into the existing game systems. This role highlights creative computation and demonstrates how generative design can expand replayability and variety.
+Use the generator in the game or in the team's actual content-building process. Test whether the output works, not merely whether it's different each time. A generator that creates fifty unplayable levels is not much help.
 
 ### Main Role Deliverables
 
-| **Main Role**                   | **Design Deliverables (🎮)**                      | **Technical Deliverables (⚙️)**                      | **Documentation Deliverables (📄)**                    | **Integration Deliverables (🔗)**                          |
-| ------------------------------- | ------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------- |
-| **Producer**                    | Project roadmap and milestone plan                | Git workflow setup, build pipeline                   | Dependency chart, meeting summaries, workflow guide    | Final presentation coordination, release build integration |
-| **UI and Input**                | HUD, menus, control scheme layouts                | Input scripts, UI prefabs/scenes, interface code     | UI map, input mapping chart, interaction documentation | Integrated UI connected to Game Logic systems              |
-| **Movement / Physics**          | Movement conventions, physics feel tuning         | Physics scripts, rigidbody configurations            | Motion system flowchart, parameter tables              | Verified consistent behavior across game objects           |
-| **Animation and Visuals**       | Visual style guide, animation plan                | Animator controllers, shader/material setups         | Asset licensing list, system overview                  | Integrated visuals aligned with movement and game states   |
-| **Game Logic**                  | Game flow and rule definitions                    | Game manager or modular logic scripts                | System diagrams, design pattern rationale              | Coordinated interaction among all gameplay systems         |
-| **Systems and Tools Engineer**  | Workflow enhancements, reusable templates         | Editor extensions, utility scripts, automation tools | Tool documentation and usage instructions              | Tools implemented and used by other team members           |
-| **Level and World Designer**    | Level layouts, pacing, worldbuilding plan         | Scene construction, prefab/scene arrangement         | Annotated maps, level flow diagrams                    | Levels integrated with physics, logic, and visuals         |
-| **Technical Artist**            | Visual cohesion and fidelity goals                | Lighting, materials, post-processing effects         | Pipeline documentation, optimization records           | Performance testing in integrated builds                   |
-| **AI and Behavior Designer**    | Enemy/NPC design and behavioral tuning            | AI logic (FSMs, behavior trees, utility systems)     | Architecture diagrams, tuning tables                   | Verified AI behavior integrated into game loop             |
-| **Data and Analytics Engineer** | Gameplay balance insights, metric definitions     | Logging and data collection scripts                  | Data tables, analysis report                           | Feedback applied to improve later builds                   |
-| **Procedural Content Design**   | Procedural variation plan (levels, puzzles, etc.) | Generation algorithms and randomization systems      | Algorithm documentation, system diagrams               | Integration of procedural content into main game loop      |
-
+| Main role | Design (🎮) | Technical (⚙️) | Documentation (📄) | Integration (🔗) |
+| --- | --- | --- | --- | --- |
+| Technical Producer | Milestones, dependencies, release plan | Build/test/export automation or another team tool | Workflow and tool instructions, important decisions | Working releases and a usable repository |
+| UI and Input | Controls, HUD, menu flow | Input actions, UI scripts and scenes | UI map and controls | UI uses actual game state and actions |
+| Movement and Interaction Systems | Movement and interaction rules | Controllers, collision, movement or camera systems | Parameters, interaction or motion diagram | Other game systems use the movement/interaction code |
+| Gameplay Systems Programmer | Rules, state, system behavior | Gameplay mechanics and rule code | State/data flow and design choices | Mechanics connected to other systems |
+| Level and World Designer | Level maps, encounters, pacing | Scripted levels, puzzles, triggers or progression | Annotated maps and flow | Levels use the game's mechanics |
+| Technical Artist | Animation and visual feedback goals | Animation controllers, shaders, effects or art tools | System overview, asset credits/licenses | Visuals and animation respond to gameplay |
+| AI and Behavior Designer | Agent behaviors and difficulty | Decision and navigation code | Behavior diagram and tuning notes | Agents interact with the game world |
+| Procedural Content Designer | Generation rules and constraints | Generation and validation algorithms | Algorithm and example outputs | Generated content used by the game or team |
 
 ## Sub-Roles
 
-
-
 ### Audio
 
-You are responsible for defining the game's sound style, procuring audio assets, and implementing scripts for adding sound to your game. Document the intentional use of sound and how it defines and compliments the rest of the game. You will document the sound style, the sources/licenses for all audio assets, and the implementation of your audio system.
+Choose or create the game's sound and music, then get them working with play. Which actions need feedback? What should sound different as the game state changes? Keep track of outside assets and licenses. If the game needs an audio manager or other code, you can build that too.
 
-### Gameplay Testing
+### User Experience
 
-As the gameplay tester, you must have ten non-team members playtest your game. You fill out the Observation and Playtester Comments form for each playtester and describe the results in the design document (after you share the results with your team, of course!). For each playtester, fill out an [Observations and Playtester Comments form](https://docs.google.com/document/d/1oW7AulzjpEocDmMikRL0S0PKxlRrOxsEEP7KB-nGg-A/edit?usp=sharing). Provide a meaningful analysis of the results.
+Lead the team's playtesting and help the game make sense to someone who didn't build it. Plan useful test scenarios, watch what players actually do, and note where they get stuck or misunderstand the game. Coordinate the team's ten outside playtests and the required observation forms.
+
+Bring the findings back to the team and help choose what to fix. It's fine if the result is less glamorous than adding a feature: a better tutorial, clearer controls, or a change to a confusing mechanic. User Experience is about evidence from players, not just giving opinions about the game.
 
 ### Narrative Design
 
-You are responsible for designing and embedding your game's story into the gameplay experience. While your team may collectively decide on the story, you will make it present in the game. You will document how the narrative is present in the game via assets, gameplay systems, and gameplay.
-
-### Press Kit and Trailer
-
-You are responsible for creating a press kit for your game that includes screenshots and a 1-minute trailer. You should document the choices you made in the press kit and the goals of your trailer in the design document.
+Make story and characterization part of play, whether through dialogue, environmental details, events, or systems that remember player choices. Work with the other programmers so narrative changes happen in the game, not just in a separate story document.
 
 ### Game Feel
 
-In this role, you are responsible for using what we learned in class about game feel to ensure your game's playability. You will document what you added to and how you tweaked your game to improve its game feel.
+Put the class material on game feel to work. Tune controls, motion, timing, camera behavior, hit reactions, animation, sound, or feedback. Explain what you changed and why. Before-and-after clips or concrete player observations are more useful than saying it feels better.
 
-### Accessibility and Usability Design
+### Accessibility Engineering
 
-You are responsible for ensuring that your game can be played and understood by the widest possible audience. This includes evaluating input schemes, color contrast, text readability, and overall user comprehension. You will document the accessibility features implemented in your game (e.g., scalable UI elements, clear tutorials, or color-blind–safe palettes) and describe how they improve usability. Your report should include before-and-after examples or screenshots showing design changes made to support a broader range of players.
+Implement changes that make the game usable by more players. Depending on the game, this could include remappable controls, text sizing, subtitles, alternatives to color-only cues, input assistance, or options for reducing visual effects. Choose features that address actual needs and test that they work.
+
+This is distinct from User Experience: UX gathers evidence about players' experience; this role takes responsibility for implementing accessibility features.
 
 ### Performance Optimization
 
-You are responsible for ensuring that your game runs smoothly and efficiently. You will analyze frame rates, memory usage, and object counts across builds, and identify sources of performance bottlenecks. You will document the profiling tools you used (such as Unity Profiler or Frame Debugger), the optimizations you implemented, and the resulting performance improvements. This subrole emphasizes engineering discipline and teaches how to balance artistic fidelity with technical constraints.
+Use Godot's profiler, debugger, and monitors before deciding what needs optimizing. Fix something that matters and measure it under comparable conditions. If the game already runs well, build a repeatable benchmark or stress test and find its limits. Don't invent a performance problem just to claim this role.
 
-### Visual Cohesion and Style Guide
+### Art Direction and Gameplay Communication
 
-You are responsible for maintaining a consistent visual identity across your game. You will define the game’s palette, typography, and visual tone, and ensure that all visual elements adhere to this cohesive style. You will create a short visual style guide that references your sources and explains your artistic decisions. This subrole supports the Animation and Visuals main role by ensuring that all assets, regardless of origin, appear unified in presentation.
+Help decide how the game's visual language communicates its world, characters, mechanics, and state. That includes palettes, typography, iconography, shapes, visual metaphors, and how one screen or object relates to another. A short style guide can help, but it isn't the main deliverable.
 
-### Build and Release Management
-
-You are responsible for creating and maintaining stable builds of your game throughout development. This includes managing the version control workflow, resolving merge conflicts, and preparing playable builds for milestones and the final presentation. You will document the release process: how assets and scripts are integrated, how branches are merged, and how the final build is packaged for distribution. This subrole ensures that the team’s work is consistently deliverable and technically stable.
+Work with the UI programmer, Technical Artist, and other team members to carry those ideas into functioning systems. For example, establish how health, danger, factions, abilities, or interactable objects are represented; make sure the right art, animations, icons, or state cues appear when the game calls for them. The point is not just a consistent look. It's making the game's art *say something useful* while it runs.
 
 ### Player Onboarding and Tutorial Design
 
-You are responsible for helping new players understand how to play your game effectively. This includes designing and implementing tutorial sequences, hint systems, or onboarding UI elements that teach core mechanics in an intuitive way. You will document your tutorial structure and describe how it gradually introduces game systems to players. Screenshots or diagrams showing the player learning curve will strengthen your report. This subrole emphasizes clarity, communication, and player empathy.
+Teach the game without requiring a lecture from its developers. Design and implement prompts, hints, tutorials, or early encounters that introduce important mechanics. Watch new players try them, then change what isn't working. Coordinate with User Experience if your team has someone in that role.
 
-### Subrole Deliverables
-| **Subrole**                               | **Design Deliverables (🎮)**                             | **Technical Deliverables (⚙️)**                                         | **Documentation Deliverables (📄)**                                          | **Integration Deliverables (🔗)**                               |
-| ----------------------------------------- | -------------------------------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| **Audio**                                 | Defined audio style and sound identity                   | Audio scripts and in-game implementation                                | Asset source list, licensing documentation, sound system overview            | Integrated and balanced audio feedback across gameplay systems  |
-| **Gameplay Testing**                      | Playtesting plan and test scenarios                      | Test builds prepared for external testers                               | Ten completed Observation and Playtester Comments forms, analysis summary    | Feedback synthesized and shared with team for iteration         |
-| **Narrative Design**                      | Embedded narrative moments, dialogue, and story flow     | Implementation of narrative logic, triggers, or text systems            | Documentation of how narrative is expressed through gameplay and assets      | Narrative systems connected to game state and UI                |
-| **Press Kit and Trailer**                 | Visual identity and trailer composition                  | Capture tools and editing workflow                                      | Press kit package (screenshots, trailer, game summary) with rationale        | Promotional materials aligned with final build presentation     |
-| **Game Feel**                             | Adjustments improving responsiveness and tactile quality | Tweaked scripts for feedback (camera shake, timing, animation blending) | Notes describing feel adjustments and their effects                          | Verified improvements through playtesting and iteration         |
-| **Accessibility and Usability Design**    | Inclusive interface and control layouts                  | Accessibility features (scalable UI, color-blind modes, etc.)           | Before-and-after comparisons, annotated screenshots, accessibility checklist | Accessibility improvements applied to live build and UI         |
-| **Performance Optimization**              | Balanced performance-to-visual quality decisions         | Profiling, optimization of code, assets, or physics                     | Profiling reports and comparison charts (pre/post optimization)              | Performance improvements verified in integrated builds          |
-| **Visual Cohesion and Style Guide**       | Unified aesthetic across menus, levels, and assets       | Shader or color-palette adjustments for consistency                     | Visual style guide referencing color, typography, and layout                 | Applied cohesive style across all in-game assets                |
-| **Build and Release Management**          | Stable milestone and final build releases                | Automated build pipeline or release scripts                             | Release documentation, version control logs, merge records                   | Verified working build at each milestone and final presentation |
-| **Player Onboarding and Tutorial Design** | Tutorial levels, hint systems, or onboarding screens     | Scripted tutorial flow and triggers                                     | Documentation of tutorial structure and learning curve                       | Integrated onboarding experience accessible in final game       |
+### Analytics and Instrumentation
 
+Add logging or other instrumentation to answer a question about your game: Where do players die? Which choices do they make? How long does a level take? Gather data from play, analyze it, and bring back a result the team can use. Record what changed, or what you recommend changing, because of the findings.
+
+### Sub-role Deliverables
+
+| Sub-role | Design (🎮) | Technical (⚙️) | Documentation (📄) | Integration (🔗) |
+| --- | --- | --- | --- | --- |
+| Audio | Sound and music plan | Audio triggers, playback and any supporting code | Audio overview, asset credits/licenses | Sound responds to game events |
+| User Experience | Playtest plan and questions | Test builds, issue tracking, usability changes with team | Ten observation forms, findings and a change made | Findings inform the finished game |
+| Narrative Design | Story and narrative flow | Dialogue, events or state triggers as needed | How the narrative works in play | Narrative responds to player action |
+| Game Feel | Timing and feedback goals | Tuning, motion, effects and feedback changes | Before/after evidence and explanation | Changes visible or felt in gameplay |
+| Accessibility Engineering | Accessibility goals | Working accessibility features | What changed and how it was tested | Options and cues function in the game |
+| Performance Optimization | Performance problem or benchmark | Profiling, fixes or a repeatable stress test | Comparable measurements and findings | Final game performance verified |
+| Art Direction and Gameplay Communication | Visual language tied to meaning and rules | Applied assets, states, cues and visual-system coordination | Brief visual guide and examples | Game state is communicated consistently |
+| Player Onboarding and Tutorial Design | Learning sequence and prompts | Tutorial triggers, hints or encounters | Onboarding flow and observation notes | New players can learn the controls and goals |
+| Analytics and Instrumentation | Questions and measures | Logging and analysis tools | Results and proposed or completed changes | Play data informs design decisions |
