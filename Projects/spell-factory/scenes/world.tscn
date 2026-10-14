@@ -1,10 +1,10 @@
-[gd_scene load_steps=12 format=3 uid="uid://02dqc2h02b71"]
+[gd_scene format=3 uid="uid://02dqc2h02b71"]
 
 [ext_resource type="Script" uid="uid://7fsycmrdww1v" path="res://scripts/spell_factory.gd" id="1_2tsk8"]
 [ext_resource type="PackedScene" uid="uid://dqhjljefvdpy6" path="res://scenes/spells/fireball.tscn" id="2_u0x2w"]
 [ext_resource type="PackedScene" uid="uid://cd34bb34krund" path="res://scenes/spells/ultima.tscn" id="3_4wyf3"]
 [ext_resource type="PackedScene" uid="uid://0isk0k7rm551" path="res://scenes/spells/meteor.tscn" id="3_ras4o"]
-[ext_resource type="Script" uid="uid://b2uib63wwbp0v" path="res://scripts/pool_factory/pooled_factory.gd" id="5_71j4m"]
+[ext_resource type="PackedScene" uid="uid://b7tbkjxkc7o3q" path="res://scenes/pooled_factory.tscn" id="5_71j4m"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u0x2w"]
 albedo_color = Color(0.3372549, 0.27058825, 0.64705884, 1)
@@ -26,9 +26,9 @@ albedo_color = Color(0.03529412, 0.29803923, 0.08627451, 1)
 [sub_resource type="PlaneMesh" id="PlaneMesh_22ew4"]
 material = SubResource("StandardMaterial3D_ule47")
 
-[node name="World" type="Node3D"]
+[node name="World" type="Node3D" unique_id=1856526707]
 
-[node name="SpellFactory" type="Node3D" parent="."]
+[node name="SpellFactory" type="Node3D" parent="." unique_id=1086100142]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.1630445, 0)
 script = ExtResource("1_2tsk8")
 tome = Dictionary[int, PackedScene]({
@@ -37,48 +37,32 @@ tome = Dictionary[int, PackedScene]({
 2: ExtResource("3_4wyf3")
 })
 
-[node name="Building" type="MeshInstance3D" parent="SpellFactory"]
+[node name="Building" type="MeshInstance3D" parent="SpellFactory" unique_id=513256528]
 transform = Transform3D(2.7012432, 0, 0, 0, 1.2956358, 0, 0, 0, 1.6289805, 0, 0, 0)
 mesh = SubResource("BoxMesh_ras4o")
 
-[node name="Stack1" type="MeshInstance3D" parent="SpellFactory"]
+[node name="Stack1" type="MeshInstance3D" parent="SpellFactory" unique_id=1576113443]
 transform = Transform3D(0.48138458, 0, 0, 0, 0.58950037, 0, 0, 0, 0.48138458, -0.5176587, 1.0523849, -0.31447935)
 mesh = SubResource("CylinderMesh_uxu58")
 
-[node name="Stack2" type="MeshInstance3D" parent="SpellFactory"]
+[node name="Stack2" type="MeshInstance3D" parent="SpellFactory" unique_id=15855027]
 transform = Transform3D(0.48138458, 0, 0, 0, 0.58950037, 0, 0, 0, 0.48138458, -0.5176587, 0.8758321, 0.2939915)
 mesh = SubResource("CylinderMesh_uxu58")
 
-[node name="SpawnPoint" type="Node3D" parent="SpellFactory"]
+[node name="SpawnPoint" type="Node3D" parent="SpellFactory" unique_id=342792663]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9468789, 0, 0)
 
-[node name="PooledFactory" type="Node3D" parent="."]
+[node name="PooledFactory" parent="." unique_id=1786440229 instance=ExtResource("5_71j4m")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 5.1630445, 2.263766)
-script = ExtResource("5_71j4m")
 
-[node name="Building" type="MeshInstance3D" parent="PooledFactory"]
-transform = Transform3D(2.7012432, 0, 0, 0, 1.2956358, 0, 0, 0, 1.6289805, 0, 0, 0)
-mesh = SubResource("BoxMesh_ras4o")
-
-[node name="Stack1" type="MeshInstance3D" parent="PooledFactory"]
-transform = Transform3D(0.48138458, 0, 0, 0, 0.58950037, 0, 0, 0, 0.48138458, -0.5176587, 1.0523849, -0.31447935)
-mesh = SubResource("CylinderMesh_uxu58")
-
-[node name="Stack2" type="MeshInstance3D" parent="PooledFactory"]
-transform = Transform3D(0.48138458, 0, 0, 0, 0.58950037, 0, 0, 0, 0.48138458, -0.5176587, 0.8758321, 0.2939915)
-mesh = SubResource("CylinderMesh_uxu58")
-
-[node name="SpawnPoint" type="Node3D" parent="PooledFactory"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9468789, 0, 0)
-
-[node name="Sun" type="DirectionalLight3D" parent="."]
+[node name="Sun" type="DirectionalLight3D" parent="." unique_id=959969490]
 transform = Transform3D(0.56748456, -0.6949057, 0.44166434, 0, 0.53640133, 0.8439631, -0.8233841, -0.47893596, 0.30439946, 8.05776, 17.049255, 4.66115)
 
-[node name="Ground" type="MeshInstance3D" parent="."]
+[node name="Ground" type="MeshInstance3D" parent="." unique_id=1205821515]
 transform = Transform3D(1000, 0, 0, 0, 1000, 0, 0, 0, 1000, 0.004743576, 0, -0.023631096)
 mesh = SubResource("PlaneMesh_22ew4")
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" type="Camera3D" parent="." unique_id=811260201]
 transform = Transform3D(1, 0, 0, 0, 0.81383175, 0.5811008, 0, -0.5811008, 0.81383175, 5, 10, 10)
 
-[node name="PoolRoot" type="Node3D" parent="."]
+[node name="PoolRoot" type="Node3D" parent="." unique_id=1434524287]

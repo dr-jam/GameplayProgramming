@@ -9,9 +9,9 @@ enum Spells {
 }
 # Register your spawnable types here (or expose as exported dictionary).
 var _registry: Dictionary[Spells, PackedScene] = {
-	Spells.FIREBALL: preload("res://scenes/spells/fireball.tscn"),
-	Spells.METEOR: preload("res://scenes/spells/meteor.tscn"),
-	Spells.ULTIMA: preload("res://scenes/spells/ultima.tscn"),
+	Spells.FIREBALL: load("res://scenes/spells/fireball.tscn"),
+	Spells.METEOR: load("res://scenes/spells/meteor.tscn"),
+	Spells.ULTIMA: load("res://scenes/spells/ultima.tscn"),
 }
 
 # Per-ID pool settings (optional; defaults used if missing)
@@ -34,11 +34,21 @@ func _ready() -> void:
 
 func _process(_delta: float) -> void:
 	if Input.is_action_just_pressed("ui_up"):
-		spawn(Spells.FIREBALL).reparent(owner)
+		_spawn_into_world(Spells.FIREBALL)
 	elif Input.is_action_just_pressed("ui_down"):
-		spawn(Spells.METEOR).reparent(owner)
+		_spawn_into_world(Spells.METEOR)
 	elif Input.is_action_just_pressed("ui_right"):
-		spawn(Spells.ULTIMA).reparent(owner)
+		_spawn_into_world(Spells.ULTIMA)
+
+
+func _spawn_into_world(id: Spells) -> void:
+	var spell := spawn(id)
+	if spell == null:
+		return
+	if spell.get_parent() == null:
+		owner.add_child(spell)
+	else:
+		spell.reparent(owner)
 
 func _build_pools() -> void:
 	for id: Spells in _registry.keys():
@@ -48,7 +58,7 @@ func _build_pools() -> void:
 
 # --- PUBLIC API (pool use is transparent) ---
 
-## Spawn an instance by id. Optionally parent it and pass a config dictionary.
+## Acquire an instance by id. The caller must add or reparent it to its destination.
 func spawn(id: Spells, _config := {}) -> Node:
 	var pool: Pool = _pools.get(id)
 	if pool == null:

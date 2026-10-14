@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://b7tbkjxkc7o3q"]
+
+[ext_resource type="Script" uid="uid://b2uib63wwbp0v" path="res://scripts/pool_factory/pooled_factory.gd" id="1_ltcpk"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u0x2w"]
+albedo_color = Color(0.3372549, 0.27058825, 0.64705884, 1)
+metallic = 0.8
+metallic_specular = 0.66
+
+[sub_resource type="BoxMesh" id="BoxMesh_ras4o"]
+material = SubResource("StandardMaterial3D_u0x2w")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_58uta"]
+albedo_color = Color(0.8156863, 0.21568628, 0.5176471, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_uxu58"]
+material = SubResource("StandardMaterial3D_58uta")
+
+[node name="PooledFactory" type="Node3D" unique_id=1786440229]
+script = ExtResource("1_ltcpk")
+
+[node name="Building" type="MeshInstance3D" parent="." unique_id=655896740]
+transform = Transform3D(2.7012432, 0, 0, 0, 1.2956358, 0, 0, 0, 1.6289805, 0, 0, 0)
+mesh = SubResource("BoxMesh_ras4o")
+
+[node name="Stack1" type="MeshInstance3D" parent="." unique_id=1909601609]
+transform = Transform3D(0.48138458, 0, 0, 0, 0.58950037, 0, 0, 0, 0.48138458, -0.5176587, 1.0523849, -0.31447935)
+mesh = SubResource("CylinderMesh_uxu58")
+
+[node name="Stack2" type="MeshInstance3D" parent="." unique_id=1459387810]
+transform = Transform3D(0.48138458, 0, 0, 0, 0.58950037, 0, 0, 0, 0.48138458, -0.5176587, 0.8758321, 0.2939915)
+mesh = SubResource("CylinderMesh_uxu58")
+
+[node name="SpawnPoint" type="Node3D" parent="." unique_id=38765873]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9468789, 0, 0)
