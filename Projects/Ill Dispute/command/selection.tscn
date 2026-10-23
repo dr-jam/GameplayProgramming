@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://befdne1vxf1x5"]
+
+[ext_resource type="Script" path="res://command/selection.gd" id="1"]
+
+[node name="Selection" type="Node2D" unique_id=702308252]
+script = ExtResource("1")
+
+[node name="DragBox" type="Node2D" parent="." unique_id=114536534]
+
+[node name="Fill" type="Polygon2D" parent="DragBox" unique_id=2057863626]
+visible = false
+color = Color(0.85098, 0.909804, 0.768627, 0.13)
+
+[node name="Outline" type="Line2D" parent="DragBox" unique_id=1970721464]
+visible = false
+width = 1.5
+default_color = Color(0.85098, 0.909804, 0.768627, 0.9)

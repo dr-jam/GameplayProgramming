@@ -1,0 +1,293 @@
+[gd_scene format=3]
+
+[node name="Battlefield" type="Node2D"]
+
+[node name="Background" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(0, 0, 1152, 0, 1152, 720, 0, 720)
+color = Color(0.0666667, 0.105882, 0.101961, 1)
+
+[node name="Field" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(24, 89, 1128, 89, 1128, 690, 24, 690)
+color = Color(0.14902, 0.290196, 0.235294, 1)
+
+[node name="Grid" type="Node2D" parent="."]
+
+[node name="Vertical44" type="Line2D" parent="Grid"]
+points = PackedVector2Array(44, 90, 44, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical84" type="Line2D" parent="Grid"]
+points = PackedVector2Array(84, 90, 84, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical124" type="Line2D" parent="Grid"]
+points = PackedVector2Array(124, 90, 124, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical164" type="Line2D" parent="Grid"]
+points = PackedVector2Array(164, 90, 164, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical204" type="Line2D" parent="Grid"]
+points = PackedVector2Array(204, 90, 204, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical244" type="Line2D" parent="Grid"]
+points = PackedVector2Array(244, 90, 244, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical284" type="Line2D" parent="Grid"]
+points = PackedVector2Array(284, 90, 284, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical324" type="Line2D" parent="Grid"]
+points = PackedVector2Array(324, 90, 324, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical364" type="Line2D" parent="Grid"]
+points = PackedVector2Array(364, 90, 364, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical404" type="Line2D" parent="Grid"]
+points = PackedVector2Array(404, 90, 404, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical444" type="Line2D" parent="Grid"]
+points = PackedVector2Array(444, 90, 444, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical484" type="Line2D" parent="Grid"]
+points = PackedVector2Array(484, 90, 484, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical524" type="Line2D" parent="Grid"]
+points = PackedVector2Array(524, 90, 524, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical564" type="Line2D" parent="Grid"]
+points = PackedVector2Array(564, 90, 564, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical604" type="Line2D" parent="Grid"]
+points = PackedVector2Array(604, 90, 604, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical644" type="Line2D" parent="Grid"]
+points = PackedVector2Array(644, 90, 644, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical684" type="Line2D" parent="Grid"]
+points = PackedVector2Array(684, 90, 684, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical724" type="Line2D" parent="Grid"]
+points = PackedVector2Array(724, 90, 724, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical764" type="Line2D" parent="Grid"]
+points = PackedVector2Array(764, 90, 764, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical804" type="Line2D" parent="Grid"]
+points = PackedVector2Array(804, 90, 804, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical844" type="Line2D" parent="Grid"]
+points = PackedVector2Array(844, 90, 844, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical884" type="Line2D" parent="Grid"]
+points = PackedVector2Array(884, 90, 884, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical924" type="Line2D" parent="Grid"]
+points = PackedVector2Array(924, 90, 924, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical964" type="Line2D" parent="Grid"]
+points = PackedVector2Array(964, 90, 964, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical1004" type="Line2D" parent="Grid"]
+points = PackedVector2Array(1004, 90, 1004, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical1044" type="Line2D" parent="Grid"]
+points = PackedVector2Array(1044, 90, 1044, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Vertical1084" type="Line2D" parent="Grid"]
+points = PackedVector2Array(1084, 90, 1084, 689)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal90" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 90, 1128, 90)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal130" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 130, 1128, 130)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal170" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 170, 1128, 170)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal210" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 210, 1128, 210)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal250" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 250, 1128, 250)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal290" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 290, 1128, 290)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal330" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 330, 1128, 330)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal370" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 370, 1128, 370)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal410" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 410, 1128, 410)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal450" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 450, 1128, 450)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal490" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 490, 1128, 490)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal530" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 530, 1128, 530)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal570" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 570, 1128, 570)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal610" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 610, 1128, 610)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal650" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 650, 1128, 650)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="Horizontal690" type="Line2D" parent="Grid"]
+points = PackedVector2Array(24, 690, 1128, 690)
+default_color = Color(1, 1, 1, 0.035)
+width = 1.0
+
+[node name="FieldBorder" type="Line2D" parent="."]
+points = PackedVector2Array(24, 89, 1128, 89, 1128, 690, 24, 690, 24, 89)
+default_color = Color(0.54902, 0.678431, 0.509804, 0.65)
+width = 2.0
+
+[node name="CenterLine" type="Line2D" parent="."]
+points = PackedVector2Array(576, 95, 576, 683)
+default_color = Color(0.780392, 0.847059, 0.760784, 0.15)
+width = 2.0
+
+[node name="TerrainPatch1" type="Polygon2D" parent="."]
+position = Vector2(290, 310)
+polygon = PackedVector2Array(46, 0, 40, 23, 23, 40, 0, 46, -23, 40, -40, 23, -46, 0, -40, -23, -23, -40, 0, -46, 23, -40, 40, -23)
+color = Color(0.12549, 0.247059, 0.207843, 0.5)
+
+[node name="InnerPatch" type="Polygon2D" parent="TerrainPatch1"]
+position = Vector2(10, 8)
+polygon = PackedVector2Array(23, 0, 20, 12, 12, 20, 0, 23, -12, 20, -20, 12, -23, 0, -20, -12, -12, -20, 0, -23, 12, -20, 20, -12)
+color = Color(0.192157, 0.368627, 0.282353, 0.5)
+
+[node name="TerrainPatch2" type="Polygon2D" parent="."]
+position = Vector2(440, 510)
+polygon = PackedVector2Array(46, 0, 40, 23, 23, 40, 0, 46, -23, 40, -40, 23, -46, 0, -40, -23, -23, -40, 0, -46, 23, -40, 40, -23)
+color = Color(0.12549, 0.247059, 0.207843, 0.5)
+
+[node name="InnerPatch" type="Polygon2D" parent="TerrainPatch2"]
+position = Vector2(10, 8)
+polygon = PackedVector2Array(23, 0, 20, 12, 12, 20, 0, 23, -12, 20, -20, 12, -23, 0, -20, -12, -12, -20, 0, -23, 12, -20, 20, -12)
+color = Color(0.192157, 0.368627, 0.282353, 0.5)
+
+[node name="TerrainPatch3" type="Polygon2D" parent="."]
+position = Vector2(720, 250)
+polygon = PackedVector2Array(46, 0, 40, 23, 23, 40, 0, 46, -23, 40, -40, 23, -46, 0, -40, -23, -23, -40, 0, -46, 23, -40, 40, -23)
+color = Color(0.12549, 0.247059, 0.207843, 0.5)
+
+[node name="InnerPatch" type="Polygon2D" parent="TerrainPatch3"]
+position = Vector2(10, 8)
+polygon = PackedVector2Array(23, 0, 20, 12, 12, 20, 0, 23, -12, 20, -20, 12, -23, 0, -20, -12, -12, -20, 0, -23, 12, -20, 20, -12)
+color = Color(0.192157, 0.368627, 0.282353, 0.5)
+
+[node name="TerrainPatch4" type="Polygon2D" parent="."]
+position = Vector2(860, 550)
+polygon = PackedVector2Array(46, 0, 40, 23, 23, 40, 0, 46, -23, 40, -40, 23, -46, 0, -40, -23, -23, -40, 0, -46, 23, -40, 40, -23)
+color = Color(0.12549, 0.247059, 0.207843, 0.5)
+
+[node name="InnerPatch" type="Polygon2D" parent="TerrainPatch4"]
+position = Vector2(10, 8)
+polygon = PackedVector2Array(23, 0, 20, 12, 12, 20, 0, 23, -12, 20, -20, 12, -23, 0, -20, -12, -12, -20, 0, -23, 12, -20, 20, -12)
+color = Color(0.192157, 0.368627, 0.282353, 0.5)
+
+[node name="Stone1" type="Polygon2D" parent="."]
+position = Vector2(540, 260)
+polygon = PackedVector2Array(-13, 8, -6, -11, 11, -7, 14, 7)
+color = Color(0.505882, 0.576471, 0.545098, 0.45)
+
+[node name="Stone2" type="Polygon2D" parent="."]
+position = Vector2(615, 500)
+polygon = PackedVector2Array(-13, 8, -6, -11, 11, -7, 14, 7)
+color = Color(0.505882, 0.576471, 0.545098, 0.45)
+
+[node name="Stone3" type="Polygon2D" parent="."]
+position = Vector2(660, 405)
+polygon = PackedVector2Array(-13, 8, -6, -11, 11, -7, 14, 7)
+color = Color(0.505882, 0.576471, 0.545098, 0.45)
