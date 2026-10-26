@@ -4,6 +4,7 @@
 
 [node name="Selection" type="Node2D" unique_id=702308252]
 script = ExtResource("1")
+selection_bounds = Rect2(24, 89, 1104, 601)
 
 [node name="DragBox" type="Node2D" parent="." unique_id=114536534]
 

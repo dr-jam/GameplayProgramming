@@ -12,14 +12,9 @@ const ORC_DAMAGE := 12.0
 const HUMAN_ATTACK_COOLDOWN := 0.75
 const ORC_ATTACK_COOLDOWN := 0.9
 const DETECTION_RANGE := 115.0
+const DETECTION_INTERVAL := 0.25
 const ARRIVAL_DISTANCE := 5.0
-const MIN_POSITION := Vector2(45.0, 113.0)
-const MAX_POSITION := Vector2(1104.0, 662.0)
-
-@onready var human_visuals: Node2D = $HumanVisuals
-@onready var orc_visuals: Node2D = $OrcVisuals
-@onready var health_fill: Polygon2D = $HealthBar/Fill
-@onready var selection_ring: Line2D = $SelectionRing
+const FORT_REACH_BONUS := 25.0
 
 var selected := false:
 	set(value):
@@ -34,14 +29,29 @@ var attack_timer := 0.0
 var destination: Vector2
 var target: CombatTarget
 var holding := false
+var movement_bounds: Rect2
+var configured := false
+var detection_timer := 0.0
+
+@onready var human_visuals: Node2D = $HumanVisuals
+@onready var orc_visuals: Node2D = $OrcVisuals
+@onready var health_fill: Polygon2D = $HealthBar/Fill
+@onready var selection_ring: Line2D = $SelectionRing
 
 
 func _ready() -> void:
 	health_changed.connect(_update_health_bar)
 	defeated.connect(_on_defeated)
+	_update_visuals()
+	set_physics_process(configured)
 
 
-func configure(faction: Faction, location: Vector2) -> void:
+## Setup can run before or after add_child(). Visuals wait until the nodes are ready.
+func configure(faction: Faction, location: Vector2, bounds: Rect2) -> bool:
+	if bounds.size.x <= 0.0 or bounds.size.y <= 0.0:
+		push_error("Unit movement bounds must have a positive width and height.")
+		return false
+
 	var starting_health := HUMAN_MAX_HEALTH
 	speed = HUMAN_SPEED
 	damage = HUMAN_DAMAGE
@@ -52,30 +62,44 @@ func configure(faction: Faction, location: Vector2) -> void:
 		damage = ORC_DAMAGE
 		attack_cooldown = ORC_ATTACK_COOLDOWN
 
-	configure_target(faction, starting_health)
+	if not configure_target(faction, starting_health):
+		return false
+
+	movement_bounds = bounds
 	position = location
 	destination = location
-	human_visuals.visible = team == Faction.HUMANS
-	orc_visuals.visible = team == Faction.ORCS
+	target = null
+	holding = false
+	attack_timer = 0.0
+	detection_timer = 0.0
+	configured = true
 	add_to_group("combatants")
+	remove_from_group("humans")
+	remove_from_group("orcs")
 	if team == Faction.HUMANS:
 		add_to_group("humans")
 	else:
 		add_to_group("orcs")
-	_update_health_bar(self)
+
+	if is_node_ready():
+		_update_visuals()
+		set_physics_process(true)
+	return true
 
 
 func move_to(point: Vector2) -> void:
 	target = null
 	holding = false
 	destination = Vector2(
-		clampf(point.x, MIN_POSITION.x, MAX_POSITION.x),
-		clampf(point.y, MIN_POSITION.y, MAX_POSITION.y)
+		clampf(point.x, movement_bounds.position.x, movement_bounds.end.x),
+		clampf(point.y, movement_bounds.position.y, movement_bounds.end.y)
 	)
 
 
 func attack(enemy: CombatTarget) -> void:
 	if not is_instance_valid(enemy) or enemy == self or enemy.health <= 0.0:
+		return
+	if enemy.team == team:
 		return
 	target = enemy
 	holding = false
@@ -91,10 +115,11 @@ func _physics_process(delta: float) -> void:
 	if health <= 0.0:
 		return
 	attack_timer = maxf(0.0, attack_timer - delta)
+	detection_timer = maxf(0.0, detection_timer - delta)
 	if is_instance_valid(target) and target.health > 0.0:
 		var reach := attack_range
 		if target.is_in_group("bases"):
-			reach += 25.0
+			reach += FORT_REACH_BONUS
 		if position.distance_to(target.position) <= reach:
 			_hit_target()
 		elif not holding:
@@ -102,7 +127,10 @@ func _physics_process(delta: float) -> void:
 	else:
 		target = null
 		if not holding:
-			_acquire_enemy()
+			# Idle troops check periodically instead of scanning every physics tick.
+			if detection_timer == 0.0:
+				_acquire_enemy()
+				detection_timer = DETECTION_INTERVAL
 			if target == null and position.distance_to(destination) > ARRIVAL_DISTANCE:
 				_advance(destination, delta)
 
@@ -113,8 +141,8 @@ func _advance(point: Vector2, delta: float) -> void:
 		return
 	var next := position + displacement.normalized() * minf(displacement.length(), speed * delta)
 	position = Vector2(
-		clampf(next.x, MIN_POSITION.x, MAX_POSITION.x),
-		clampf(next.y, MIN_POSITION.y, MAX_POSITION.y)
+		clampf(next.x, movement_bounds.position.x, movement_bounds.end.x),
+		clampf(next.y, movement_bounds.position.y, movement_bounds.end.y)
 	)
 
 
@@ -143,6 +171,14 @@ func _hit_target() -> void:
 
 
 func _update_health_bar(_target: CombatTarget) -> void:
+	if is_node_ready():
+		health_fill.scale.x = health / max_health
+
+
+func _update_visuals() -> void:
+	human_visuals.visible = team == Faction.HUMANS
+	orc_visuals.visible = team == Faction.ORCS
+	selection_ring.visible = selected
 	health_fill.scale.x = health / max_health
 
 

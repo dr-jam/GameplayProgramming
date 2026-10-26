@@ -1,13 +1,13 @@
 class_name SelectionController
 extends Node2D
-## Reads player input and issues orders through the unit's public methods.
+## Selects squads and issues move or attack orders.
+## Units handle movement and combat; this controller only gives orders.
 
 const CLICK_RADIUS := 24.0
 const DRAG_THRESHOLD := 9.0
 const FORMATION_SPACING := 26.0
 
-@onready var drag_fill: Polygon2D = $DragBox/Fill
-@onready var drag_outline: Line2D = $DragBox/Outline
+@export var selection_bounds: Rect2
 
 var selected_units: Array[Unit] = []
 var drag_start := Vector2.ZERO
@@ -15,30 +15,49 @@ var drag_end := Vector2.ZERO
 var dragging := false
 var enabled := true
 
+@onready var drag_fill: Polygon2D = $DragBox/Fill
+@onready var drag_outline: Line2D = $DragBox/Outline
 
+
+## Finish an existing drag before the HUD can consume its release event.
+## Only starting a selection needs unhandled input.
+func _input(event: InputEvent) -> void:
+	if not enabled or not dragging:
+		return
+
+	if event is InputEventMouseMotion:
+		drag_end = event.position
+		_update_drag_box()
+	elif event is InputEventMouseButton:
+		if event.button_index == MOUSE_BUTTON_LEFT and not event.pressed:
+			drag_end = event.position
+			_finish_selection(event.shift_pressed)
+			get_viewport().set_input_as_handled()
+
+
+func _notification(what: int) -> void:
+	if what == NOTIFICATION_WM_WINDOW_FOCUS_OUT and is_node_ready():
+		_cancel_drag()
+
+
+## Unhandled input lets HUD buttons consume clicks before they reach the battlefield.
 func _unhandled_input(event: InputEvent) -> void:
 	if not enabled:
 		return
 
 	if event is InputEventMouseButton:
 		_handle_mouse_button(event)
-	elif event is InputEventMouseMotion and dragging:
-		drag_end = event.position
-		_update_drag_box()
 	elif event is InputEventKey and event.pressed and not event.echo:
 		_handle_key(event)
 
 
 func _handle_mouse_button(event: InputEventMouseButton) -> void:
-	if event.position.y < 90.0 or event.position.y > 690.0:
+	if not selection_bounds.has_point(event.position):
 		return
 
 	if event.button_index == MOUSE_BUTTON_LEFT:
 		if event.pressed:
 			_start_selection(event.position)
-		elif dragging:
-			_finish_selection(event.shift_pressed)
-			get_viewport().set_input_as_handled()
 	elif event.button_index == MOUSE_BUTTON_RIGHT and event.pressed:
 		_issue_order(event.position)
 		get_viewport().set_input_as_handled()
@@ -57,8 +76,10 @@ func _start_selection(point: Vector2) -> void:
 	dragging = true
 	drag_start = point
 	drag_end = point
+	_update_drag_box()
 
 
+## Small mouse movements still count as clicks. Shift adds troops to the selection.
 func _finish_selection(additive: bool) -> void:
 	dragging = false
 	_update_drag_box()
@@ -88,6 +109,7 @@ func _select_unit(unit: Unit) -> void:
 	unit.selected = true
 
 
+## An enemy under the cursor takes priority over a move order.
 func _issue_order(point: Vector2) -> void:
 	_remove_invalid_units()
 	if selected_units.is_empty():
@@ -102,6 +124,7 @@ func _issue_order(point: Vector2) -> void:
 	_move_in_formation(point)
 
 
+## Use the nearest enemy so focus fire does not depend on scene-tree order.
 func _find_enemy(point: Vector2) -> CombatTarget:
 	var nearest_enemy: CombatTarget
 	var nearest_distance := INF
@@ -122,11 +145,13 @@ func _find_enemy(point: Vector2) -> CombatTarget:
 	return nearest_enemy
 
 
+## Give each troop a slot in a roughly square formation to reduce clumping.
+## This spreads out destinations, not the paths taken to reach them.
 func _move_in_formation(point: Vector2) -> void:
 	var column_count := ceili(sqrt(float(selected_units.size())))
 	for index in range(selected_units.size()):
-		# Arrange the group into rows so units don't all crowd one destination.
 		var column := index % column_count
+		@warning_ignore("integer_division")
 		var row := index / column_count
 		var center_offset := float(column) - float(column_count - 1) / 2.0
 		var offset := Vector2(center_offset, row) * FORMATION_SPACING
@@ -134,12 +159,19 @@ func _move_in_formation(point: Vector2) -> void:
 
 
 func clear() -> void:
+	_cancel_drag()
 	for unit in selected_units:
 		if is_instance_valid(unit):
 			unit.selected = false
 	selected_units.clear()
 
 
+func _cancel_drag() -> void:
+	dragging = false
+	_update_drag_box()
+
+
+## Remove casualties before issuing orders. Walk backward to avoid skipping entries.
 func _remove_invalid_units() -> void:
 	for index in range(selected_units.size() - 1, -1, -1):
 		var unit: Unit = selected_units[index]
@@ -147,6 +179,7 @@ func _remove_invalid_units() -> void:
 			selected_units.remove_at(index)
 
 
+## An absolute rectangle lets box-select work in any drag direction.
 func _update_drag_box() -> void:
 	var visible_drag := dragging and drag_start.distance_to(drag_end) > DRAG_THRESHOLD
 	drag_fill.visible = visible_drag

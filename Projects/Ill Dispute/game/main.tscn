@@ -4,10 +4,11 @@
 [ext_resource type="PackedScene" path="res://battlefield/battlefield.tscn" id="2"]
 [ext_resource type="PackedScene" uid="uid://befdne1vxf1x5" path="res://command/selection.tscn" id="3"]
 [ext_resource type="PackedScene" path="res://ai/orc_commander.tscn" id="4"]
-[ext_resource type="PackedScene" uid="uid://drq3buc0n0lh1" path="res://ui/hud.tscn" id="5"]
+[ext_resource type="PackedScene" uid="uid://d01436v2ybc45" path="res://ui/hud.tscn" id="5"]
 
 [node name="Game" type="Node2D" unique_id=463428724]
 script = ExtResource("1")
+movement_bounds = Rect2(45, 113, 1059, 549)
 
 [node name="Battlefield" parent="." unique_id=690113619 instance=ExtResource("2")]
 

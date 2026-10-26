@@ -1,6 +1,5 @@
 [gd_scene load_steps=2 format=3]
 
-# Keep AI as a small decision-making feature; spawned units and the game own execution.
 [ext_resource type="Script" path="res://ai/orc_commander.gd" id="1"]
 
 [node name="OrcCommander" type="Node"]
