@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1
+GameObject:
+  m_Name: Ground
+  m_Component:
+  - component: {fileID: 2}
+  - component: {fileID: 3}
+--- !u!4 &2
+Transform:
+  m_GameObject: {fileID: 1}
+  m_LocalPosition: {x: 0, y: -2.5, z: 0}
+--- !u!61 &3
+BoxCollider2D:
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_IsTrigger: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 30, y: 1}
+--- !u!1 &10
+GameObject:
+  m_Name: Ball
+  m_Component:
+  - component: {fileID: 11}
+  - component: {fileID: 12}
+  - component: {fileID: 13}
+  - component: {fileID: 14}
+--- !u!4 &11
+Transform:
+  m_GameObject: {fileID: 10}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
+--- !u!50 &12
+Rigidbody2D:
+  m_GameObject: {fileID: 10}
+  m_BodyType: 0
+  m_Mass: 1
+  m_GravityScale: 1
+  m_LinearDamping: 0
+--- !u!58 &13
+CircleCollider2D:
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_IsTrigger: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 0.5
+--- !u!114 &14
+MonoBehaviour:
+  m_GameObject: {fileID: 10}
+  m_Script: {fileID: 11500000, guid: 6a1100000000000000000000000000b1}
+  bounces: 0
+  landings: 0

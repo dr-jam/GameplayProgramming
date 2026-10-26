@@ -1,0 +1,44 @@
+[gd_scene load_steps=8 format=3]
+
+[ext_resource type="Script" path="res://scripts/Ball.cs" id="1_ball"]
+[ext_resource type="Script" path="res://scripts/Coin.cs" id="2_coin"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ball"]
+bounce = 0.5
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ball"]
+radius = 10.0
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ground"]
+size = Vector2(400, 20)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_coin"]
+radius = 6.0
+
+[node name="Main" type="Node2D"]
+
+[node name="Ball" type="RigidBody2D" parent="." groups=["players"]]
+position = Vector2(0, 0)
+physics_material_override = SubResource("PhysicsMaterial_ball")
+lock_rotation = true
+contact_monitor = true
+max_contacts_reported = 4
+script = ExtResource("1_ball")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
+shape = SubResource("CircleShape2D_ball")
+
+[node name="Coin" type="Area2D" parent="."]
+position = Vector2(0, 100)
+script = ExtResource("2_coin")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Coin"]
+shape = SubResource("CircleShape2D_coin")
+
+[node name="Ground" type="StaticBody2D" parent="."]
+position = Vector2(0, 200)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Ground"]
+shape = SubResource("RectangleShape2D_ground")
+
+[connection signal="body_entered" from="Coin" to="Coin" method="OnBodyEntered"]
