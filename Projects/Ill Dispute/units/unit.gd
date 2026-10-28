@@ -37,10 +37,14 @@ var detection_timer := 0.0
 @onready var orc_visuals: Node2D = $OrcVisuals
 @onready var health_fill: Polygon2D = $HealthBar/Fill
 @onready var selection_ring: Line2D = $SelectionRing
+@onready var attack_animation: AnimationPlayer = $AttackAnimation
+@onready var damage_animation: AnimationPlayer = $DamageAnimation
 
 
 func _ready() -> void:
+	# Animation players run independently so effects can finish after the match stops.
 	health_changed.connect(_update_health_bar)
+	health_changed.connect(_flash_damage)
 	defeated.connect(_on_defeated)
 	_update_visuals()
 	set_physics_process(configured)
@@ -82,6 +86,8 @@ func configure(faction: Faction, location: Vector2, bounds: Rect2) -> bool:
 		add_to_group("orcs")
 
 	if is_node_ready():
+		attack_animation.stop()
+		damage_animation.stop()
 		_update_visuals()
 		set_physics_process(true)
 	return true
@@ -165,9 +171,15 @@ func _acquire_enemy() -> void:
 func _hit_target() -> void:
 	if attack_timer > 0.0:
 		return
-	if is_instance_valid(target):
+	if is_instance_valid(target) and target.health > 0.0:
+		# The swing crosses the local right axis. Turn the model toward its opponent.
+		var facing := (target.position - position).angle()
+		human_visuals.rotation = facing
+		orc_visuals.rotation = facing
 		target.take_damage(damage)
 		attack_timer = attack_cooldown
+		# Damage is immediate. The swing only shows that the hit happened.
+		attack_animation.play("swing")
 
 
 func _update_health_bar(_target: CombatTarget) -> void:
@@ -176,10 +188,24 @@ func _update_health_bar(_target: CombatTarget) -> void:
 
 
 func _update_visuals() -> void:
+	human_visuals.rotation = 0.0
+	orc_visuals.rotation = 0.0
+	human_visuals.modulate = Color.WHITE
+	orc_visuals.modulate = Color.WHITE
+	$HumanVisuals/Sword.rotation = 0.0
+	$OrcVisuals/Axe.rotation = 0.0
 	human_visuals.visible = team == Faction.HUMANS
 	orc_visuals.visible = team == Faction.ORCS
 	selection_ring.visible = selected
 	health_fill.scale.x = health / max_health
+
+
+func _flash_damage(_target: CombatTarget) -> void:
+	if is_node_ready():
+		# Stop first so another hit restarts the flash from its first frame.
+		damage_animation.stop()
+		damage_animation.play("flash")
+		damage_animation.advance(0.0)
 
 
 func _on_defeated(_target: CombatTarget) -> void:

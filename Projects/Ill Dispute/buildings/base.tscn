@@ -2,6 +2,68 @@
 
 [ext_resource type="Script" uid="uid://b6i2e1iceifla" path="res://buildings/base.gd" id="1"]
 
+[sub_resource type="Animation" id="Animation_reset"]
+resource_name = "RESET"
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HumanVisuals:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("OrcVisuals:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_flash"]
+resource_name = "flash"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HumanVisuals:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1.35, 1.2, 1.2, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("OrcVisuals:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.08, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1.35, 1.2, 1.2, 1), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_damage"]
+_data = {
+&"RESET": SubResource("Animation_reset"),
+&"flash": SubResource("Animation_flash")
+}
+
 [node name="Base" type="Node2D" unique_id=290181040]
 script = ExtResource("1")
 
@@ -93,3 +155,7 @@ polygon = PackedVector2Array(0, 0, 86, 0, 86, 8, 0, 8)
 position = Vector2(0, 1)
 color = Color(0.529412, 0.870588, 0.564706, 1)
 polygon = PackedVector2Array(0, 0, 84, 0, 84, 6, 0, 6)
+
+[node name="DamageAnimation" type="AnimationPlayer" parent="." unique_id=213040298]
+process_mode = 3
+libraries/ = SubResource("AnimationLibrary_damage")
