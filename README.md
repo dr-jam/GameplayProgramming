@@ -219,31 +219,40 @@ Disclosed AI use does not lower a competency result by itself. The question is w
 
 ### Determining the Course Grade
 
-Five competencies form the essential foundation of the course:
+Your individual competency profile is determined by the highest level you have demonstrated in each of the twelve assessed competencies.
 
-- Engine Usage
-- Debugging and Testing
-- Versioning and Team Development
-- Game Systems
-- Interaction Design
+The three competency levels are:
 
-These are the gateway competencies. Higher grades also require work across all three domains and advanced depth in selected areas.
+- **Unlocked:** You can complete a guided application and explain its basic operation.
+- **Developed:** You can apply the competency to a changed problem and diagnose ordinary difficulties.
+- **Mastered:** You can apply the competency independently, evaluate the result, and justify your decisions.
+
+Your competency-profile grade depends on the number of competencies you have established at these levels. You do not need to achieve particular levels in specific competencies or domains. You can choose which areas to develop based on your interests, strengths, and project work.
 
 | Profile grade | Minimum competency profile |
 |---|---|
-| **A** | All twelve competencies Developed and at least four Mastered, including one in each major domain |
-| **A-** | All five gateways and at least ten total competencies Developed and at least three Mastered across two domains |
-| **B+** | All five gateways and at least nine total competencies Developed and at least two Mastered |
-| **B** | At least four gateways and eight total competencies Developed and all remaining competencies Unlocked; at least one Mastered |
-| **B-** | At least three gateways and seven total competencies Developed and all three domains represented |
-| **C range** | Every domain represented and the essential competencies substantially established at Unlocked or Developed |
-| **D or F** | One or more domains lack sufficient individual evidence, or the technical foundation remains substantially unverified |
+| **A** | All 12 competencies Developed or higher, including at least 4 Mastered |
+| **A-** | At least 10 Developed or higher, including at least 3 Mastered |
+| **B+** | At least 9 Developed or higher, including at least 2 Mastered |
+| **B** | All 12 Unlocked or higher, at least 8 Developed or higher, including at least 1 Mastered |
+| **B-** | At least 7 Developed or higher |
+| **C+** | At least 5 Developed or higher |
+| **C** | At least 4 Developed or higher |
+| **C-** | At least 2 Developed or higher |
+| **D+** | At least 1 Developed or higher |
+| **D** | At least 4 Unlocked or higher |
+| **D-** | At least 1 Unlocked or higher |
+| **F** | No competencies verified at Unlocked or higher |
 
-The competency profile supplies 75 percent of the course grade. The profile converts to the midpoint of its letter-grade range, then combines with the final group game and professional practice scores. The grading scale in the syllabus converts the result back to a final letter grade. A missing gateway competency may limit the final grade even when the numerical total would otherwise be higher.
+A higher level also satisfies the requirements for lower levels. For example, a Mastered competency counts toward the Developed and Unlocked totals.
 
-The gradebook will show your highest verified level for each competency. Check it after each grading cycle. If a claim or level was recorded incorrectly, report the error during the correction period listed on the assignment. A request for reconsideration should identify the competency, the relevant criterion, and the evidence that meets it.
+Your profile receives the highest letter grade for which you meet all the listed requirements. These are minimum thresholds, not points to be averaged. Work in one competency does not directly increase your level in another competency.
 
-Plan for the tree while you work. Make focused commits, preserve debugging and playtesting records, and use exercise feedback to decide what you need to demonstrate in the final project.
+There are more opportunities to demonstrate competencies than you need for any particular grade. You can use these opportunities to develop competencies you find interesting or improve a competency from Unlocked to Developed or Mastered.
+
+The individual competency profile supplies 75 percent of the course grade. Its letter grade converts to the midpoint of the corresponding numerical grade range. This is combined with the final group game (15 percent) and professional practice (10 percent). The grading scale in the syllabus determines the final course letter grade.
+
+The gradebook shows your highest verified level for each competency. Claims that are pending, require revision, or are unverified do not count toward your profile. Check your profile after each grading cycle and report any errors during the correction period specified for the assignment.
 
 ## Schedule
 
