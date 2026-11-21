@@ -53,6 +53,10 @@ Other than Organizational / Social / Product.
 * [Godot](https://godotengine.org/)
 * [Ogre3d](https://www.ogre3d.org/)
 
+#### Small enough to read all the way down (optional)
+
+* [Prowl2D](Prowl2D.md): a Unity-style 2D engine whose core is written in a C# subset that translates to C. See also [From Godot C# to C](GodotCSharp.md).
+
 ### Industry
 
 * Unity
