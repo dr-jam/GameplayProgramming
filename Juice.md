@@ -14,7 +14,20 @@ Watch the study videos in the following order:
 
 ## Task
 
-Your task is to identify at least 3 concepts, rules of thumb, or tools from the study videos in a way that applies them to your game project.
+
+Your task is to identify 3 concepts, rules of thumb, or tools (one from each of the study videos) in a way that applies them to your game project.
+
+Identify an existing or planned game mechanic in your project and consider it from the three perspectives presented in the study videos:
+
+1. **Juice:** How can you better communicate the intent, intensity, or consequences of a game action to the player?
+2. **Game Feel:** What changes to the underlying gameplay systems would improve the feel of the mechanic? Think beyond audiovisual polish!
+3. **Level Design:** How can the design of a level, encounter, or other gameplay context better make use of the mechanic?
+
+For each, describe your proposed change, how you would implement it, and why you think it would be appropriate for your game. Be specific about the gameplay systems and properties of those systems you would be changing. Make reference to the examples or discussions in the study videos that informed your decisions.
+
+Also, consider the opposite: is there a place in your game where adding juice would detract from the experience? Why?
+
+You do not need to implement these changes for this lesson. Do, however, discuss your ideas with your game project team. Hopefully some of them will make their way into your game!
 
 ## Supplementary Material
 
